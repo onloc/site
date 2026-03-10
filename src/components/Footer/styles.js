@@ -3,11 +3,11 @@ import styled from "styled-components";
 export const FooterContainer = styled.footer`
   background-color: #1e1e20;
   color: #ffffff;
-  width: 100%;
-  box-sizing: border-box;
-  display: flex;
-  flex-direction: column;
-  gap: 40px;
+  justify-content: space-between;
+  top: 120px;
+  left: 350px;
+  right: 350px;
+  bottom: 120px;
 `;
 
 export const ImageGrid = styled.div`
@@ -50,10 +50,11 @@ export const FooterContent = styled.div`
 `;
 
 export const SectionTitle = styled.h4`
-  margin-bottom: 20px;
-  text-transform: uppercase;
-  font-size: 16px;
-  color: #ffffff;
+  font-family: "Quicksand", sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+  color: #a4c8de;
+  margin-bottom: 24px;
 `;
 
 export const FooterLink = styled.a`
@@ -72,15 +73,6 @@ export const LogoImage = styled.img`
   height: 39px;
   object-fit: contain;
   margin-bottom: 10px;
-`;
-
-export const FooterCopyright = styled.div`
-  background-color: #4c5258;
-  width: 100%;
-  padding: 20px 0;
-  text-align: center;
-  color: #ffffff;
-  font-size: 14px;
 `;
 
 export const Dropdown = styled.div`
@@ -121,12 +113,95 @@ export const DropdownItem = styled.a`
 `;
 
 export const InstitutionalLinks = styled.div`
+  width: 300px;
   display: grid;
-  grid-template-columns: repeat(2, 1fr); /* Cria as duas colunas */
-  gap: X 20px; /* Ajuste o primeiro valor se quiser espaço vertical entre as linhas */
+  grid-template-columns: repeat(2, 1fr);
+  gap: 24px;
   align-items: start;
 
   @media (max-width: 1200px) {
-    grid-template-columns: 1fr; /* Volta para uma coluna em telas menores se ficar apertado */
+    grid-template-columns: 1fr;
+  }
+`;
+
+export const Contacts = styled.div`
+  width: 351px;
+  height: 195px;
+  gap: 24px;
+`;
+
+export const ContactLinkInline = styled.a`
+  color: inherit;
+  text-decoration: underline;
+  cursor: pointer;
+  font-weight: 500;
+
+  &:hover {
+    color: #cccccc;
+  }
+`;
+
+export const ContactTypography = styled.p`
+  font-family: "Quicksand", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 125%;
+  margin-bottom: 8px;
+  color: #ffffff;
+`;
+
+export const SocialContainer = styled.div`
+  display: flex;
+  gap: 16px;
+  align-items: center;
+`;
+
+export const SocialIcon = styled.img`
+  width: 24px;
+  height: 24px;
+  object-fit: contain;
+  cursor: pointer;
+  transition: opacity 0.2s;
+
+  &:hover {
+    opacity: 0.8;
+  }
+`;
+
+export const FooterCopyright = styled.div`
+  background-color: #4c5258;
+  width: 100%;
+  padding: 20px 350px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #ffffff;
+  font-family: Inter;
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 16px;
+  line-height: 125%;
+  letter-spacing: 0%;
+
+  box-sizing: border-box;
+
+  @media (max-width: 1024px) {
+    padding: 20px 40px;
+  }
+
+  @media (max-width: 768px) {
+    flex-direction: column;
+    gap: 10px;
+    text-align: center;
+  }
+`;
+
+export const BrandLink = styled.a`
+  color: #a4c8de;
+  text-decoration: none;
+  cursor: pointer;
+
+  &:hover {
+    text-decoration: underline;
   }
 `;

@@ -11,6 +11,12 @@ import {
   DropdownMenu,
   DropdownItem,
   InstitutionalLinks,
+  Contacts,
+  ContactTypography,
+  ContactLinkInline,
+  SocialContainer,
+  SocialIcon,
+  BrandLink,
 } from "./styles";
 
 import logo from "../../assets/logo-branca.png";
@@ -22,6 +28,10 @@ import footer4 from "../../assets/footer/footer4.png";
 import footer5 from "../../assets/footer/footer5.png";
 import footer6 from "../../assets/footer/footer6.png";
 import footer7 from "../../assets/footer/footer7.png";
+import facebook from "../../assets/facebook.png";
+import instagram from "../../assets/instagram.png";
+import youtube from "../../assets/youtube.png";
+import linkedin from "../../assets/linkedin.png";
 
 const footerImages = [
   footer1,
@@ -50,7 +60,6 @@ const Footer = () => (
         <div>
           <SectionTitle>Institucional</SectionTitle>
           <InstitutionalLinks>
-            {/* Coluna 1 */}
             <div>
               <FooterLink href="#">Home</FooterLink>
               <Dropdown>
@@ -77,7 +86,6 @@ const Footer = () => (
               <FooterLink href="#">Suporte</FooterLink>
             </div>
 
-            {/* Coluna 2 (Onde estava o <br/>) */}
             <div>
               <FooterLink href="#">Quem Somos</FooterLink>
               <FooterLink href="#">Contato</FooterLink>
@@ -85,19 +93,76 @@ const Footer = () => (
             </div>
           </InstitutionalLinks>
         </div>
-        <div>
+        <Contacts>
           <SectionTitle>Contato</SectionTitle>
-          <p>Comercial: (19) 3535-9100</p>
-          <p>E-mail: contato@onloc.com.br</p>
-        </div>
+
+          <ContactTypography>
+            Comercial:{" "}
+            <ContactLinkInline href="tel:1930236697">
+              (19) 3023-6697
+            </ContactLinkInline>
+          </ContactTypography>
+
+          <ContactTypography>
+            Suporte Técnico:{" "}
+            <ContactLinkInline href="tel:19984573320">
+              (19) 98457-3320
+            </ContactLinkInline>
+          </ContactTypography>
+
+          <ContactTypography>
+            Financeiro:{" "}
+            <ContactLinkInline href="tel:19983590028">
+              (19) 98359-0028
+            </ContactLinkInline>
+          </ContactTypography>
+
+          <ContactTypography>
+            E-mail:{" "}
+            <ContactLinkInline href="mailto:contato@onloc.com.br">
+              contato@onloc.com.br
+            </ContactLinkInline>
+          </ContactTypography>
+
+          <ContactTypography style={{ fontSize: "15px" }}>
+            Segunda a Sexta das 08h as 12h e 13h15 as 18h
+          </ContactTypography>
+        </Contacts>
         <div>
           <SectionTitle>Rede Social</SectionTitle>
+          <SocialContainer>
+            <a href="#" target="_blank" rel="noreferrer">
+              <SocialIcon src={facebook} alt="Rede Social 1" />
+            </a>
+            <a href="#" target="_blank" rel="noreferrer">
+              <SocialIcon src={instagram} alt="Rede Social 2" />
+            </a>
+            <a href="#" target="_blank" rel="noreferrer">
+              <SocialIcon src={linkedin} alt="Rede Social 3" />
+            </a>
+            <a href="#" target="_blank" rel="noreferrer">
+              <SocialIcon src={youtube} alt="Rede Social 4" />
+            </a>
+          </SocialContainer>
         </div>
       </FooterContent>
     </FooterContainer>
 
     <FooterCopyright>
-      2025 - Onloc. Todos os direitos reservados. Desenvolvido por Postali
+      <span>
+        2025 - <BrandLink href="#">Onloc.</BrandLink> Todos os direitos
+        reservados.
+      </span>
+      <span>
+        Desenvolvido por{" "}
+        <BrandLink
+          href="https://postali.com.br"
+          target="_blank"
+          rel="noreferrer"
+        >
+          Postali
+        </BrandLink>
+      </span>
     </FooterCopyright>
   </>
 );
