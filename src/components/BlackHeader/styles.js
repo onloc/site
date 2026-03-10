@@ -7,6 +7,7 @@ export const Wrapper = styled.header`
 
 export const Container = styled.div`
   max-width: 80rem;
+  width: 100%;
   height: 80px;
   margin: 0 auto;
 
@@ -14,9 +15,17 @@ export const Container = styled.div`
   align-items: center;
   justify-content: space-between;
 
-  padding: 0 40px;
+  padding: 0 20px; // menor padding em telas pequenas
   box-sizing: border-box;
+
+  @media (max-width: 768px) {
+    flex-direction: column;
+    height: auto;
+    padding: 10px 16px;
+    gap: 10px;
+  }
 `;
+
 
 export const Logo = styled.img`
   height: 30px;
@@ -25,6 +34,12 @@ export const Logo = styled.img`
 export const Nav = styled.nav`
   display: flex;
   gap: 24px;
+
+  @media (max-width: 768px) {
+    flex-wrap: wrap; // quebra em múltiplas linhas
+    justify-content: center;
+    gap: 16px;
+  }
 `;
 
 export const NavItem = styled.a`
@@ -36,12 +51,22 @@ export const NavItem = styled.a`
   &:hover {
     color: #ccc;
   }
+
+  @media (max-width: 480px) {
+    font-size: 12px; // diminui o tamanho da fonte em mobile
+  }
 `;
 
 export const Actions = styled.div`
   display: flex;
   align-items: center;
   gap: 25px;
+
+  @media (max-width: 768px) {
+    width: 100%;
+    justify-content: center;
+    gap: 15px;
+  }
 `;
 
 export const DropdownMenu = styled.div`
