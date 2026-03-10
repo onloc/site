@@ -1,11 +1,11 @@
 import { Link } from "react-router-dom";
-import Header from "../components/black-header";
+import BlackHeader from "../components/BlackHeader";
 import Footer from "../components/Footer";
 
 export function Home() {
   return (
     <>
-      <Header />
+      <BlackHeader />
 
       <main>
         <h1>Home</h1>

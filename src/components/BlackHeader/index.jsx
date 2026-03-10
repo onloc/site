@@ -22,7 +22,7 @@ import {
   DropdownItem,
 } from "./styles";
 
-function Header() {
+function BlackHeader() {
   const [searchOpen, setSearchOpen] = useState(false);
 
   return (
@@ -73,4 +73,4 @@ function Header() {
   );
 }
 
-export default Header;
+export default BlackHeader;
