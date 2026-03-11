@@ -1,9 +1,8 @@
 import styled from "styled-components";
+import bgImage from "../../assets/um-computador-portatil-com-uma-tela-meio-aberta-em-um-fundo-escuro.png";
 
 export const Container = styled.div`
-  background-image:
-    linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url("https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?auto=format&fit=crop&q=80&w=2070");
+  background-image: url(${bgImage});
 
   background-size: cover;
   background-position: center;

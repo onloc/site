@@ -78,8 +78,7 @@ export function Equipamentos() {
   return (
     <div>
       <BlackHeader />
-      <h1>Equipamentos</h1>
-      {/* <EquipamentoBanner /> */}
+      <EquipamentoBanner />
       <EquipamentoFilter
         selected={selectedCategory}
         setSelected={setSelectedCategory}
