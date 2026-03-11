@@ -1,18 +1,19 @@
 import styled from "styled-components";
 
-
 export const StyledSocialBar = styled.div`
   position: absolute;
   writing-mode: vertical-rl;
   transform: rotate(180deg);
-
+  left: 0;
 
   height: 100%;
   width: 70px;
-  color: white;
+
+  color: ${props => props.color === "blue" ? "#838B92" : "white"};
 
   margin-left: 8px;
-  border-left: 1px solid white;
+  border-left: 1px solid
+    ${props => props.color === "blue" ? "#838B92" : "white"};
 
   display: flex;
   flex-direction: row;

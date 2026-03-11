@@ -4,10 +4,16 @@ export const BannerContainer = styled.div`
   width: 100%;
   height: 90vh;
 
-  background-image: url(${props => props.bannerImage});
+  background: ${props =>
+    props.bannerImage
+      ? `url(${props.bannerImage})`
+      : props.backgroundColor || "#000"};
+
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+
+    position: relative;
 
   display: flex;
   align-items: center;
@@ -91,4 +97,28 @@ export const BannerSubtitle = styled.p`
   @media (max-width: 768px) {
     font-size: 4vw;
   }
+`;
+
+export const BannerCornerText = styled.span`
+  position: absolute;
+  bottom: 40px;
+  left: 120px;
+
+  font-size: 20px;
+  font-weight: 500;
+  opacity: 0.6;
+  font-family: 'Qubic Grid', sans-serif;
+  color: ${props => props.textColor || "white"};
+`;
+
+export const BannerIconsContainer = styled.div`
+    width: 36px;
+    height: 48px;
+  position: absolute;
+  top: 45%;      
+  right: 20px;    
+  transform: translateY(-50%);
+  display: flex;
+  flex-direction: column;  
+  gap: 10px;              
 `;
