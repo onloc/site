@@ -20,7 +20,9 @@ import {
   Dropdown,
   DropdownMenu,
   DropdownItem,
+  StyledLink,
 } from "./styles";
+import { Link } from "react-router-dom";
 
 function BlackHeader() {
   const [searchOpen, setSearchOpen] = useState(false);
@@ -31,9 +33,17 @@ function BlackHeader() {
         <Logo src={logo} alt="logo" />
 
         <Nav>
-          <NavItem>Home</NavItem>
+          <NavItem>
+            {" "}
+            <StyledLink to="/">Home</StyledLink>
+          </NavItem>
           <Dropdown>
-            <NavItem>Equipamentos <img src={ArrowDown} alt="arrow down" /></NavItem>
+            <NavItem>
+              <StyledLink style={{ marginRight: "4px" }} to="/equipamentos">
+                Equipamentos
+              </StyledLink>
+              <img src={ArrowDown} alt="arrow down" />
+            </NavItem>
             <DropdownMenu>
               <DropdownItem>Desktop</DropdownItem>
               <DropdownItem>Minidesks</DropdownItem>

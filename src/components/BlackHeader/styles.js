@@ -1,4 +1,10 @@
 import styled from "styled-components";
+import { Link } from "react-router-dom";
+
+export const StyledLink = styled(Link)`
+  text-decoration: none;
+  color: inherit;
+`;
 
 export const Wrapper = styled.header`
   width: 100%;
@@ -15,7 +21,7 @@ export const Container = styled.div`
   align-items: center;
   justify-content: space-between;
 
-  padding: 0 20px; // menor padding em telas pequenas
+  padding: 0 20px;
   box-sizing: border-box;
 
   @media (max-width: 768px) {
@@ -26,7 +32,6 @@ export const Container = styled.div`
   }
 `;
 
-
 export const Logo = styled.img`
   height: 30px;
 `;
@@ -36,7 +41,7 @@ export const Nav = styled.nav`
   gap: 24px;
 
   @media (max-width: 768px) {
-    flex-wrap: wrap; // quebra em múltiplas linhas
+    flex-wrap: wrap;
     justify-content: center;
     gap: 16px;
   }
@@ -53,7 +58,7 @@ export const NavItem = styled.a`
   }
 
   @media (max-width: 480px) {
-    font-size: 12px; // diminui o tamanho da fonte em mobile
+    font-size: 12px;
   }
 `;
 
@@ -73,6 +78,7 @@ export const DropdownMenu = styled.div`
   position: absolute;
   top: 100%;
   left: 30px;
+  z-index: 999;
 
   background: white;
   border-radius: 6px;
