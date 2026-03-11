@@ -1,20 +1,41 @@
 import { SocialIcon, StyledSocialBar } from "./styles";
 
-import YoutubeIcon from "../../assets/youtube.png";
-import FacebookIcon from "../../assets/facebook.png";
-import InstagramIcon from "../../assets/instagram.png";
-import LinkedInIcon from "../../assets/linkedin.png";
+import YoutubeWhite from "../../assets/youtube.png";
+import FacebookWhite from "../../assets/facebook.png";
+import InstagramWhite from "../../assets/instagram.png";
+import LinkedInWhite from "../../assets/linkedin.png";
 
-function SocialBar() {
-    return (
-        <StyledSocialBar>
-          Redes sociais
-          <SocialIcon src={YoutubeIcon} alt="YouTube" />
-          <SocialIcon src={FacebookIcon} alt="Facebook" />
-          <SocialIcon src={InstagramIcon} alt="Instagram" />
-          <SocialIcon src={LinkedInIcon} alt="LinkedIn" />
-        </StyledSocialBar>
-    );
+import YoutubeBlue from "../../assets/blue-youtube.png";
+import FacebookBlue from "../../assets/blue-facebook.png";
+import InstagramBlue from "../../assets/blue-instagram.png";
+import LinkedInBlue from "../../assets/blue-linkedin.png";
+
+function SocialBar({ color = "white" }) {
+
+  const icons =
+    color === "blue"
+      ? {
+          youtube: YoutubeBlue,
+          facebook: FacebookBlue,
+          instagram: InstagramBlue,
+          linkedin: LinkedInBlue,
+        }
+      : {
+          youtube: YoutubeWhite,
+          facebook: FacebookWhite,
+          instagram: InstagramWhite,
+          linkedin: LinkedInWhite,
+        };
+
+  return (
+    <StyledSocialBar color={color}>
+      Redes sociais
+      <SocialIcon src={icons.youtube} alt="YouTube" />
+      <SocialIcon src={icons.facebook} alt="Facebook" />
+      <SocialIcon src={icons.instagram} alt="Instagram" />
+      <SocialIcon src={icons.linkedin} alt="LinkedIn" />
+    </StyledSocialBar>
+  );
 }
 
 export default SocialBar;
