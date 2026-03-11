@@ -1,0 +1,86 @@
+import styled from "styled-components";
+
+export const Container = styled.div`
+  width: 80%;
+  height: 400px;
+  border: 1px solid #497fa69a;
+  position: relative;
+  margin: 64px auto;
+  margin-bottom: 16px;
+  border-radius: 16px;
+`;
+
+export const ContainerContent = styled.div`
+  width: 60%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin: 0 auto;
+  transform: translateY(-32px);
+  gap: 16px;
+`;
+
+export const Title = styled.h2`
+  text-align: center;
+  color: black;
+  font-size: 32px;
+  font-weight: normal;
+  font-family: "Qubic", sans-serif;
+`;
+
+export const Subtitle = styled.p`
+  text-align: center;
+  color: black;
+  font-size: 16px;
+  font-weight: normal;
+  font-family: "Montserrat", sans-serif;
+`;
+
+export const Block = styled.div`
+  width: 70%;
+  height: 200px;
+  border-radius: 16px;
+
+  position: absolute;
+  bottom: -60px;
+  left: 50%;
+  transform: translateX(-50%);
+
+  display: flex;
+  background: linear-gradient(90deg, #014c80, #256fa6);
+  overflow: hidden;
+
+  clip-path: polygon(50px 0%, 100% 0%, 100% 100%, 0% 100%, 0% 50px);
+`;
+
+export const BlockSection = styled.div`
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-weight: bold;
+  font-size: 16px;
+  text-align: center;
+  padding: 8px;
+  flex-direction: column;
+
+  &:not(:last-child) {
+    border-right: 1px solid #ffffff;
+  }
+`;
+
+export const Number = styled.span`
+  font-size: 36px; 
+  font-weight: bold;
+`;
+
+export const Text = styled.span`
+  font-size: 12px;
+  margin-top: 4px;
+  color: white;
+  font-weight: normal;
+`;

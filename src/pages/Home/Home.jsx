@@ -8,7 +8,15 @@ import bannerequipment3 from "../../assets/banner-equipment-3.png";
 
 import bluebanner from "../../assets/blue-banner.png";
 import Banner from "../../components/Banner";
-import { Slider, SliderTrack, Slide } from "./styles";
+import {
+  Slider,
+  SliderTrack,
+  Slide,
+  Container,
+  Title,
+  Subtitle,
+} from "./styles";
+import OurNumbers from "../../components/OurNumbers";
 
 export function Home() {
   const banners = [
@@ -84,6 +92,16 @@ export function Home() {
         </SliderTrack>
       </Slider>
 
+      <OurNumbers />
+
+      <Container>
+        <Title>Nossos Equipamentos</Title>
+        <Subtitle>
+          Equipamentos ideais para a sua empresa. MiniDesks e Desktops das
+          marcas mais conceituadas do mercado, adquiridos de grandes fabricantes
+          como HP, DELL & Lenovo.
+        </Subtitle>
+      </Container>
       <Footer />
     </>
   );
