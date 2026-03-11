@@ -7,7 +7,7 @@ export const StyledSocialBar = styled.div`
   transform: rotate(180deg);
 
 
-  height: 90%;
+  height: 100%;
   width: 70px;
   color: white;
 

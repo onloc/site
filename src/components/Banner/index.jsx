@@ -5,8 +5,9 @@ import {
   BannerTitle,
   BannerSubtitle,
   BannerButton,
-  BannerSideImage
+  BannerSideImage,
 } from "./styles";
+import SocialBar from "../SocialBar";
 
 export default function Banner({
   bannerImage,
@@ -15,27 +16,24 @@ export default function Banner({
   buttonText,
   buttonStyle,
   sideImage,
-  textColor
-}){
+  textColor,
+}) {
   return (
-    <BannerContainer bannerImage={bannerImage}>
-      <BannerContent textColor={textColor}>
-        <BannerTitle>{title}</BannerTitle>
+    <>
+    <SocialBar />
+      <BannerContainer bannerImage={bannerImage}>
+        <BannerContent textColor={textColor}>
+          <BannerTitle>{title}</BannerTitle>
 
-        <BannerSubtitle>
-          {subtitle}
-        </BannerSubtitle>
+          <BannerSubtitle>{subtitle}</BannerSubtitle>
 
-        {buttonText && (
-          <BannerButton buttonStyle={buttonStyle}>
-            {buttonText}
-          </BannerButton>
-        )}
-      </BannerContent>
+          {buttonText && (
+            <BannerButton buttonStyle={buttonStyle}>{buttonText}</BannerButton>
+          )}
+        </BannerContent>
 
-      {sideImage && (
-        <BannerSideImage src={sideImage} alt="banner image" />
-      )}
-    </BannerContainer>
+        {sideImage && <BannerSideImage src={sideImage} alt="banner image" />}
+      </BannerContainer>
+    </>
   );
 }
