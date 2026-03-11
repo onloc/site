@@ -10,8 +10,7 @@ import FacebookBlue from "../../assets/blue-facebook.png";
 import InstagramBlue from "../../assets/blue-instagram.png";
 import LinkedInBlue from "../../assets/blue-linkedin.png";
 
-function SocialBar({ color = "white" }) {
-
+function SocialBar({ color = "white", styleCustom }) {
   const icons =
     color === "blue"
       ? {
@@ -28,13 +27,13 @@ function SocialBar({ color = "white" }) {
         };
 
   return (
-    <StyledSocialBar color={color}>
-      Redes sociais
-      <SocialIcon src={icons.youtube} alt="YouTube" />
-      <SocialIcon src={icons.facebook} alt="Facebook" />
-      <SocialIcon src={icons.instagram} alt="Instagram" />
-      <SocialIcon src={icons.linkedin} alt="LinkedIn" />
-    </StyledSocialBar>
+      <StyledSocialBar color={color} style={styleCustom}>
+        Redes sociais
+        <SocialIcon src={icons.youtube} alt="YouTube" />
+        <SocialIcon src={icons.facebook} alt="Facebook" />
+        <SocialIcon src={icons.instagram} alt="Instagram" />
+        <SocialIcon src={icons.linkedin} alt="LinkedIn" />
+      </StyledSocialBar>
   );
 }
 

@@ -1,11 +1,15 @@
-import { Banner } from "./styles";
-import bannerImg from "../../assets/banner.jpg";
+import { Container, Title } from "./styles";
+
+import SocialBar from "../SocialBar";
 
 const EquipamentoBanner = () => {
   return (
-    <>
-      <Banner src={bannerImg} alt="Banner de Equipamentos" />
-    </>
+    <Container>
+      <SocialBar
+        styleCustom={{ padding: "10px", fontSize: "14px", gap: "20px" }}
+      />
+      <Title>Equipamentos</Title>
+    </Container>
   );
 };
 
