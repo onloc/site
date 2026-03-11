@@ -11,11 +11,14 @@ export const ListContainer = styled.div`
 export const Container = styled.div`
   width: 660px;
   height: hug-content;
-  padding: 20px;
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin: auto;
+  margin-top: 175px;
+  margin-bottom:175px ;
 `;
+
 export const Typography = styled.div`
   font-family: "Quicksand", sans-serif;
   font-weight: 500;
@@ -26,6 +29,7 @@ export const Typography = styled.div`
   text-align: center;
   color: #014c80;
 `;
+
 export const ItemWrapper = styled.div`
   display: flex;
   flex-direction: column;

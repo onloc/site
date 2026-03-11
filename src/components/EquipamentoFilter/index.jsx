@@ -1,4 +1,3 @@
-import { useState } from "react";
 import {
   Container,
   ItemWrapper,
@@ -23,9 +22,7 @@ const categorias = [
   { id: "Workstation", img: workstation },
 ];
 
-const EquipamentoFilter = () => {
-  const [selected, setSelected] = useState(null);
-
+const EquipamentoFilter = ({ selected, setSelected }) => {
   const handleSelect = (id) => {
     setSelected((prev) => (prev === id ? null : id));
   };
