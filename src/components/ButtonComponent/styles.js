@@ -1,23 +1,42 @@
-import styled from "styled-components";
+import styled, { css } from "styled-components";
 
 export const Button = styled.button`
   margin-top: 25px;
-  width: 239;
-  height: 45;
+
+  width: auto;
+  min-width: 239px;
+  height: auto;
+  min-height: 45px;
+  white-space: nowrap;
+
   gap: 8px;
   opacity: 1;
   border-radius: 47px;
-  padding-top: 16px;
-  padding-right: 56px;
-  padding-bottom: 16px;
-  padding-left: 56px;
-  background: linear-gradient(90deg, #014c80 0%, #497fa6 100%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 12px 40px;
   border: none;
-  color: white;
   cursor: pointer;
+  transition: all 0.3s ease;
+
+  background: linear-gradient(90deg, #014c80 0%, #497fa6 100%);
+  color: white;
 
   &:hover {
     background: #0e1017;
     color: #eee9e9;
   }
+
+  ${(props) =>
+    props.variant === "black" &&
+    css`
+      background: #0e1017;
+      color: #eee9e9;
+
+      &:hover {
+        background: #0e1017;
+        color: #eee9e9;
+      }
+    `}
 `;

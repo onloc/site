@@ -4,6 +4,8 @@ import BlackHeader from "../components/BlackHeader";
 import EquipamentoViewer from "../components/EquipamentoViewer";
 import EquipamentoDetalhesInfo from "../components/EquipamentoDetalhesInfo";
 import FAQ from "../components/FAQ";
+import RecomendItems from "../components/RecomendItems";
+import ClientComments from "../components/ClientComments";
 
 export function EquipamentoDetalhes() {
   const location = useLocation();
@@ -27,9 +29,16 @@ export function EquipamentoDetalhes() {
       <div style={{ background: "#EFF2F3" }}>
         <EquipamentoViewer item={item} />
       </div>
-      <div style={{ background: "#fff", padding: "100px 352px " }}>
+      <div style={{ background: "#fff", padding: "100px 200px " }}>
         <EquipamentoDetalhesInfo />
         <FAQ />
+      </div>
+      <div style={{ background: "#EFF2F3", padding: "100px 100px " }}>
+        <RecomendItems />
+        <hr
+          style={{ margin: "50px", marginTop: "175px", marginBottom: "120px" }}
+        />
+        <ClientComments />
       </div>
       <Footer />
     </>
