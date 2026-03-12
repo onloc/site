@@ -1,5 +1,9 @@
 import styled from "styled-components";
 
+export const PageWrapper = styled.div`
+  background-color: #f7f7f7;
+`;
+
 export const Slider = styled.div`
   width: 100%;
   overflow: hidden;
@@ -17,13 +21,13 @@ export const Slide = styled.div`
 
 export const Container = styled.div`
   width: 60%;
-  height: 400px;
+  height: fit-content;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   text-align: center;
-  margin: 0 auto;
+  margin: 128px auto 64px auto;
   gap: 16px;
 `;
 

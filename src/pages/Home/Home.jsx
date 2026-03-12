@@ -15,8 +15,10 @@ import {
   Container,
   Title,
   Subtitle,
+  PageWrapper
 } from "./styles";
 import OurNumbers from "../../components/OurNumbers";
+import HomeSlider from "../../components/HomeSlider";
 
 export function Home() {
   const banners = [
@@ -36,7 +38,7 @@ export function Home() {
     },
     {
       banner: 2,
-      backgroundColor: "#f0f0f0",
+      backgroundColor: "white",
       title: "Tecnologia sob medida para o seu negócio",
       subtitle:
         "A melhor opção para Locação de Computadores, Notebooks, Servidores e Soluções Inteligentes para sua Empresa na região de Campinas.",
@@ -77,32 +79,37 @@ export function Home() {
 
   return (
     <>
-      <BlackHeader />
-      <Slider>
-        <SliderTrack
-          style={{
-            transform: `translateX(-${currentBanner * 100}%)`,
-          }}
-        >
-          {banners.map((banner, index) => (
-            <Slide key={index}>
-              <Banner {...banner} />
-            </Slide>
-          ))}
-        </SliderTrack>
-      </Slider>
+      <PageWrapper>
+        <BlackHeader />
+        <Slider>
+          <SliderTrack
+            style={{
+              transform: `translateX(-${currentBanner * 100}%)`,
+            }}
+          >
+            {banners.map((banner, index) => (
+              <Slide key={index}>
+                <Banner {...banner} />
+              </Slide>
+            ))}
+          </SliderTrack>
+        </Slider>
 
-      <OurNumbers />
+        <OurNumbers />
 
-      <Container>
-        <Title>Nossos Equipamentos</Title>
-        <Subtitle>
-          Equipamentos ideais para a sua empresa. MiniDesks e Desktops das
-          marcas mais conceituadas do mercado, adquiridos de grandes fabricantes
-          como HP, DELL & Lenovo.
-        </Subtitle>
-      </Container>
-      <Footer />
+        <Container>
+          <Title>Nossos Equipamentos</Title>
+          <Subtitle>
+            Equipamentos ideais para a sua empresa. MiniDesks e Desktops das
+            marcas mais conceituadas do mercado, adquiridos de grandes
+            fabricantes como HP, DELL & Lenovo.
+          </Subtitle>
+        </Container>
+
+        <HomeSlider />
+
+        <Footer />
+      </PageWrapper>
     </>
   );
 }
