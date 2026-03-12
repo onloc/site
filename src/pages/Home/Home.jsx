@@ -20,6 +20,7 @@ import {
 import OurNumbers from "../../components/OurNumbers";
 import HomeSlider from "../../components/HomeSlider";
 import WhyLeaseComponent from "../../components/WhyLease";
+import EquipamentsGallery from "../../components/EquipamentsGallery";
 
 export function Home() {
   const banners = [
@@ -110,6 +111,17 @@ export function Home() {
         <HomeSlider />
 
         <WhyLeaseComponent />
+
+        <Container>
+          <Title>Oferecemos a solução que sua empresa necessita.</Title>
+          <Subtitle>
+            Seja alugando uma única máquina ou todo seu parque, oferecemos
+            soluções que se encaixam na sua necessidade.
+          </Subtitle>
+        </Container>
+        
+        <EquipamentsGallery />
+
         <Footer />
       </PageWrapper>
     </>

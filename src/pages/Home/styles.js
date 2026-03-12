@@ -29,6 +29,7 @@ export const Container = styled.div`
   text-align: center;
   margin: 128px auto 64px auto;
   gap: 16px;
+  padding: 0 8px;
 
   @media (max-width: 768px) {
     width: 90%;
