@@ -7,6 +7,10 @@ export const Container = styled.div`
   position: relative;
   margin: 64px auto 16px auto;
   border-radius: 16px;
+
+  @media (max-width: 768px) {
+    margin-bottom: 200px;
+  }
 `;
 
 export const ContainerContent = styled.div`
@@ -20,6 +24,13 @@ export const ContainerContent = styled.div`
   margin: 0 auto;
   transform: translateY(-32px);
   gap: 16px;
+
+  @media (max-width: 768px) {
+    width: 90%;
+    transform: translateY(-16px);
+    justify-content: flex-start;
+    padding-top: 46px;
+  }
 `;
 
 export const Title = styled.h2`
@@ -28,6 +39,10 @@ export const Title = styled.h2`
   font-size: 32px;
   font-weight: normal;
   font-family: "Qubic", sans-serif;
+
+  @media (max-width: 768px) {
+    font-size: 28px;
+  }
 `;
 
 export const Subtitle = styled.p`
@@ -36,6 +51,10 @@ export const Subtitle = styled.p`
   font-size: 16px;
   font-weight: normal;
   font-family: "Montserrat", sans-serif;
+
+  @media (max-width: 768px) {
+    font-size: 14px;
+  }
 `;
 
 export const Block = styled.div`
@@ -53,6 +72,15 @@ export const Block = styled.div`
   overflow: hidden;
 
   clip-path: polygon(50px 0%, 100% 0%, 100% 100%, 0% 100%, 0% 50px);
+
+  @media (max-width: 768px) {
+    width: 85%;
+    flex-direction: column;
+    height: 360px;
+    bottom: -160px;
+
+    clip-path: polygon(40px 0%, 100% 0%, 100% 100%, 0% 100%, 0% 40px);
+  }
 `;
 
 export const BlockSection = styled.div`
@@ -70,11 +98,22 @@ export const BlockSection = styled.div`
   &:not(:last-child) {
     border-right: 1px solid #ffffff;
   }
+
+  @media (max-width: 768px) {
+    border-right: none;
+    &:not(:last-child) {
+      border-bottom: 1px solid #ffffff;
+    }
+  }
 `;
 
 export const Number = styled.span`
-  font-size: 36px; 
+  font-size: 36px;
   font-weight: bold;
+
+  @media (max-width: 768px) {
+    font-size: 28px;
+  }
 `;
 
 export const Text = styled.span`
@@ -82,4 +121,8 @@ export const Text = styled.span`
   margin-top: 4px;
   color: white;
   font-weight: normal;
+
+  @media (max-width: 768px) {
+    font-size: 12px;
+  }
 `;

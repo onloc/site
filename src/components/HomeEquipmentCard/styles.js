@@ -9,6 +9,9 @@ export const Card = styled.div`
   position: relative;
     flex-shrink: 0;
 
+
+  @media (max-width: 768px) {
+  }
 `;
 
 export const Content = styled.div`

@@ -29,6 +29,10 @@ export const Container = styled.div`
   text-align: center;
   margin: 128px auto 64px auto;
   gap: 16px;
+
+  @media (max-width: 768px) {
+    width: 90%;
+  }
 `;
 
 export const Title = styled.h2`

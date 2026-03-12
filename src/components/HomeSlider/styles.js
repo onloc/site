@@ -20,15 +20,15 @@ export const SliderViewport = styled.div`
   margin: 0 auto;
 
   @media (max-width: 1024px) {
-    max-width: 960px;
+    max-width: 950px;
   }
 
   @media (max-width: 768px) {
-    max-width: 640px;
+    max-width: 630px;
   }
 
   @media (max-width: 480px) {
-    max-width: 320px;
+    max-width: 300px;
   }
 `;
 
