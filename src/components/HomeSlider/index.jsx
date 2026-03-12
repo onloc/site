@@ -93,7 +93,7 @@ function HomeSlider() {
 
         <DotsContainer>
           {Array.from({ length: totalDots }).map((_, i) => (
-            <Dot key={i} active={i === index} onClick={() => setIndex(i)} />
+            <Dot key={i} $active={i === index} onClick={() => setIndex(i)} />
           ))}
         </DotsContainer>
 

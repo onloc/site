@@ -4,16 +4,16 @@ export const BannerContainer = styled.div`
   width: 100%;
   height: 90vh;
 
-  background: ${props =>
-    props.bannerImage
-      ? `url(${props.bannerImage})`
-      : props.backgroundColor || "#000"};
+  background: ${(props) =>
+    props.$bannerImage
+      ? `url(${props.$bannerImage})`
+      : props.$backgroundColor || "#000"};
 
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
 
-    position: relative;
+  position: relative;
 
   display: flex;
   align-items: center;
@@ -28,7 +28,7 @@ export const BannerContainer = styled.div`
 `;
 
 export const BannerContent = styled.div`
-  color: ${props => props.textColor || "white"};
+  color: ${(props) => props.$textColor || "white"};
   max-width: 32%;
   display: flex;
   flex-direction: column;
@@ -43,16 +43,15 @@ export const BannerContent = styled.div`
 `;
 
 export const BannerSideImage = styled.img`
-  width: 45%; 
+  width: 45%;
   height: auto;
-  
+
   @media (max-width: 768px) {
     width: 60%;
     margin-left: 0;
-    margin-top: 20px; 
+    margin-top: 20px;
   }
 `;
-
 
 export const BannerTitle = styled.h1`
   font-size: 32px;
@@ -69,8 +68,10 @@ export const BannerButton = styled.button`
   font-size: 16px;
   font-weight: bold;
 
-  color: ${props => props.buttonStyle?.color || "#3c54a4"};
-  background: ${props => props.buttonStyle?.background || "linear-gradient(90deg, #FFFFFF, #CDEAFF)"};
+  color: ${(props) => props.$buttonStyle?.color || "#3c54a4"};
+  background: ${(props) =>
+    props.$buttonStyle?.background ||
+    "linear-gradient(90deg, #FFFFFF, #CDEAFF)"};
 
   border: none;
   border-radius: 24px;
@@ -107,18 +108,18 @@ export const BannerCornerText = styled.span`
   font-size: 20px;
   font-weight: 500;
   opacity: 0.6;
-  font-family: 'Qubic Grid', sans-serif;
-  color: ${props => props.textColor || "white"};
+  font-family: "Qubic Grid", sans-serif;
+  color: ${(props) => props.$textColor || "white"};
 `;
 
 export const BannerIconsContainer = styled.div`
-    width: 36px;
-    height: 48px;
+  width: 36px;
+  height: 48px;
   position: absolute;
-  top: 45%;      
-  right: 20px;    
+  top: 45%;
+  right: 20px;
   transform: translateY(-50%);
   display: flex;
-  flex-direction: column;  
-  gap: 10px;              
+  flex-direction: column;
+  gap: 10px;
 `;

@@ -48,7 +48,7 @@ export const FilterItem = styled.div`
   align-items: center;
   transition: 0.3s;
 
-  border: 1px solid ${(props) => (props.isSelected ? "#014c80" : "transparent")};
+  border: 1px solid ${(props) => (props.$isSelected ? "#014c80" : "transparent")};
 
   &:hover {
     border: 1px solid #014c80;
@@ -67,6 +67,6 @@ export const FilterTitle = styled.div`
   text-align: center;
   transition: 0.3s;
 
-  color: ${(props) => (props.isSelected ? "#014c80" : "#0e1017")};
-  font-weight: ${(props) => (props.isSelected ? "700" : "400")};
+  color: ${(props) => (props.$isSelected ? "#014c80" : "#0e1017")};
+  font-weight: ${(props) => (props.$isSelected ? "700" : "400")};
 `;

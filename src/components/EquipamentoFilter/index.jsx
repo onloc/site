@@ -33,10 +33,10 @@ const EquipamentoFilter = ({ selected, setSelected }) => {
       <ListContainer>
         {categorias.map((cat) => (
           <ItemWrapper key={cat.id} onClick={() => handleSelect(cat.id)}>
-            <FilterItem isSelected={selected === cat.id}>
+            <FilterItem $isSelected={selected === cat.id}>
               <FilterImage src={cat.img} alt={cat.id} />
             </FilterItem>
-            <FilterTitle isSelected={selected === cat.id}>{cat.id}</FilterTitle>
+            <FilterTitle $isSelected={selected === cat.id}>{cat.id}</FilterTitle>
           </ItemWrapper>
         ))}
       </ListContainer>

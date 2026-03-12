@@ -1,11 +1,6 @@
 import styled from "styled-components";
 import { Link } from "react-router-dom";
 
-export const StyledLink = styled(Link)`
-  text-decoration: none;
-  color: inherit;
-`;
-
 export const Wrapper = styled.header`
   width: 100%;
   background-color: #000000;
@@ -47,7 +42,7 @@ export const Nav = styled.nav`
   }
 `;
 
-export const NavItem = styled.a`
+export const NavItem = styled(Link)`
   color: white;
   text-decoration: none;
   cursor: pointer;

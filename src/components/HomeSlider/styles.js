@@ -68,7 +68,7 @@ export const Dot = styled.div`
   width: 10px;
   height: 10px;
   border-radius: 50%;
-  background: ${(props) => (props.active ? "#3C54A4" : "#838B92")};
+  background: ${(props) => (props.$active ? "#3C54A4" : "#838B92")};
   cursor: pointer;
   transition: 0.3s;
 `;

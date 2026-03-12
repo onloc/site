@@ -32,20 +32,20 @@ export default function Banner({
   return (
     <>
       <BannerContainer
-        bannerImage={bannerImage}
-        backgroundColor={backgroundColor}
+        $bannerImage={bannerImage}
+        $backgroundColor={backgroundColor}
       >
         <SocialBar color={socialBarColor} />
-        <BannerContent textColor={textColor}>
+        <BannerContent $textColor={textColor}>
           <BannerTitle>{title}</BannerTitle>
 
           <BannerSubtitle>{subtitle}</BannerSubtitle>
 
           {buttonText && (
-            <BannerButton buttonStyle={buttonStyle}>{buttonText}</BannerButton>
+            <BannerButton $buttonStyle={buttonStyle}>{buttonText}</BannerButton>
           )}
         </BannerContent>
-        <BannerCornerText textColor={textColor}>
+        <BannerCornerText  $textColor={textColor}>
           Técnologia que <b>transforma</b>
         </BannerCornerText>
         {sideImage && <BannerSideImage src={sideImage} alt="banner image" />}
@@ -62,7 +62,11 @@ export default function Banner({
             </>
           ) : (
             <>
-              <img style={{ rotate: "180deg" }} src={arrowDown} alt="arrow down" />
+              <img
+                style={{ rotate: "180deg" }}
+                src={arrowDown}
+                alt="arrow down"
+              />
               <img style={{ rotate: "180deg" }} src={arrowUp} alt="arrow up" />
             </>
           )}
