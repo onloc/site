@@ -4,6 +4,8 @@ import FAQ from "../components/FAQ";
 import HeaderBanner from "../components/HeaderBanner";
 
 import bgImage from "../assets/duvidasbanner.png";
+import Form from "../components/Form";
+import FormContainer from "../components/FormContainer";
 
 export function Duvidas() {
   const faqData = [
@@ -103,6 +105,7 @@ Donec sed nunc sed amet. Nunc sed nunc sed amet. Leo donec netus libero facilisi
         </h1>
         <FAQ data={faqData} />
       </div>
+        <FormContainer />
       <Footer />
     </>
   );
