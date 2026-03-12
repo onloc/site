@@ -7,6 +7,9 @@ import EquipamentoFilter from "../components/EquipamentoFilter";
 import EquipamentoCard from "../components/EquipamentoCard";
 
 import desktop from "../assets/mock-produto.png";
+import servidor from "../assets/servidor.png";
+import notebook from "../assets/notebook.png";
+import workstation from '../assets/workstation.png'
 import EquipamentoBannerFooter from "../components/EquipamentoBannerFooter";
 
 const mockItem = [
@@ -16,6 +19,7 @@ const mockItem = [
     category: "Desktop",
     description:
       "Lorem ipsum dolor sit amet consectetur. Leo donec netus libero facilisi.",
+    gallery: [servidor, notebook, workstation, desktop],
   },
   {
     name: "Computador A620 i3",
@@ -23,6 +27,7 @@ const mockItem = [
     category: "Servidores",
     description:
       "Lorem ipsum dolor sit amet consectetur. Leo donec netus libero facilisi.",
+    gallery: [desktop, desktop, desktop, desktop],
   },
   {
     name: "Computador A620 i3",
@@ -30,6 +35,7 @@ const mockItem = [
     category: "Desktop",
     description:
       "Lorem ipsum dolor sit amet consectetur. Leo donec netus libero facilisi.",
+    gallery: [desktop, desktop, desktop, desktop],
   },
   {
     name: "Computador A620 i3",
@@ -37,6 +43,7 @@ const mockItem = [
     category: "Notebooks",
     description:
       "Lorem ipsum dolor sit amet consectetur. Leo donec netus libero facilisi.",
+    gallery: [desktop, desktop, desktop, desktop],
   },
   {
     name: "Computador A620 i3",
@@ -44,6 +51,7 @@ const mockItem = [
     category: "Notebooks",
     description:
       "Lorem ipsum dolor sit amet consectetur. Leo donec netus libero facilisi.",
+    gallery: [desktop, desktop, desktop, desktop],
   },
   {
     name: "Computador A620 i3",
@@ -51,6 +59,7 @@ const mockItem = [
     category: "Notebooks",
     description:
       "Lorem ipsum dolor sit amet consectetur. Leo donec netus libero facilisi.",
+    gallery: [desktop, desktop, desktop, desktop],
   },
   {
     name: "Computador A620 i3",
@@ -58,6 +67,7 @@ const mockItem = [
     category: "Notebooks",
     description:
       "Lorem ipsum dolor sit amet consectetur. Leo donec netus libero facilisi.",
+    gallery: [desktop, desktop, desktop, desktop],
   },
   {
     name: "Computador A620 i3",
@@ -65,6 +75,7 @@ const mockItem = [
     category: "Desktop",
     description:
       "Lorem ipsum dolor sit amet consectetur. Leo donec netus libero facilisi.",
+    gallery: [desktop, desktop, desktop, desktop],
   },
 ];
 
