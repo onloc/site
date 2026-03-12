@@ -53,7 +53,7 @@ const Footer = () => (
       </ImageGrid>
 
       <FooterContent>
-        <div>
+        <div style={{ flex: "1 1 250px", minWidth: 0 }}>
           <LogoImage src={logo} alt="On.Loc" />
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit...</p>
         </div>

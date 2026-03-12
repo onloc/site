@@ -3,11 +3,6 @@ import styled from "styled-components";
 export const FooterContainer = styled.footer`
   background-color: #1e1e20;
   color: #ffffff;
-  justify-content: space-between;
-  top: 120px;
-  left: 350px;
-  right: 350px;
-  bottom: 120px;
 `;
 
 export const ImageGrid = styled.div`
@@ -33,20 +28,13 @@ export const FooterImage = styled.img`
 `;
 
 export const FooterContent = styled.div`
-  display: grid;
+  display: flex;
   gap: 40px;
-  grid-template-columns: repeat(4, 1fr);
-  padding-bottom: 120px;
-  padding-top: 120px;
-  padding-left: 350px;
-  padding-right: 350px;
-  width: 1220;
-  height: 243;
-  justify-content: space-between;
-
-  @media (max-width: 768px) {
-    grid-template-columns: 1fr;
-  }
+  padding: 120px 0;
+  width: 80%;
+  min-height: 480px;
+  margin: 0 auto;
+  flex-wrap: wrap;
 `;
 
 export const SectionTitle = styled.h4`
