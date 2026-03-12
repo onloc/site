@@ -8,6 +8,7 @@ import {
   BannerSideImage,
   BannerCornerText,
   BannerIconsContainer,
+  BannerIcon,
 } from "./styles";
 import SocialBar from "../SocialBar";
 
@@ -45,29 +46,25 @@ export default function Banner({
             <BannerButton $buttonStyle={buttonStyle}>{buttonText}</BannerButton>
           )}
         </BannerContent>
-        <BannerCornerText  $textColor={textColor}>
+        <BannerCornerText $textColor={textColor}>
           Técnologia que <b>transforma</b>
         </BannerCornerText>
         {sideImage && <BannerSideImage src={sideImage} alt="banner image" />}
         <BannerIconsContainer>
           {banner == 1 ? (
             <>
-              <img src={arrowUp} alt="arrow up" />
-              <img src={arrowDown} alt="arrow down" />
+              <BannerIcon src={arrowUp} alt="arrow up" />
+              <BannerIcon src={arrowDown} alt="arrow down" />
             </>
           ) : banner == 2 ? (
             <>
-              <img src={arrowUpGray} alt="arrow up gray" />
-              <img src={arrowDownBlue} alt="arrow down blue" />
+              <BannerIcon src={arrowUpGray} alt="arrow up gray" />
+              <BannerIcon src={arrowDownBlue} alt="arrow down blue" />
             </>
           ) : (
             <>
-              <img
-                style={{ rotate: "180deg" }}
-                src={arrowDown}
-                alt="arrow down"
-              />
-              <img style={{ rotate: "180deg" }} src={arrowUp} alt="arrow up" />
+              <BannerIcon $rotate="180deg" src={arrowDown} alt="arrow down" />
+              <BannerIcon $rotate="180deg" src={arrowUp} alt="arrow up" />
             </>
           )}
         </BannerIconsContainer>

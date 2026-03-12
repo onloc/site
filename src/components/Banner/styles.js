@@ -34,17 +34,21 @@ export const BannerContent = styled.div`
   flex-direction: column;
   gap: 1rem;
   margin-right: -5%;
+  order: 3;
 
   @media (max-width: 768px) {
     max-width: 100%;
-    align-items: center;
-    text-align: center;
+    align-items: flex-start;
+    text-align: left;
+    margin-bottom: 16px;
+    margin-right: 0;
   }
 `;
 
 export const BannerSideImage = styled.img`
   width: 45%;
   height: auto;
+  order: 1;
 
   @media (max-width: 768px) {
     width: 60%;
@@ -87,6 +91,7 @@ export const BannerButton = styled.button`
   @media (max-width: 768px) {
     font-size: 16px;
     padding: 0.6rem 1.5rem;
+    width: 100%;
   }
 `;
 
@@ -96,7 +101,7 @@ export const BannerSubtitle = styled.p`
   width: 85%;
 
   @media (max-width: 768px) {
-    font-size: 4vw;
+    font-size: 14px;
   }
 `;
 
@@ -110,11 +115,15 @@ export const BannerCornerText = styled.span`
   opacity: 0.6;
   font-family: "Qubic Grid", sans-serif;
   color: ${(props) => props.$textColor || "white"};
+
+  @media (max-width: 768px) {
+    display: none;
+  }
 `;
 
 export const BannerIconsContainer = styled.div`
   width: 36px;
-  height: 48px;
+  height: 72px;
   position: absolute;
   top: 45%;
   right: 20px;
@@ -122,4 +131,21 @@ export const BannerIconsContainer = styled.div`
   display: flex;
   flex-direction: column;
   gap: 10px;
+  order: 2;
+
+  @media (max-width: 768px) {
+    position: static;
+
+    flex-direction: row;
+
+    width: 100%;
+    height: 36px;
+  }
+`;
+
+export const BannerIcon = styled.img`
+  width: 36px;
+  height: 36px;
+
+  ${(props) => props.$rotate && `transform: rotate(${props.$rotate});`}
 `;

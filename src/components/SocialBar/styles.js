@@ -20,6 +20,10 @@ export const StyledSocialBar = styled.div`
   align-items: center;
   justify-content: center;
   gap: 30px;
+
+  @media (max-width: 768px) {
+    display: none;
+  }
 `;
 
 export const SocialIcon = styled.img`
