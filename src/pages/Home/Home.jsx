@@ -15,10 +15,11 @@ import {
   Container,
   Title,
   Subtitle,
-  PageWrapper
+  PageWrapper,
 } from "./styles";
 import OurNumbers from "../../components/OurNumbers";
 import HomeSlider from "../../components/HomeSlider";
+import WhyLeaseComponent from "../../components/WhyLease";
 
 export function Home() {
   const banners = [
@@ -108,6 +109,7 @@ export function Home() {
 
         <HomeSlider />
 
+        <WhyLeaseComponent />
         <Footer />
       </PageWrapper>
     </>
