@@ -4,12 +4,11 @@ import {
   AccordionHeader,
   AccordionItem,
   FAQContainer,
-  Title,
 } from "./styles";
 
 import Arrow from "../../assets/arrow_insert.png";
 
-const FAQ = ({data}) => {
+const FAQ = ({ data }) => {
   const [activeIndex, setActiveIndex] = useState(null);
 
   const toggleAccordion = (index) => {
@@ -18,8 +17,6 @@ const FAQ = ({data}) => {
 
   return (
     <FAQContainer>
-      <Title>Perguntas Frequentes:</Title>
-
       {data.map((item, index) => (
         <AccordionItem key={item.id}>
           <AccordionHeader

@@ -2,7 +2,7 @@ import { useState } from "react";
 
 import Footer from "../components/Footer";
 import BlackHeader from "../components/BlackHeader";
-import EquipamentoBanner from "../components/EquipamentoBanner";
+import HeaderBanner from "../components/HeaderBanner";
 import EquipamentoFilter from "../components/EquipamentoFilter";
 import EquipamentoCard from "../components/EquipamentoCard";
 
@@ -11,6 +11,7 @@ import servidor from "../assets/servidor.png";
 import notebook from "../assets/notebook.png";
 import workstation from '../assets/workstation.png'
 import EquipamentoBannerFooter from "../components/EquipamentoBannerFooter";
+import bgImage from "../assets/retangle-banner.png";
 
 const mockItem = [
   {
@@ -89,7 +90,7 @@ export function Equipamentos() {
   return (
     <div>
       <BlackHeader />
-      <EquipamentoBanner />
+      <HeaderBanner text="Equipamentos" backgroundImage={bgImage}/>
       <EquipamentoFilter
         selected={selectedCategory}
         setSelected={setSelectedCategory}

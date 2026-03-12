@@ -1,8 +1,7 @@
 import styled from "styled-components";
-import bgImage from "../../assets/retangle-banner.png";
 
 export const Container = styled.div`
-  background-image: url(${bgImage});
+  background-image: url(${props => props.$bg});
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;

@@ -1,16 +1,15 @@
 import { Container, Title } from "./styles";
-
 import SocialBar from "../SocialBar";
 
-const EquipamentoBanner = () => {
+const HeaderBanner = ({ text, backgroundImage }) => {
   return (
-    <Container>
+    <Container $bg={backgroundImage}>
       <SocialBar
         styleCustom={{ padding: "10px", fontSize: "14px", gap: "20px" }}
       />
-      <Title>Equipamentos</Title>
+      <Title>{text}</Title>
     </Container>
   );
 };
 
-export default EquipamentoBanner;
+export default HeaderBanner;

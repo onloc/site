@@ -49,7 +49,7 @@ function BlackHeader() {
           <NavItem>Quem Somos</NavItem>
           <NavItem>Soluções</NavItem>
           <NavItem>Suporte</NavItem>
-          <NavItem>Dúvidas</NavItem>
+          <NavItem to="/duvidas">Dúvidas</NavItem>
           <NavItem>Contato</NavItem>
         </Nav>
 
