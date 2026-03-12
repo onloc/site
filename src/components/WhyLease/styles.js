@@ -2,6 +2,7 @@ import styled from "styled-components";
 
 export const WhyLease = styled.div`
   width: 80%;
+  max-width: 1280px;
   height: 250px;
   position: relative;
   margin: 64px auto 32px auto;
