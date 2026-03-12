@@ -42,7 +42,7 @@ export const CubeContent = styled.div`
   align-items: center;
   justify-content: center;
   opacity: 0;
-  transition: opacity 0.3s ease;
+  transition: opacity 0.1s ease;
   flex-direction: row;
   padding: 0px;
   margin-right: -12px;
