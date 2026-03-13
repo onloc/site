@@ -55,7 +55,7 @@ export const CommentContainer = styled.div`
   margin-bottom: 24px;
   width: 100%;
 
-    @media (max-width: 768px) {
+  @media (max-width: 768px) {
     width: 100%;
   }
 `;
@@ -138,8 +138,8 @@ export const SectionContainer = styled.section`
   gap: 48px;
 
   @media (max-width: 768px) {
-    padding: 20px;
-}
+    margin: 32px auto;
+  }
 `;
 
 export const ContentWrapper = styled.div`
