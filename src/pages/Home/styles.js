@@ -27,7 +27,7 @@ export const Container = styled.div`
   align-items: center;
   justify-content: center;
   text-align: center;
-  margin: 128px auto 64px auto;
+  margin: ${(props) => props.$margin};
   gap: 16px;
   padding: 0 8px;
 

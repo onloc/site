@@ -21,6 +21,8 @@ import OurNumbers from "../../components/OurNumbers";
 import HomeSlider from "../../components/HomeSlider";
 import WhyLeaseComponent from "../../components/WhyLease";
 import EquipamentsGallery from "../../components/EquipamentsGallery";
+import WhatWeCanDo from "../../components/WhatWeCanDo";
+import FormContainer from "../../components/FormContainer";
 
 export function Home() {
   const banners = [
@@ -99,7 +101,7 @@ export function Home() {
 
         <OurNumbers />
 
-        <Container>
+        <Container $margin="128px auto 64px auto">
           <Title>Nossos Equipamentos</Title>
           <Subtitle>
             Equipamentos ideais para a sua empresa. MiniDesks e Desktops das
@@ -112,15 +114,17 @@ export function Home() {
 
         <WhyLeaseComponent />
 
-        <Container>
+        <Container $margin="80px auto 64px auto">
           <Title>Oferecemos a solução que sua empresa necessita.</Title>
           <Subtitle>
             Seja alugando uma única máquina ou todo seu parque, oferecemos
             soluções que se encaixam na sua necessidade.
           </Subtitle>
         </Container>
-        
+
         <EquipamentsGallery />
+
+        <WhatWeCanDo />
 
         <Footer />
       </PageWrapper>
