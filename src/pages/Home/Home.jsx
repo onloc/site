@@ -24,6 +24,7 @@ import EquipamentsGallery from "../../components/EquipamentsGallery";
 import WhatWeCanDo from "../../components/WhatWeCanDo";
 import FormContainer from "../../components/FormContainer";
 import ComponentRecommendations from "../../components/ComponentRecommendations";
+import EquipamentLease from "../../components/EquipamentLease";
 
 export function Home() {
   const banners = [
@@ -128,6 +129,8 @@ export function Home() {
         <WhatWeCanDo />
 
         <ComponentRecommendations />
+
+        <EquipamentLease />
 
         <Footer />
       </PageWrapper>
