@@ -7,12 +7,25 @@ export const Container = styled.div`
   margin: 64px auto;
   align-items: flex-start;
   gap: 64px;
+
+  @media (max-width: 768px) {
+    flex-direction: column;
+    width: 100%;
+    margin: 32px auto;
+    align-items: center;
+    text-align: center;
+  }
 `;
 
 export const FAQContainer = styled.div`
   display: flex;
   flex-direction: column;
   width: 50%;
+
+  @media (max-width: 768px) {
+    width: 100%;
+    padding: 0 32px;
+  }
 `;
 
 export const ImageContainer = styled.div`
@@ -21,6 +34,10 @@ export const ImageContainer = styled.div`
     height: auto;
     justify-content: center;
     align-items: center;
+
+    @media (max-width: 768px) {
+      display: none;
+    }
 `;
 
 export const Image = styled.img`

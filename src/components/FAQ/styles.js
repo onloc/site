@@ -45,6 +45,11 @@ export const AccordionHeader = styled.div`
     transition: transform 0.3s ease;
     transform: ${({ isOpen }) => (isOpen ? "rotate(180deg)" : "rotate(0deg)")};
   }
+
+  @media (max-width: 768px) {
+    text-align: left;
+    font-size: 16px;
+  }
 `;
 
 export const AccordionContent = styled.div`
@@ -55,10 +60,17 @@ export const AccordionContent = styled.div`
   line-height: 125%;
   letter-spacing: 0%;
 
-  margin: ${({ $variant, isOpen }) => (isOpen ? ($variant === "home" ? "16px 0" : "24px 0") : "0")};
-  max-height: ${({ $variant, isOpen }) => (isOpen ? ($variant === "home" ? "400px" : "200px") : "0")};
+  margin: ${({ $variant, isOpen }) =>
+    isOpen ? ($variant === "home" ? "16px 0" : "24px 0") : "0"};
+  max-height: ${({ $variant, isOpen }) =>
+    isOpen ? ($variant === "home" ? "400px" : "200px") : "0"};
   opacity: ${({ isOpen }) => (isOpen ? "1" : "0")};
   padding-bottom: ${({ isOpen }) => (isOpen ? "16px" : "0")};
   transition: all 0.3s ease-in-out;
   color: #555;
+
+  @media (max-width: 768px) {
+    text-align: left;
+    font-size: 14px;
+}
 `;
