@@ -46,7 +46,7 @@ function BlackHeader() {
               <DropdownItem>Workstation</DropdownItem>
             </DropdownMenu>
           </Dropdown>
-          <NavItem>Quem Somos</NavItem>
+          <NavItem to="/quem-somos">Quem Somos</NavItem>
           <NavItem>Soluções</NavItem>
           <NavItem>Suporte</NavItem>
           <NavItem to="/duvidas">Dúvidas</NavItem>

@@ -4,6 +4,7 @@ import { Equipamentos } from "./pages/Equipamentos";
 import { EquipamentoDetalhes } from "./pages/EquipamentoDetalhes";
 import { Duvidas } from "./pages/Duvidas";
 import { Contato } from "./pages/Contato";
+import { QuemSomos } from "./pages/QuemSomos";
 
 import  ScrollToTop  from "./components/utils/ScrollTop";
 
@@ -17,6 +18,7 @@ function App() {
         <Route path="/equipamentos/:id" element={<EquipamentoDetalhes />} />
         <Route path="/duvidas" element={<Duvidas />} />
         <Route path="/contato" element={<Contato />}/>
+        <Route path="/quem-somos" element={<QuemSomos />}/>
       </Routes>
     </BrowserRouter>
   );

@@ -6,9 +6,11 @@ const ButtonComponent = ({
   variant = "", 
   minWidth = "239px", 
   flex = false,
+  style= {}
 }) => {
   return (
     <Button 
+    style={style}
       onClick={func} 
       variant={variant} 
       $minWidth={minWidth} 
