@@ -15,6 +15,24 @@ export const Container = styled.div`
   justify-content: center;
   gap: 20px;
   min-height: 300px;
+
+  @media (max-width: 768px) {
+    min-height: 500px;
+  }
+`;
+
+export const ContentContainer = styled.div`
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  max-width: 600px;
+  max-height: 150px;
+  gap: 16px;
+
+  @media (max-width: 768px) {
+    max-width: 90%;
+  }
 `;
 
 export const Title = styled.h2`
@@ -26,6 +44,10 @@ export const Title = styled.h2`
   color: #fff;
   margin: 0;
   max-width: 800px;
+
+  @media (max-width: 768px) {
+    font-size: 24px;
+  }
 `;
 
 export const Subtitle = styled.p`
@@ -37,4 +59,8 @@ export const Subtitle = styled.p`
   color: #fff;
   margin: 0;
   max-width: 600px;
+
+  @media (max-width: 768px) {
+    font-size: 14px;
+  }
 `;
