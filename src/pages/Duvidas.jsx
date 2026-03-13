@@ -4,7 +4,6 @@ import FAQ from "../components/FAQ";
 import HeaderBanner from "../components/HeaderBanner";
 
 import bgImage from "../assets/duvidasbanner.png";
-import Form from "../components/Form";
 import FormContainer from "../components/FormContainer";
 
 export function Duvidas() {
