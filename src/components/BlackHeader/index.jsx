@@ -47,7 +47,7 @@ function BlackHeader() {
             </DropdownMenu>
           </Dropdown>
           <NavItem to="/quem-somos">Quem Somos</NavItem>
-          <NavItem>Soluções</NavItem>
+          <NavItem to="/solucoes">Soluções</NavItem>
           <NavItem>Suporte</NavItem>
           <NavItem to="/duvidas">Dúvidas</NavItem>
           <NavItem to="/contato">Contato</NavItem>
