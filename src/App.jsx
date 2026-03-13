@@ -6,8 +6,9 @@ import { Duvidas } from "./pages/Duvidas";
 import { Contato } from "./pages/Contato";
 import { QuemSomos } from "./pages/QuemSomos";
 import { Solucoes } from "./pages/Solucoes";
+import { Suporte } from "./pages/Suporte";
 
-import  ScrollToTop  from "./components/utils/ScrollTop";
+import ScrollToTop from "./components/utils/ScrollTop";
 
 function App() {
   return (
@@ -18,9 +19,10 @@ function App() {
         <Route path="/equipamentos" element={<Equipamentos />} />
         <Route path="/equipamentos/:id" element={<EquipamentoDetalhes />} />
         <Route path="/duvidas" element={<Duvidas />} />
-        <Route path="/contato" element={<Contato />}/>
-        <Route path="/quem-somos" element={<QuemSomos />}/>
-        <Route path="/solucoes" element={<Solucoes />}/>
+        <Route path="/contato" element={<Contato />} />
+        <Route path="/quem-somos" element={<QuemSomos />} />
+        <Route path="/solucoes" element={<Solucoes />} />
+        <Route path="/suporte" element={<Suporte />} />
       </Routes>
     </BrowserRouter>
   );
