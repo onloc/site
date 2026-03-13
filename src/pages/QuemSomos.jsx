@@ -15,6 +15,7 @@ import OurNumbers from "../components/OurNumbers";
 import WhyLease from "../components/WhyLease";
 import ClientComments from "../components/ClientComments";
 import EquipamentoBannerFooter from "../components/EquipamentoBannerFooter";
+import TimeLine from "../components/TimeLine";
 
 export function QuemSomos() {
   const navigate = useNavigate();
@@ -173,6 +174,7 @@ export function QuemSomos() {
         </div>
       </div>
       <WhyLease />
+      <TimeLine />
       <EquipamentoBannerFooter />
       <ClientComments />
       <Footer />

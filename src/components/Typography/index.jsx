@@ -7,6 +7,7 @@ const Typography = ({
   fontWeight = "400",
   fontSize = "auto",
   fontStyle = "regular",
+  style = {},
 }) => {
   return (
     <Text
@@ -15,6 +16,7 @@ const Typography = ({
       $fontWeight={fontWeight}
       $fontSize={fontSize}
       $fontStyle={fontStyle}
+      style={{ ...style }}
     >
       {children}
     </Text>
