@@ -141,6 +141,7 @@ export function Home() {
         <EquipamentoBannerFooter />
 
         <ClientComments />
+        
         <Footer />
       </PageWrapper>
     </>

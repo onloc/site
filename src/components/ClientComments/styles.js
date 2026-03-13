@@ -1,10 +1,14 @@
 import styled from "styled-components";
 
 export const Image = styled.img`
-  width: 622px;
-  height: 432px;
+  max-width: 600px;
+  max-height: 400px;
   opacity: 1;
   border-width: 1px;
+
+  @media (max-width: 768px) {
+    display: none;
+  }
 `;
 
 export const Title = styled.h1`
@@ -14,6 +18,10 @@ export const Title = styled.h1`
   line-height: 125%;
   color: #1e1e20;
   margin-bottom: 16px;
+
+  @media (max-width: 768px) {
+    font-size: 28px;
+  }
 `;
 
 export const Text = styled.p`
@@ -23,6 +31,10 @@ export const Text = styled.p`
   line-height: 125%;
   color: #0e1017;
   margin-bottom: 24px;
+
+  @media (max-width: 768px) {
+    font-size: 14px;
+  }
 `;
 
 export const Subtitle = styled.p`
@@ -41,6 +53,11 @@ export const CommentContainer = styled.div`
   background: #fff;
   box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.05);
   margin-bottom: 24px;
+  width: 100%;
+
+    @media (max-width: 768px) {
+    width: 100%;
+  }
 `;
 
 export const Comment = styled.p`
@@ -70,11 +87,15 @@ export const CommentAuthorRole = styled.p`
 `;
 
 export const CommentFooterContainer = styled.div`
-  width: 592px;
+  max-width: 592px;
   height: 48px;
   display: flex;
   justify-content: space-between;
   align-items: center;
+
+  @media (max-width: 768px) {
+    width: 100%;
+  }
 `;
 
 export const AuthorDetails = styled.div`
@@ -111,15 +132,23 @@ export const NavButtons = styled.div`
 export const SectionContainer = styled.section`
   display: flex;
   align-items: center;
-  justify-content: space-between;
-  gap: 80px;
-  padding: 40px;
   max-width: 1280px;
-  margin: 0 auto;
+  margin: 64px auto;
+  width: 80%;
+  gap: 48px;
+
+  @media (max-width: 768px) {
+    padding: 20px;
+}
 `;
 
 export const ContentWrapper = styled.div`
   display: flex;
   flex-direction: column;
   flex: 1;
+  max-width: 600px;
+
+  @media (max-width: 768px) {
+    width: 100%;
+  }
 `;
