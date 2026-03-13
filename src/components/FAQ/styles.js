@@ -23,13 +23,13 @@ export const AccordionItem = styled.div`
 export const AccordionHeader = styled.div`
   display: flex;
   align-items: center;
-  padding: 30px 0;
+  padding: ${({ $variant }) => ($variant === "home" ? "16px 0" : "30px 0")};
   cursor: pointer;
-  gap: 12px;
+  gap: ${({ $variant }) => ($variant === "home" ? "0px" : "12px")};
   font-family: "Qubic Grid", sans-serif;
   font-weight: 400;
   font-style: normal;
-  font-size: 24px;
+  font-size: ${({ $variant }) => ($variant === "home" ? "18px" : "24px")};
   line-height: 125%;
   letter-spacing: 0%;
 
@@ -55,8 +55,8 @@ export const AccordionContent = styled.div`
   line-height: 125%;
   letter-spacing: 0%;
 
-  margin: ${({ isOpen }) => (isOpen ? "24px" : "0")};
-  max-height: ${({ isOpen }) => (isOpen ? "200px" : "0")};
+  margin: ${({ $variant, isOpen }) => (isOpen ? ($variant === "home" ? "16px 0" : "24px 0") : "0")};
+  max-height: ${({ $variant, isOpen }) => (isOpen ? ($variant === "home" ? "400px" : "200px") : "0")};
   opacity: ${({ isOpen }) => (isOpen ? "1" : "0")};
   padding-bottom: ${({ isOpen }) => (isOpen ? "16px" : "0")};
   transition: all 0.3s ease-in-out;

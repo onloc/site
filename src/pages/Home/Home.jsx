@@ -25,6 +25,8 @@ import WhatWeCanDo from "../../components/WhatWeCanDo";
 import FormContainer from "../../components/FormContainer";
 import ComponentRecommendations from "../../components/ComponentRecommendations";
 import EquipamentLease from "../../components/EquipamentLease";
+import FAQ from "../../components/FAQ";
+import HomeQuestions from "../../components/HomeQuestions";
 
 export function Home() {
   const banners = [
@@ -132,6 +134,7 @@ export function Home() {
 
         <EquipamentLease />
 
+        <HomeQuestions />
         <Footer />
       </PageWrapper>
     </>

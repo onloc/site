@@ -8,7 +8,7 @@ import {
 
 import Arrow from "../../assets/arrow_insert.png";
 
-const FAQ = ({ data }) => {
+const FAQ = ({ data, variant = "default" }) => {
   const [activeIndex, setActiveIndex] = useState(null);
 
   const toggleAccordion = (index) => {
@@ -16,10 +16,10 @@ const FAQ = ({ data }) => {
   };
 
   return (
-    <FAQContainer>
+    <FAQContainer $variant={variant}>
       {data.map((item, index) => (
-        <AccordionItem key={item.id}>
-          <AccordionHeader
+        <AccordionItem $variant={variant} key={item.id}>
+          <AccordionHeader $variant={variant}
             isOpen={activeIndex === index}
             onClick={() => toggleAccordion(index)}
           >
@@ -28,7 +28,7 @@ const FAQ = ({ data }) => {
             <img className="icon" src={Arrow} alt="Arrow" />
           </AccordionHeader>
 
-          <AccordionContent isOpen={activeIndex === index}>
+          <AccordionContent $variant={variant} isOpen={activeIndex === index}>
             {item.content.split("\n").map((line, i) => (
               <span key={i}>
                 {line}
