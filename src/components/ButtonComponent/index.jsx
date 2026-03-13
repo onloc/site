@@ -11,8 +11,8 @@ const ButtonComponent = ({
     <Button 
       onClick={func} 
       variant={variant} 
-      minWidth={minWidth} 
-      flex={flex}
+      $minWidth={minWidth} 
+      $flex={flex}
     >
       {text}
     </Button>
