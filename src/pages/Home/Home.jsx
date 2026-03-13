@@ -27,6 +27,8 @@ import ComponentRecommendations from "../../components/ComponentRecommendations"
 import EquipamentLease from "../../components/EquipamentLease";
 import FAQ from "../../components/FAQ";
 import HomeQuestions from "../../components/HomeQuestions";
+import EquipamentoBannerFooter from "../../components/EquipamentoBannerFooter";
+import ClientComments from "../../components/ClientComments";
 
 export function Home() {
   const banners = [
@@ -135,6 +137,10 @@ export function Home() {
         <EquipamentLease />
 
         <HomeQuestions />
+
+        <EquipamentoBannerFooter />
+
+        <ClientComments />
         <Footer />
       </PageWrapper>
     </>
