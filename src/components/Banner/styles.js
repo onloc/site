@@ -34,7 +34,6 @@ export const BannerContent = styled.div`
   flex-direction: column;
   gap: 1rem;
   margin-right: -5%;
-  order: 3;
 
   @media (max-width: 768px) {
     max-width: 100%;
@@ -42,18 +41,19 @@ export const BannerContent = styled.div`
     text-align: left;
     margin-bottom: 16px;
     margin-right: 0;
+    order: 3;
   }
 `;
 
 export const BannerSideImage = styled.img`
   width: 45%;
   height: auto;
-  order: 1;
 
   @media (max-width: 768px) {
     width: 60%;
     margin-left: 0;
     margin-top: 20px;
+    order: 1;
   }
 `;
 
@@ -131,10 +131,10 @@ export const BannerIconsContainer = styled.div`
   display: flex;
   flex-direction: column;
   gap: 10px;
-  order: 2;
 
   @media (max-width: 768px) {
     position: static;
+    order: 2;
 
     flex-direction: row;
 
