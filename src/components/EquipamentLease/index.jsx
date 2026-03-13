@@ -50,7 +50,7 @@ function EquipamentLease() {
               referentes as vantagens tecnológicas, fiscais, financeiras e
               administrativas.
             </Text>
-            <Block src={leftImage} />
+            <Block src={leftImage} $display={true} />
           </ContentContainer>
           <ContentContainer>
             <ImageWrapper>
@@ -84,6 +84,7 @@ function EquipamentLease() {
               </Column>
             </ListContainer>
             <Button>Quero Alugar</Button>
+            <Block src={leftImage} $display={false} />
           </ContentContainer>
         </Container>
       </Wrap>

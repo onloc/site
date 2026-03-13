@@ -14,6 +14,12 @@ export const Container = styled.div`
   display: flex;
   flex-direction: row;
   margin: 64px auto;
+
+  @media (max-width: 768px) {
+    flex-direction: column;
+    width: 100%;
+    margin: 32px auto;
+  }
 `;
 
 export const ContentContainer = styled.div`
@@ -24,6 +30,12 @@ export const ContentContainer = styled.div`
   align-items: flex-start;
   gap: 16px;
   padding: 0px 32px;
+
+  @media (max-width: 768px) {
+    width: 100%;
+    padding: 0px 16px;
+    margin-bottom: 32px;
+  }
 `;
 
 export const Title = styled.h2`
@@ -53,9 +65,13 @@ export const Text = styled.p`
 export const Block = styled.img`
   width: 100%;
   height: auto;
-  margin-top: 16px;
   object-fit: contain;
   object-position: center;
+  display: ${(props) => (props.$display ? "block" : "none")};
+
+  @media (max-width: 768px) {
+    display: ${(props) => (props.$display ? "none" : "block")};
+  }
 `;
 
 export const ImageWrapper = styled.div`
