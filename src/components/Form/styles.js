@@ -9,12 +9,22 @@ export const Container = styled.div`
   flex-direction: column;
   gap: 25px;
   box-sizing: border-box;
+
+  @media (max-width: 768px) {
+    width: 100%;
+    padding: 16px;
+    margin: 16px auto;
+  }
 `;
 
 export const Row = styled.div`
   display: flex;
   gap: 20px;
   width: 100%;
+
+  @media (max-width: 768px) {
+    flex-direction: column;
+  }
 `;
 
 export const InputGroup = styled.div`
@@ -35,7 +45,6 @@ export const Label = styled.label`
   font-family: sans-serif;
 `;
 
-// A correção principal: usar o helper 'css'
 const baseInputStyles = css`
   width: 100%;
   padding: 15px;

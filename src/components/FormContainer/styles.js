@@ -13,7 +13,14 @@ export const Container = styled.div`
 
   display: flex;
   justify-content: space-between;
-  /* align-items: flex-end; */
+  @media (max-width: 768px) {
+    flex-direction: column;
+    align-items: center;
+      margin: 16px auto;
+      width: 90%;
+      padding: 16px ;
+      height: auto;
+  }
 `;
 
 export const LeftContent = styled.div`
@@ -26,6 +33,12 @@ export const TextBox = styled.div`
   width: 594px;
   gap: 16px;
   margin-bottom: 50px;
+
+  @media (max-width: 768px) {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 32px;
+  }
 `;
 
 export const Title = styled.h1`
@@ -35,6 +48,10 @@ export const Title = styled.h1`
   font-size: 40px;
   line-height: 125%;
   color: #eff2f3;
+
+  @media (max-width: 768px) {
+    font-size: 28px;
+  }
 `;
 
 export const BodyText = styled.p`
@@ -51,6 +68,11 @@ export const ContactBox = styled.div`
   height: 214px;
   gap: 32px;
   color: #ffffff;
+
+  @media (max-width: 768px) {
+    width: 100%;
+    margin-bottom: 32px;
+  }
 `;
 
 export const ContactTitle = styled.h1`
