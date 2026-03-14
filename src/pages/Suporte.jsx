@@ -3,17 +3,19 @@ import BlackHeader from "../components/BlackHeader";
 import HeaderBanner from "../components/HeaderBanner";
 import FormContainer from "../components/FormContainer";
 import Typography from "../components/Typography";
+import ContentSlider from "../components/ContentSlider";
 
 import bgImage from "../assets/banner-solucoes.jpg";
 import softwareSuporte from "../assets/software-suporte.png";
-import garantiaSuporte from "../assets/garantia-de-suporte.png";
-import relatoTraumec from "../assets/relato-traumec.png";
-import experiencia13Anos from "../assets/13-anos-experiencia.png";
+import garantiaSuporte from "../assets/background-suporte.png";
+import relatoTraumec from "../assets/background-depoimento.png";
+import experiencia13Anos from "../assets/background-experience.png";
 
 import image1 from "../assets/content-image-1.png";
 import image2 from "../assets/content-image-2.png";
 import image3 from "../assets/content-image-3.png";
 import image4 from "../assets/content-image-4.png";
+import CardTextImage from "../components/CardTextImage";
 
 export function Suporte() {
   const cards = [
@@ -125,9 +127,28 @@ export function Suporte() {
           justifyContent: "center",
         }}
       >
-        <img src={experiencia13Anos} alt="13 Anos de Experiência" />
-        <img src={relatoTraumec} alt="Relato Traumec" />
-        <img src={garantiaSuporte} alt="Garantia de Suporte" />
+        <CardTextImage
+          image={experiencia13Anos}
+          text={
+            <>
+              13 <br /> Anos de <br /> Experiência
+            </>
+          }
+        />
+        <CardTextImage
+          variant="other"
+          image={relatoTraumec}
+          text={`“A Onloc é um grande parceiro da Traumec, com um ótimo atendimento, agilidade, qualidade e sobretudo proximidade com o cliente. Certamente é um parceiro que se preocupa com as nossas necessidades e que estará nos acompanhando em nossa jornada de TI”`}
+        />
+        <CardTextImage
+          image={garantiaSuporte}
+          text={
+            <>
+              Garantia de <br /> Suporte
+              <br /> em até 8h úteis.
+            </>
+          }
+        />
       </div>
 
       <div
@@ -139,6 +160,44 @@ export function Suporte() {
         }}
       >
         <img src={softwareSuporte} alt="Software de Suporte" />
+      </div>
+
+      <div
+        style={{
+          margin: "120px auto 40px auto",
+          width: "622px",
+          display: "flex",
+          flexDirection: "column",
+          gap: "16px",
+          alignItems: "center",
+          textAlign: "center",
+        }}
+      >
+        <Typography
+          colorText="#1E1E20"
+          variant="Quicksand"
+          fontSize="40px"
+          fontWeight="500"
+        >
+          Nossos conteúdos
+        </Typography>
+        <Typography
+          variant="Montserrat"
+          colorText="#0E1017"
+          fontSize="16px"
+          fontWeight="400"
+        >
+          Em nosso blog você encontra notícias, dicas e artigos sobre assuntos
+          ligados a tecnologia de modo geral.
+        </Typography>
+      </div>
+
+      <div
+        style={{
+          margin: "120px auto 40px auto",
+        }}
+      >
+        <ContentSlider data={cards} />
       </div>
 
       <FormContainer />
