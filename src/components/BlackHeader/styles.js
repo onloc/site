@@ -81,7 +81,7 @@ export const NavItem = styled(Link)`
   @media (max-width: 480px) {
     display: ${({ open }) => (open ? "block" : "none")};
 
-    font-size: 12px;
+    font-size: 16px;
   }
 `;
 

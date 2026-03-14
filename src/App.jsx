@@ -5,7 +5,7 @@ import { EquipamentoDetalhes } from "./pages/EquipamentoDetalhes";
 import { Duvidas } from "./pages/Duvidas";
 import { Contato } from "./pages/Contato";
 import { QuemSomos } from "./pages/QuemSomos/QuemSomos";
-import { Solucoes } from "./pages/Solucoes";
+import { Solucoes } from "./pages/Solucoes/Solucoes";
 import { Suporte } from "./pages/Suporte";
 
 import ScrollToTop from "./components/utils/ScrollTop";
