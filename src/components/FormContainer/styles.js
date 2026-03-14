@@ -2,12 +2,9 @@ import styled from "styled-components";
 
 export const Container = styled.div`
   box-sizing: border-box;
-
-  max-width: 100%;
-  height: 742px;
+  width: 100%;
+  height: 700px;
   background-color: #014c80;
-  border-radius: 16px;
-  margin: 0 32px 0 32px;
   padding: 100px 200px 0 200px;
   padding-bottom: 0;
 
