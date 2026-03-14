@@ -47,6 +47,7 @@ export const Logos = styled.div`
   justify-content: center;
   gap: 32px;
   width: 65%;
+  overflow: hidden;
 
   -webkit-mask-image: linear-gradient(
     to right,
@@ -66,6 +67,7 @@ export const Logos = styled.div`
 
   @media (max-width: 768px) {
     width: 100%;
+    justify-content: flex-start;
   }
 `;
 
@@ -78,7 +80,7 @@ export const Logo = styled.img`
 
   @media (max-width: 768px) {
     width: 80px;
-    }
+  }
 `;
 
 export const MainLogo = styled.img`
@@ -86,7 +88,7 @@ export const MainLogo = styled.img`
   height: auto;
   object-fit: contain;
 
-    @media (max-width: 768px) {
+  @media (max-width: 768px) {
     width: 100px;
-    }
+  }
 `;
