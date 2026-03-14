@@ -7,6 +7,13 @@ export const Container = styled.div`
   justify-content: center;
   align-items: center;
   gap: 32px;
+
+  @media (max-width: 768px) {
+    flex-direction: column;
+    margin: 120px auto 64px auto;
+    width: 100%;
+    padding: 0 20px;
+  }
 `;
 
 export const Box = styled.div`
@@ -50,6 +57,14 @@ export const Box = styled.div`
   display: flex;
   flex-direction: column;
   gap: 16px;
+
+  @media (max-width: 768px) {
+    width: 100%;
+
+    &::before {
+      display: none;
+    }
+  }
 `;
 
 export const TimeLineBox = styled.div`
@@ -74,5 +89,18 @@ export const TimelineItem = styled.div`
     background-color: #014c80;
     border-radius: 50%;
     z-index: 5;
+  }
+`;
+
+export const Title = styled.h2`
+  text-align: center;
+  color: black;
+  font-size: 32px;
+  font-weight: normal;
+  font-family: "Qubic", sans-serif;
+
+  @media (max-width: 768px) {
+    font-size: 28px;
+    text-align: left;
   }
 `;

@@ -9,4 +9,9 @@ export const Text = styled.p`
 
   line-height: 125%;
   letter-spacing: 0%;
+
+  @media (max-width: 768px) {
+    font-size: ${(props) =>
+      props.$fontSize ? `calc(${props.$fontSize} * 0.9)` : "inherit"};
+  }
 `;

@@ -1,19 +1,11 @@
 import Typography from "../Typography";
-import { Box, Container, TimeLineBox, TimelineItem } from "./styles";
+import { Box, Container, TimeLineBox, TimelineItem, Title } from "./styles";
 
 const TimeLine = () => {
   return (
     <Container>
       <Box>
-        <Typography
-          variant="Quicksand"
-          fontSize="40px"
-          fontStyle="Medium"
-          fontWeight="500"
-          style={{ marginBottom: "24px" }}
-        >
-          Conheça a história da empresa
-        </Typography>
+        <Title>Conheça a história da empresa</Title>
         <Typography variant="Montserrat" fontSize="16px" fontWeight="400">
           A ideia de fundar uma empresa de locação de computadores, surgiu a
           partir do momento em que o mercado apresentou uma necessidade de
