@@ -3,7 +3,6 @@ import BlackHeader from "../components/BlackHeader";
 import HeaderBanner from "../components/HeaderBanner";
 import FormContainer from "../components/FormContainer";
 import Typography from "../components/Typography";
-import ContentSlider from "../components/ContentSlider";
 
 import bgImage from "../assets/banner-solucoes.jpg";
 import softwareSuporte from "../assets/software-suporte.png";
@@ -140,44 +139,6 @@ export function Suporte() {
         }}
       >
         <img src={softwareSuporte} alt="Software de Suporte" />
-      </div>
-
-      <div
-        style={{
-          margin: "120px auto 40px auto",
-          width: "622px",
-          display: "flex",
-          flexDirection: "column",
-          gap: "16px",
-          alignItems: "center",
-          textAlign: "center",
-        }}
-      >
-        <Typography
-          colorText="#1E1E20"
-          variant="Quicksand"
-          fontSize="40px"
-          fontWeight="500"
-        >
-          Nossos conteúdos
-        </Typography>
-        <Typography
-          variant="Montserrat"
-          colorText="#0E1017"
-          fontSize="16px"
-          fontWeight="400"
-        >
-          Em nosso blog você encontra notícias, dicas e artigos sobre assuntos
-          ligados a tecnologia de modo geral.
-        </Typography>
-      </div>
-
-      <div
-        style={{
-          margin: "120px auto 40px auto",
-        }}
-      >
-        <ContentSlider data={cards} />
       </div>
 
       <FormContainer />

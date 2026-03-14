@@ -21,7 +21,6 @@ import {
   Title,
   Subtitle,
   PageWrapper,
-  SliderTitleContainer,
 } from "./styles";
 import OurNumbers from "../../components/OurNumbers";
 import HomeSlider from "../../components/HomeSlider";
@@ -36,8 +35,6 @@ import HomeQuestions from "../../components/HomeQuestions";
 import EquipamentoBannerFooter from "../../components/EquipamentoBannerFooter";
 import ClientComments from "../../components/ClientComments";
 import ClientsBar from "../../components/ClientsBar";
-import Typography from "../../components/Typography";
-import ContentSlider from "../../components/ContentSlider";
 
 export function Home() {
   const cards = [
@@ -216,28 +213,6 @@ export function Home() {
         <ClientComments />
 
         <ClientsBar />
-
-        <SliderTitleContainer>
-          <Typography
-            colorText="#1E1E20"
-            variant="Quicksand"
-            fontSize="40px"
-            fontWeight="500"
-          >
-            Nossos conteúdos
-          </Typography>
-          <Typography
-            variant="Montserrat"
-            colorText="#0E1017"
-            fontSize="16px"
-            fontWeight="400"
-          >
-            Em nosso blog você encontra notícias, dicas e artigos sobre assuntos
-            ligados a tecnologia de modo geral.
-          </Typography>
-        </SliderTitleContainer>
-
-        <ContentSlider data={cards} />
 
         <FormContainer />
 
