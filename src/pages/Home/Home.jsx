@@ -6,6 +6,11 @@ import bannerequipment from "../../assets/banner-equipment.png";
 import bannerequipment2 from "../../assets/banner-equipment-2.png";
 import bannerequipment3 from "../../assets/banner-equipment-3.png";
 
+import imageCard1 from "../../assets/content-image-1.png";
+import imageCard2 from "../../assets/content-image-2.png";
+import imageCard3 from "../../assets/content-image-3.png";
+import imageCard4 from "../../assets/content-image-4.png";
+
 import bluebanner from "../../assets/blue-banner.png";
 import Banner from "../../components/Banner";
 import {
@@ -16,6 +21,7 @@ import {
   Title,
   Subtitle,
   PageWrapper,
+  SliderTitleContainer,
 } from "./styles";
 import OurNumbers from "../../components/OurNumbers";
 import HomeSlider from "../../components/HomeSlider";
@@ -30,8 +36,74 @@ import HomeQuestions from "../../components/HomeQuestions";
 import EquipamentoBannerFooter from "../../components/EquipamentoBannerFooter";
 import ClientComments from "../../components/ClientComments";
 import ClientsBar from "../../components/ClientsBar";
+import Typography from "../../components/Typography";
+import ContentSlider from "../../components/ContentSlider";
 
 export function Home() {
+  const cards = [
+    {
+      title: "Tecnologia para Empresas",
+      description:
+        "Alugar ou comprar? Descubra o que vale mais a pena para sua empresa em 2025",
+      date: "Out 30, 2024",
+      author: "Equipe Onloc",
+      comments: ["a", "b", "c", "d"],
+      image: imageCard1,
+      category: "Tecnologia",
+    },
+    {
+      title: "Gestão de Equipamentos",
+      description:
+        "Como a locação reduz custos com TI e melhora a produtividade",
+      date: "Out 30, 2024",
+      author: "Equipe Onloc",
+      comments: ["a", "b", "c"],
+      image: imageCard2,
+      category: "Tecnologia",
+    },
+    {
+      title: "Assistência Técnica",
+      description:
+        "5 sinais de que seus equipamentos precisam de manutenção preventiva",
+      date: "Out 30, 2024",
+      author: "Equipe Onloc",
+      comments: ["a", "b"],
+      image: imageCard3,
+      category: "Tecnologia",
+    },
+    {
+      title: "Eficiência Operacional",
+      description:
+        "Por que empresas de logística e call center estão adotando locação em larga escala",
+      date: "Out 30, 2024",
+      author: "Equipe Onloc",
+      comments: ["a", "b", "c", "d", "e"],
+      image: imageCard4,
+      category: "Tecnologia",
+    },
+
+    {
+      title: "Eficiência Operacional",
+      description:
+        "Por que empresas de logística e call center estão adotando locação em larga escala",
+      date: "Out 30, 2024",
+      author: "Equipe Onloc",
+      comments: ["a", "b", "c", "d", "e"],
+      image: imageCard4,
+      category: "Tecnologia",
+    },
+    {
+      title: "Eficiência Operacional",
+      description:
+        "Por que empresas de logística e call center estão adotando locação em larga escala",
+      date: "Out 30, 2024",
+      author: "Equipe Onloc",
+      comments: ["a", "b", "c", "d", "e"],
+      image: imageCard4,
+      category: "Tecnologia",
+    },
+  ];
+
   const banners = [
     {
       banner: 1,
@@ -144,6 +216,30 @@ export function Home() {
         <ClientComments />
 
         <ClientsBar />
+
+        <SliderTitleContainer>
+          <Typography
+            colorText="#1E1E20"
+            variant="Quicksand"
+            fontSize="40px"
+            fontWeight="500"
+          >
+            Nossos conteúdos
+          </Typography>
+          <Typography
+            variant="Montserrat"
+            colorText="#0E1017"
+            fontSize="16px"
+            fontWeight="400"
+          >
+            Em nosso blog você encontra notícias, dicas e artigos sobre assuntos
+            ligados a tecnologia de modo geral.
+          </Typography>
+        </SliderTitleContainer>
+
+        <ContentSlider data={cards} />
+
+        <FormContainer />
 
         <Footer />
       </PageWrapper>

@@ -51,3 +51,13 @@ export const Subtitle = styled.p`
   font-weight: normal;
   font-family: "Montserrat", sans-serif;
 `;
+
+export const SliderTitleContainer = styled.div`
+margin: 120px auto 40px auto;
+          width: 622px;
+          display: flex;
+          flex-direction: column;
+          gap: 16px;
+          align-items: center;
+          text-align: center;
+`
