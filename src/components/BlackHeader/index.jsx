@@ -20,21 +20,35 @@ import {
   Dropdown,
   DropdownMenu,
   DropdownItem,
+  Hamburger,
+  MobileContainer,
 } from "./styles";
 import { Link } from "react-router-dom";
 
 function BlackHeader() {
   const [searchOpen, setSearchOpen] = useState(false);
 
+  const [menuOpen, setMenuOpen] = useState(false);
+
   return (
     <Wrapper>
       <Container>
-        <Logo src={logo} alt="logo" />
+        <MobileContainer>
+          <Logo src={logo} alt="logo" />
 
-        <Nav>
-          <NavItem to="/">Home</NavItem>
+          <Hamburger onClick={() => setMenuOpen(!menuOpen)}>
+            <span />
+            <span />
+            <span />
+          </Hamburger>
+        </MobileContainer>
+
+        <Nav open={menuOpen}>
+          <NavItem open={menuOpen} to="/">
+            Home
+          </NavItem>
           <Dropdown>
-            <NavItem to="/equipamentos">
+            <NavItem open={menuOpen} to="/equipamentos">
               Equipamentos
               <img src={ArrowDown} alt="arrow down" />
             </NavItem>
@@ -46,11 +60,21 @@ function BlackHeader() {
               <DropdownItem>Workstation</DropdownItem>
             </DropdownMenu>
           </Dropdown>
-          <NavItem to="/quem-somos">Quem Somos</NavItem>
-          <NavItem to="/solucoes">Soluções</NavItem>
-          <NavItem to="/suporte">Suporte</NavItem>
-          <NavItem to="/duvidas">Dúvidas</NavItem>
-          <NavItem to="/contato">Contato</NavItem>
+          <NavItem open={menuOpen} to="/quem-somos">
+            Quem Somos
+          </NavItem>
+          <NavItem open={menuOpen} to="/solucoes">
+            Soluções
+          </NavItem>
+          <NavItem open={menuOpen} to="/suporte">
+            Suporte
+          </NavItem>
+          <NavItem open={menuOpen} to="/duvidas">
+            Dúvidas
+          </NavItem>
+          <NavItem open={menuOpen} to="/contato">
+            Contato
+          </NavItem>
         </Nav>
 
         <Actions>

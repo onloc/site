@@ -6,17 +6,32 @@ export const ListContainer = styled.div`
   justify-content: center;
   gap: 40px;
   margin-top: 30px;
+
+  @media (max-width: 768px) {
+    justify-content: flex-start;
+    overflow-x: auto;
+    width: 100%;
+    padding: 0 24px;
+
+    &::-webkit-scrollbar {
+      display: none; /* Chrome */
+    }
+  }
 `;
 
 export const Container = styled.div`
-  width: 660px;
+  max-width: 660px;
   height: hug-content;
   display: flex;
   flex-direction: column;
   align-items: center;
   margin: auto;
   margin-top: 175px;
-  margin-bottom:175px ;
+  margin-bottom: 175px;
+
+  @media (max-width: 768px) {
+    margin: 64px 0 ;
+  }
 `;
 
 export const Typography = styled.div`
@@ -28,6 +43,10 @@ export const Typography = styled.div`
   letter-spacing: 0%;
   text-align: center;
   color: #014c80;
+
+  @media (max-width: 768px) {
+    font-size: 24px;
+  }
 `;
 
 export const ItemWrapper = styled.div`
@@ -36,8 +55,9 @@ export const ItemWrapper = styled.div`
   align-items: center;
   gap: 10px;
   cursor: pointer;
-`;
 
+  flex-shrink: 0;
+`;
 export const FilterItem = styled.div`
   width: 100px;
   height: 100px;
@@ -48,7 +68,8 @@ export const FilterItem = styled.div`
   align-items: center;
   transition: 0.3s;
 
-  border: 1px solid ${(props) => (props.$isSelected ? "#014c80" : "transparent")};
+  border: 1px solid
+    ${(props) => (props.$isSelected ? "#014c80" : "transparent")};
 
   &:hover {
     border: 1px solid #014c80;

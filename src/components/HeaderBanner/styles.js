@@ -26,4 +26,8 @@ export const Title = styled.h2`
   letter-spacing: 0%;
   text-align: center;
   color: #fff;
+
+  @media (max-width: 768px) {
+    font-size: 32px;
+  }
 `;
