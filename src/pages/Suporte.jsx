@@ -3,15 +3,83 @@ import BlackHeader from "../components/BlackHeader";
 import HeaderBanner from "../components/HeaderBanner";
 import FormContainer from "../components/FormContainer";
 import Typography from "../components/Typography";
+import ContentSlider from "../components/ContentSlider";
 
 import bgImage from "../assets/banner-solucoes.jpg";
 import softwareSuporte from "../assets/software-suporte.png";
 import garantiaSuporte from "../assets/garantia-de-suporte.png";
 import relatoTraumec from "../assets/relato-traumec.png";
 import experiencia13Anos from "../assets/13-anos-experiencia.png";
-import ContentSlider from "../components/ContentSlider";
+
+import image1 from "../assets/content-image-1.png";
+import image2 from "../assets/content-image-2.png";
+import image3 from "../assets/content-image-3.png";
+import image4 from "../assets/content-image-4.png";
 
 export function Suporte() {
+  const cards = [
+    {
+      title: "Tecnologia para Empresas",
+      description:
+        "Alugar ou comprar? Descubra o que vale mais a pena para sua empresa em 2025",
+      date: "Out 30, 2024",
+      author: "Equipe Onloc",
+      comments: ["a", "b", "c", "d"],
+      image: image1,
+      category: "Tecnologia",
+    },
+    {
+      title: "Gestão de Equipamentos",
+      description:
+        "Como a locação reduz custos com TI e melhora a produtividade",
+      date: "Out 30, 2024",
+      author: "Equipe Onloc",
+      comments: ["a", "b", "c"],
+      image: image2,
+      category: "Tecnologia",
+    },
+    {
+      title: "Assistência Técnica",
+      description:
+        "5 sinais de que seus equipamentos precisam de manutenção preventiva",
+      date: "Out 30, 2024",
+      author: "Equipe Onloc",
+      comments: ["a", "b"],
+      image: image3,
+      category: "Tecnologia",
+    },
+    {
+      title: "Eficiência Operacional",
+      description:
+        "Por que empresas de logística e call center estão adotando locação em larga escala",
+      date: "Out 30, 2024",
+      author: "Equipe Onloc",
+      comments: ["a", "b", "c", "d", "e"],
+      image: image4,
+      category: "Tecnologia",
+    },
+
+    {
+      title: "Eficiência Operacional",
+      description:
+        "Por que empresas de logística e call center estão adotando locação em larga escala",
+      date: "Out 30, 2024",
+      author: "Equipe Onloc",
+      comments: ["a", "b", "c", "d", "e"],
+      image: image4,
+      category: "Tecnologia",
+    },
+    {
+      title: "Eficiência Operacional",
+      description:
+        "Por que empresas de logística e call center estão adotando locação em larga escala",
+      date: "Out 30, 2024",
+      author: "Equipe Onloc",
+      comments: ["a", "b", "c", "d", "e"],
+      image: image4,
+      category: "Tecnologia",
+    },
+  ];
   return (
     <>
       <BlackHeader />
@@ -109,7 +177,7 @@ export function Suporte() {
           margin: "120px auto 40px auto",
         }}
       >
-        <ContentSlider />
+        <ContentSlider data={cards} />
       </div>
 
       <FormContainer />
