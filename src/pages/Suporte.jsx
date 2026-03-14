@@ -9,6 +9,7 @@ import softwareSuporte from "../assets/software-suporte.png";
 import garantiaSuporte from "../assets/garantia-de-suporte.png";
 import relatoTraumec from "../assets/relato-traumec.png";
 import experiencia13Anos from "../assets/13-anos-experiencia.png";
+import ContentSlider from "../components/ContentSlider";
 
 export function Suporte() {
   return (
@@ -71,6 +72,44 @@ export function Suporte() {
         }}
       >
         <img src={softwareSuporte} alt="Software de Suporte" />
+      </div>
+
+      <div
+        style={{
+          margin: "120px auto 40px auto",
+          width: "622px",
+          display: "flex",
+          flexDirection: "column",
+          gap: "16px",
+          alignItems: "center",
+          textAlign: "center",
+        }}
+      >
+        <Typography
+          colorText="#1E1E20"
+          variant="Quicksand"
+          fontSize="40px"
+          fontWeight="500"
+        >
+          Nossos conteúdos
+        </Typography>
+        <Typography
+          variant="Montserrat"
+          colorText="#0E1017"
+          fontSize="16px"
+          fontWeight="400"
+        >
+          Em nosso blog você encontra notícias, dicas e artigos sobre assuntos
+          ligados a tecnologia de modo geral.
+        </Typography>
+      </div>
+
+      <div
+        style={{
+          margin: "120px auto 40px auto",
+        }}
+      >
+        {/* <ContentSlider /> */}
       </div>
 
       <FormContainer />
