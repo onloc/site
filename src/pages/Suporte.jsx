@@ -109,7 +109,7 @@ export function Suporte() {
           margin: "120px auto 40px auto",
         }}
       >
-        {/* <ContentSlider /> */}
+        <ContentSlider />
       </div>
 
       <FormContainer />
