@@ -13,7 +13,7 @@ export const Title = styled.div`
 `;
 
 export const InfoBox = styled.div`
-  width: 165px;
+  min-width: 165px;
   height: 121px;
   opacity: 1;
   gap: 16px;
@@ -24,6 +24,7 @@ export const InfoBox = styled.div`
   flex-direction: column;
   align-items: center;
   justify-content: center;
+
 `;
 
 export const InfoText = styled.p`
@@ -53,6 +54,10 @@ export const InfoBoxBig = styled.div`
   padding: 16px;
   background-color: #eff2f3;
   text-align: justify;
+
+  @media (max-width: 768px) {
+    width: 100%;
+  }
 `;
 
 export const InfoBoxTitle = styled.p`
@@ -74,7 +79,7 @@ export const InfoBoxText = styled.p`
   line-height: 125%;
   letter-spacing: 0%;
   color: #000;
-  text-align: justify;
+  text-align: left;
 `;
 
 export const InfoBigBoxIcon = styled.img`
@@ -82,4 +87,29 @@ export const InfoBigBoxIcon = styled.img`
   max-height: 32px;
   margin-bottom: 16px;
   margin-top: 16px;
+  
+`;
+
+export const InfoSection = styled.div`
+  display: flex;
+  gap: 16px;
+  margin-top: 32px;
+  margin-bottom: 32px;
+
+  @media (max-width: 768px) {
+    flex-direction: column;
+    gap: 16px;
+  }
+`;
+
+export const NextStepsSection = styled.div`
+  display: flex;
+  gap: 16px;
+  margin-top: 32px;
+  margin-bottom: 32px;
+
+  @media (max-width: 768px) {
+    flex-direction: column;
+    gap: 16px;
+  }
 `;

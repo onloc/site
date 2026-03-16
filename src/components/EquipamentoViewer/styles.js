@@ -4,16 +4,28 @@ export const Container = styled.div`
   display: flex;
   gap: 40px;
   padding: 100px;
-  max-width: 1200px;
+  max-width: 1280px;
   margin: 0 auto;
+  width: 100%;
+  justify-content: space-between;
+
+  @media (max-width: 768px) {
+    flex-direction: column;
+    padding: 50px 20px;
+  }
 `;
 
 export const LeftColumn = styled.div`
   display: flex;
   flex-direction: column;
   gap: 16px;
-  width: 100%;
+  width: 50%;
   max-width: 592px;
+
+  @media (max-width: 768px) {
+    width: 100%;
+    max-width: none;
+  }
 `;
 
 export const ImageContainer = styled.div`
@@ -25,12 +37,23 @@ export const ImageContainer = styled.div`
   overflow: hidden;
   border-radius: 16px;
   border: 1px solid #bac8e5;
+
+  @media (max-width: 768px) {
+    max-width: 100%;
+    height: auto;
+    min-height: 350px;
+  }
 `;
 
 export const Image = styled.img`
   width: 100%;
   height: 100%;
   object-fit: cover;
+
+  @media (max-width: 768px) {
+    height: auto;
+    margin: auto;
+  }
 `;
 
 export const ZoomLens = styled.div`
@@ -46,13 +69,25 @@ export const ZoomLens = styled.div`
 
 export const ImageCarrousel = styled.div`
   display: flex;
-  gap: 16px;
+  gap: 8px;
   width: 100%;
+  justify-content: space-between;
+
+  &::-webkit-scrollbar {
+    display: none;
+  }
+
+  @media (max-width: 768px) {
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    padding-bottom: 10px;
+  }
 `;
 
 export const Thumb = styled.img`
   width: 100px;
   height: 100px;
+  min-width: 120px;
   border-radius: 8px;
   object-fit: cover;
   cursor: pointer;
@@ -62,7 +97,12 @@ export const Thumb = styled.img`
 
 export const RightColumn = styled.div`
   flex-direction: column;
-  width: 100%;
+  width: 50%;
+
+    @media (max-width: 768px) {
+    width: 100%;
+    max-width: none;
+  }
 `;
 
 export const Title = styled.div`
@@ -113,7 +153,7 @@ export const BenefitItem = styled.li`
   display: flex;
   align-items: center;
   margin-bottom: 12px;
-  
+
   font-family: "Lato";
   font-weight: 400;
   font-style: Regular;
@@ -135,4 +175,12 @@ export const BenefitItem = styled.li`
 export const ButtonGroup = styled.div`
   display: flex;
   gap: 10px;
+`;
+
+export const BenefitsContainer = styled.div`
+  border: solid 1px #bac8e5;
+  padding: 24px;
+  border-radius: 8px;
+  margin-top: 32px;
+  max-width: 592px;
 `;

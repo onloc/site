@@ -20,7 +20,7 @@ const mockItem = [
     category: "Desktop",
     description:
       "Lorem ipsum dolor sit amet consectetur. Leo donec netus libero facilisi.",
-    gallery: [servidor, notebook, workstation, desktop],
+    gallery: [desktop, desktop, desktop, desktop],
   },
   {
     name: "Computador A620 i3",

@@ -16,6 +16,7 @@ import {
   ButtonGroupTitle,
   BenefitsList,
   BenefitItem,
+  BenefitsContainer,
 } from "./styles";
 
 const EquipamentoViewer = ({ item }) => {
@@ -73,15 +74,7 @@ const EquipamentoViewer = ({ item }) => {
 
         <MainButton>Quero alugar</MainButton>
 
-        <div
-          style={{
-            border: "solid 1px #BAC8E5",
-            padding: "24px",
-            borderRadius: "8px",
-            marginTop: "25px",
-            width: "592px",
-          }}
-        >
+          <BenefitsContainer>
           <ButtonGroupTitle>BENEFÍCIOS E VANTAGENS</ButtonGroupTitle>
           <br />
           <BenefitsList>
@@ -95,7 +88,7 @@ const EquipamentoViewer = ({ item }) => {
               Qualidade 100% garantida (produto novo ou semi-novo).
             </BenefitItem>
           </BenefitsList>
-        </div>
+        </BenefitsContainer>
       </RightColumn>
     </Container>
   );

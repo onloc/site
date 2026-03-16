@@ -5,7 +5,9 @@ import {
   InfoBoxText,
   InfoBoxTitle,
   InfoIcon,
+  InfoSection,
   InfoText,
+  NextStepsSection,
   Title,
 } from "./styles";
 
@@ -22,14 +24,7 @@ const EquipamentoDetalhesInfo = () => {
   return (
     <>
       <Title>O que vem na caixa</Title>
-      <div
-        style={{
-          display: "flex",
-          gap: "16px",
-          marginTop: "52px",
-          marginBottom: "52px",
-        }}
-      >
+      <InfoSection>
         <InfoBox>
           <InfoIcon src={CPU} alt="CPU Icon" />
           <InfoText>CPU</InfoText>
@@ -42,17 +37,11 @@ const EquipamentoDetalhesInfo = () => {
           <InfoIcon src={Cabo} alt="Cabo de Energia Icon" />
           <InfoText>Cabo de Energia</InfoText>
         </InfoBox>
-      </div>
+      </InfoSection>
 
-      <Title>Próximos passos:</Title>
-      <div
-        style={{
-          display: "flex",
-          gap: "16px",
-          marginTop: "52px",
-          marginBottom: "52px",
-        }}
-      >
+        <Title>Próximos passos:</Title>
+              <NextStepsSection>
+
         <InfoBoxBig>
           <InfoBigBoxIcon src={Call} alt="Call Icon" />
           <InfoBoxTitle>1. Entrar em Contato</InfoBoxTitle>
@@ -89,7 +78,7 @@ const EquipamentoDetalhesInfo = () => {
             facilisi pellentesque.
           </InfoBoxText>
         </InfoBoxBig>
-      </div>
+      </NextStepsSection>
     </>
   );
 };
