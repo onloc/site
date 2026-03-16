@@ -45,7 +45,7 @@ export const Title = styled.h1`
 `;
 
 export const Divider = styled.hr`
-  margin: 175px 50px 120px;
+  margin: 128px auto;
 
   @media (max-width: 768px) {
     margin: 80px 0;
