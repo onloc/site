@@ -6,7 +6,7 @@ import { Duvidas } from "./pages/Duvidas";
 import { Contato } from "./pages/Contato";
 import { QuemSomos } from "./pages/QuemSomos/QuemSomos";
 import { Solucoes } from "./pages/Solucoes/Solucoes";
-import { Suporte } from "./pages/Suporte";
+import { Suporte } from "./pages/Suporte/Suporte";
 
 import ScrollToTop from "./components/utils/ScrollTop";
 

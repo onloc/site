@@ -14,4 +14,17 @@ export const Container = styled.div`
   box-sizing: border-box;
 
   text-align: start;
+
+  @media (max-width: 768px) {
+    width: 100%;
+    height: auto;
+  }
+`;
+
+export const Text = styled.p`
+  font-family: "Quicksand", sans-serif;
+  font-size: 24px;
+  font-weight: 500;
+  color: #fff;
+  margin: 0;
 `;
