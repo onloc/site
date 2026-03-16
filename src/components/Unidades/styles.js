@@ -1,13 +1,19 @@
 import styled from "styled-components";
 
 export const Container = styled.div`
-  width: 592px;
-  height: 529px;
-  top: 580px;
-  left: 352px;
-  gap: 32px;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 592px;
+  min-height: 529px;
+  width: 100%;
 
-  margin: 0 32px 0 0;
+  @media (max-width: 768px) {
+    max-width: 100%;
+    margin-right: 0;
+    height: auto;
+    margin-bottom: 32px;
+  }
 `;
 
 export const Title = styled.h1`
@@ -32,9 +38,18 @@ export const Description = styled.p`
 `;
 
 export const InfoContainer = styled.div`
-  width: 592px;
-  height: 236px;
+  display: flex;
+  flex-direction: column;
+  max-width: 592px;
+  min-height: 236px;
   gap: 24px;
+  padding: 24px 0;
+
+  @media (max-width: 768px) {
+    width: 100%;
+    height: auto;
+    padding: 0;
+  }
 `;
 export const InfoTitle = styled.h2`
   font-family: "Quicksand";
@@ -46,7 +61,7 @@ export const InfoTitle = styled.h2`
 `;
 
 export const ContactBox = styled.div`
-  width: 594px;
+  max-width: 594px;
   height: 214px;
   gap: 24px;
   margin-top: 16px;
@@ -87,4 +102,22 @@ export const ContainerActions = styled.div`
 
 export const ArrowButton = styled.img`
   cursor: pointer;
+  width: 30px;
+  height: 30px;
+`;
+
+export const Wrapper = styled.div`
+  display: flex;
+  gap: 16px;
+  margin: 16px 0;
+
+  &::-webkit-scrollbar {
+    display: none;
+  }
+
+  @media (max-width: 768px) {
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    padding-bottom: 10px;
+  }
 `;

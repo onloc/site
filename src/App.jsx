@@ -3,7 +3,7 @@ import { Home } from "./pages/Home/Home";
 import { Equipamentos } from "./pages/Equipamentos";
 import { EquipamentoDetalhes } from "./pages/EquipamentoDetalhes";
 import { Duvidas } from "./pages/Duvidas/Duvidas";
-import { Contato } from "./pages/Contato";
+import { Contato } from "./pages/Contato/Contato";
 import { QuemSomos } from "./pages/QuemSomos/QuemSomos";
 import { Solucoes } from "./pages/Solucoes/Solucoes";
 import { Suporte } from "./pages/Suporte/Suporte";
