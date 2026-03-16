@@ -1,5 +1,7 @@
 import styled from "styled-components";
 
+import patern from "../../assets/circlepatern.png";
+
 export const Page = styled.div`
   width: 100%;
 `;
@@ -41,7 +43,6 @@ export const CardsSection = styled.section`
 
 export const SoftwareSection = styled.section`
   margin: 64px auto;
-  padding: 0 20px;
 
   display: flex;
   justify-content: center;
@@ -66,4 +67,51 @@ export const SoftwareImage = styled.img`
 export const LinkText = styled.div`
   text-decoration: underline;
   cursor: pointer;
+`;
+
+export const SoftwareContainer = styled.div`
+  width: 100%;
+  max-width: 1217px;
+  min-height: 572px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+
+  border-radius: 20px;
+  background: #1f1f1f;
+  position: relative;
+  overflow: hidden;
+`;
+
+export const SoftwareContent = styled.div`
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+
+  width: 100%;
+  max-width: 801px;
+  gap: 16px;
+
+  padding-top: 120px;
+
+  flex: 1;
+`;
+
+export const SoftwarePatern = styled.img.attrs({
+  src: patern,
+  alt: "Pattern",
+})`
+  width: 358px;
+  height: 358px;
+  object-fit: contain;
+
+  bottom: 0;
+  margin: 0;
+
+  transform: translateY(25%);
+
+  border: none;
 `;
