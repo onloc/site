@@ -11,6 +11,7 @@ import {
   ContactTitle,
   ContainerActions,
   ArrowButton,
+  Wrapper,
 } from "./styles";
 
 import ButtonComponent from "../ButtonComponent";
@@ -97,9 +98,13 @@ const Unidades = () => {
     <Container>
       <Title>Unidades Onloc perto de você</Title>
       <br />
-      <Description>Encontre a unidade Onloc mais próxima...</Description>
+      <Description>
+        Encontre a unidade Onloc mais próxima e conte com um atendimento
+        especializado, estrutura moderna e serviços de qualidade pensados para
+        facilitar o seu dia a dia.
+      </Description>
 
-      <div style={{ display: "flex", gap: "24px", marginBottom: "32px" }}>
+      <Wrapper>
         {unidades.map((cidade, index) => (
           <div
             key={cidade.name}
@@ -114,7 +119,7 @@ const Unidades = () => {
             />
           </div>
         ))}
-      </div>
+      </Wrapper>
 
       <InfoContainer>
         <InfoTitle>{lojaAtiva.name}</InfoTitle>

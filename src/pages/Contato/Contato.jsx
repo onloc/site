@@ -1,20 +1,22 @@
-import Footer from "../components/Footer";
-import BlackHeader from "../components/BlackHeader";
-import HeaderBanner from "../components/HeaderBanner";
+import Footer from "../../components/Footer";
+import BlackHeader from "../../components/BlackHeader";
+import HeaderBanner from "../../components/HeaderBanner";
 
-import bgImage from "../assets/contato-banner.png";
-import Form from "../components/Form";
-import Unidades from "../components/Unidades";
+import bgImage from "../../assets/contato-banner.png";
+import Form from "../../components/Form";
+import Unidades from "../../components/Unidades";
+import { Container } from "./styles";
 
 export function Contato() {
   return (
     <>
       <BlackHeader />
       <HeaderBanner text="Contato" backgroundImage={bgImage} />
-      <div style={{ margin: "120px 250px 0 250px", display: "flex" }}>
+      <Container>
         <Unidades />
         <Form />
-      </div>
+      </Container>
+
       <div style={{ width: "100%" }}>
         <iframe
           title="Localização"
