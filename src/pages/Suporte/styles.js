@@ -83,6 +83,28 @@ export const SoftwareContainer = styled.div`
   background: #1f1f1f;
   position: relative;
   overflow: hidden;
+
+  &::after {
+    content: "";
+    position: absolute;
+    bottom: -200px;
+    left: 50%;
+    transform: translateX(-50%);
+
+    width: 500px;
+    height: 500px;
+
+    border-radius: 50%;
+
+    background: radial-gradient(
+      circle,
+      rgba(211, 211, 211, 0.2) 0%,
+      rgba(211, 211, 211, 0) 70%
+    );
+
+    pointer-events: none;
+    z-index: 0;
+  }
 `;
 
 export const SoftwareContent = styled.div`
@@ -104,8 +126,6 @@ export const SoftwarePatern = styled.img.attrs({
   src: patern,
   alt: "Pattern",
 })`
-  width: 358px;
-  height: 358px;
   object-fit: contain;
 
   bottom: 0;
