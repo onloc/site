@@ -62,8 +62,7 @@ export const AccordionContent = styled.div`
 
   margin: ${({ $variant, isOpen }) =>
     isOpen ? ($variant === "home" ? "16px 0" : "24px 0") : "0"};
-  max-height: ${({ $variant, isOpen }) =>
-    isOpen ? ($variant === "home" ? "400px" : "200px") : "0"};
+  max-height: ${({ isOpen }) => (isOpen ? "400px" : "0")};
   opacity: ${({ isOpen }) => (isOpen ? "1" : "0")};
   padding-bottom: ${({ isOpen }) => (isOpen ? "16px" : "0")};
   transition: all 0.3s ease-in-out;

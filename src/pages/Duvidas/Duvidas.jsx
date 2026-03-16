@@ -1,10 +1,11 @@
-import Footer from "../components/Footer";
-import BlackHeader from "../components/BlackHeader";
-import FAQ from "../components/FAQ";
-import HeaderBanner from "../components/HeaderBanner";
+import Footer from "../../components/Footer";
+import BlackHeader from "../../components/BlackHeader";
+import FAQ from "../../components/FAQ";
+import HeaderBanner from "../../components/HeaderBanner";
 
-import bgImage from "../assets/duvidasbanner.png";
-import FormContainer from "../components/FormContainer";
+import bgImage from "../../assets/duvidasbanner.png";
+import FormContainer from "../../components/FormContainer";
+import { FAQContainer, Title } from "./styles";
 
 export function Duvidas() {
   const faqData = [
@@ -87,24 +88,11 @@ Donec sed nunc sed amet. Nunc sed nunc sed amet. Leo donec netus libero facilisi
     <>
       <BlackHeader />
       <HeaderBanner text="Dúvidas" backgroundImage={bgImage} />
-      <div style={{ padding: "40px 350px" }}>
-        <h1
-          style={{
-            width: "464px",
-            height: "120px",
-            fontFamily: "Quicksand",
-            fontWeight: "500",
-            fontStyle: "Medium",
-            fontSize: "48px",
-            lineHeight: "125%",
-            letterSpacing: "0%",
-          }}
-        >
-          Tudo o que você precisa saber sobre
-        </h1>
+      <FAQContainer>
+        <Title>Tudo o que você precisa saber sobre</Title>
         <FAQ data={faqData} />
-      </div>
-        <FormContainer />
+      </FAQContainer>
+      <FormContainer />
       <Footer />
     </>
   );
