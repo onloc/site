@@ -16,6 +16,7 @@ export const Container = styled.div`
   align-items: center;
   justify-content: space-between;
   gap: 16px;
+  max-width: 1280px;
 
   @media (max-width: 768px) {
     width: 90%;
