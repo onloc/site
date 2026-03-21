@@ -1,4 +1,3 @@
-
 import {
   Container,
   Block,
@@ -17,9 +16,11 @@ function OurNumbers() {
         <ContainerContent>
           <Title>Nossos Números</Title>
           <Subtitle>
-            Lorem ipsum dolor sit amet consectetur. Pharetra dui dui lorem
-            tempor quis facilisis vel suspendisse phasellus. Enim quam
-            parturient auctor pulvinar in interdum amet sit.
+            Anos de experiência entregando soluções em tecnologia para empresas
+            de Rio Claro e região. Resultados construídos com parceria,
+            confiança e infraestrutura de TI bem dimensionada. É assim que
+            ajudamos negócios a crescer com tecnologia eficiente e sem
+            complicação.
           </Subtitle>
         </ContainerContent>
 

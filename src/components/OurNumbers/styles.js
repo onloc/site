@@ -23,7 +23,7 @@ export const ContainerContent = styled.div`
   justify-content: center;
   text-align: center;
   margin: 0 auto;
-  transform: translateY(-32px);
+  transform: translateY(-48px);
   gap: 16px;
 
   @media (max-width: 768px) {
@@ -54,7 +54,7 @@ export const Subtitle = styled.p`
   font-family: "Montserrat", sans-serif;
 
   @media (max-width: 768px) {
-    font-size: 14px;
+    font-size: 12px;
   }
 `;
 
