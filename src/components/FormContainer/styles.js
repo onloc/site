@@ -8,16 +8,7 @@ export const Container = styled.div`
   padding: 100px 200px 0 200px;
   padding-bottom: 0;
 
-  display: flex;
-  justify-content: space-between;
-  @media (max-width: 768px) {
-    flex-direction: column;
-    align-items: center;
-      margin: 16px auto;
-      width: 90%;
-      padding: 16px ;
-      height: auto;
-  }
+
 `;
 
 export const LeftContent = styled.div`
@@ -94,4 +85,22 @@ export const ContactIcon = styled.img`
   top: 13px;
   margin-top: 10px;
   margin-right: 10px;
+`;
+
+
+export const ContentContainer = styled.div`
+  display: flex;
+  gap: 32px;
+  max-width: 1280px;
+  margin: 0 auto;
+
+  display: flex;
+  @media (max-width: 768px) {
+    flex-direction: column;
+    align-items: center;
+      margin: 16px auto;
+      width: 90%;
+      padding: 16px ;
+      height: auto;
+  }
 `;
