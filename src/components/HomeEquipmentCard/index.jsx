@@ -11,7 +11,7 @@ import {
   TopImage,
 } from "./styles";
 
-function HomeCard({ image }) {
+function HomeCard({ image, title, text }) {
   return (
     <Card>
       <TopImage src={image} />
@@ -19,13 +19,11 @@ function HomeCard({ image }) {
       <Content>
         <LogoTitleWrapper>
           <Logo src={dellLogo} alt="Dell" />
-          <CardTitle>Computador A620 i3</CardTitle>
+          <CardTitle>{title}</CardTitle>
         </LogoTitleWrapper>
 
         <Description>
-          Equipamentos ideais para a sua empresa. MiniDesks e Desktops das
-          marcas mais conceituadas do mercado, adquiridos de grandes fabricantes
-          como HP, DELL.
+            {text}
         </Description>
       </Content>
 

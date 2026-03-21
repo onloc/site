@@ -11,12 +11,14 @@ export const Card = styled.div`
 
 
   @media (max-width: 768px) {
+    width: 100%;
   }
 `;
 
 export const Content = styled.div`
   width: 100%;
   text-align: left;
+  min-height: 264px;
   padding: 16px 24px;
   padding-top: 48px;
   border-bottom-left-radius: 0;

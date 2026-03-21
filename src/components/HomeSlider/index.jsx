@@ -24,20 +24,40 @@ function HomeSlider() {
   const [index, setIndex] = useState(0);
   const [visibleItems, setVisibleItems] = useState(4);
 
-  const images = [
-    desk1,
-    desk2,
-    screen,
-    server,
-    work,
-    desk1,
-    desk2,
-    screen,
-    server,
-    work,
+  const items = [
+    {
+      image: desk1,
+      title: "Mini Desktops",
+      text: "Indicados para ambientes administrativos, call centers e estações fixas com pouco espaço, os mini desktops oferecem desempenho estável, baixo consumo de energia e fácil integração à infraestrutura de TI da empresa.",
+    },
+    {
+      image: desk1,
+      title: "Notebooks",
+      text: "Os notebooks corporativos são ideais para empresas que precisam de mobilidade sem abrir mão de desempenho. Atendem desde tarefas administrativas até operações mais exigentes, com autonomia, segurança e compatibilidade com ambientes empresariais.",
+    },
+    {
+      image: desk2,
+      title: "Workstations",
+      text: "As workstations são projetadas para tarefas que exigem grande poder de processamento gráfico e computacional. Indicadas para profissionais que trabalham com softwares pesados e precisam de máxima performance e estabilidade.",
+    },
+    {
+      image: screen,
+      title: "NoteWorks",
+      text: "Os netbooks corporativos atendem operações básicas que demandam mobilidade e acesso rápido a sistemas, com foco em custo-benefício e facilidade de uso.",
+    },
+    {
+      image: server,
+      title: "Servidores",
+      text: "Os servidores corporativos são a base da infraestrutura de TI, responsáveis por armazenar dados, hospedar sistemas e garantir disponibilidade e segurança da informação.",
+    },
+    {
+      image: work,
+      title: "Monitores",
+      text: "Os monitores corporativos melhoram a ergonomia e aumentam a produtividade, especialmente em operações que utilizam múltiplas janelas ou mais de uma tela.",
+    },
   ];
 
-  const totalDots = images.length - visibleItems + 1;
+  const totalDots = items.length - visibleItems + 1;
 
   useEffect(() => {
     const updateVisibleItems = () => {
@@ -61,9 +81,7 @@ function HomeSlider() {
   }, []);
 
   const next = () => {
-    setIndex((prev) =>
-      prev >= images.length - visibleItems ? prev : prev + 1,
-    );
+    setIndex((prev) => (prev >= items.length - visibleItems ? prev : prev + 1));
   };
 
   const prev = () => {
@@ -79,8 +97,13 @@ function HomeSlider() {
               transform: `translateX(-${index * 324}px)`,
             }}
           >
-            {images.map((img, i) => (
-              <HomeCard key={i} image={img} />
+            {items.map((item, i) => (
+              <HomeCard
+                key={i}
+                image={item.image}
+                title={item.title}
+                text={item.text}
+              />
             ))}
           </SliderTrack>
         </SliderViewport>

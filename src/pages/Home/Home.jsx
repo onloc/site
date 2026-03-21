@@ -180,9 +180,10 @@ export function Home() {
         <Container $margin="128px auto 64px auto">
           <Title>Nossos Equipamentos</Title>
           <Subtitle>
-            Equipamentos ideais para a sua empresa. MiniDesks e Desktops das
-            marcas mais conceituadas do mercado, adquiridos de grandes
-            fabricantes como HP, DELL & Lenovo.
+            Indicados para ambientes administrativos, call centers e estações
+            fixas com pouco espaço, os mini desktops oferecem desempenho
+            estável, baixo consumo de energia e fácil integração à
+            infraestrutura de TI da empresa.
           </Subtitle>
         </Container>
 
