@@ -103,19 +103,23 @@ export function QuemSomos() {
             Por que escolher a On.Loc?
           </Typography>
 
-           <Typography variant="Montserrat" fontSize="16px" colorText="#0E1017">
-            Nosso time de especialistas realiza um amplo estudo sobre as
-            necessidades do seu negócio, e com toda a nossa expertise,
-            identificamos os equipamentos e os adequamos para atender às
-            necessidades da sua empresa.
+          <Typography variant="Montserrat" fontSize="16px" colorText="#0E1017">
+            A ON.LOC atua como parceira estratégica em locação de equipamentos e
+            soluções em tecnologia da informação para empresas, oferecendo
+            infraestrutura de TI confiável, eficiente e alinhada às reais
+            necessidades de cada cliente.
           </Typography>
           <Typography variant="Montserrat" fontSize="16px" colorText="#0E1017">
-            Otimizamos os processos do seu negócio com tecnologia sempre
-            atualizada, suporte técnico especializado e soluções personalizadas.
+            A empresa trabalha de forma consultiva, analisando o cenário de cada
+            operação para indicar computadores, notebooks, servidores e soluções
+            em TI que garantem produtividade, redução de custos e continuidade
+            do negócio. Tudo isso com suporte técnico ágil, atendimento próximo
+            e foco em resultados.
           </Typography>
           <Typography variant="Montserrat" fontSize="16px" colorText="#0E1017">
-            Estamos falando do futuro, entregando a mais alta performance no
-            presente. Estamos falando da ON.LOC.
+            Mais do que fornecer tecnologia, a ON.LOC entrega segurança,
+            previsibilidade e performance, ajudando empresas a crescerem com uma
+            infraestrutura de TI moderna, escalável e sem complicações.
           </Typography>
 
           <Button>Quero Alugar</Button>
