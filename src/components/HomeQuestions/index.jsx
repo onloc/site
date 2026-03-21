@@ -14,42 +14,28 @@ function HomeQuestions() {
   const faqData = [
     {
       id: "01",
-      title: "Como funciona o processo de locação na on.loc?",
-      content: `Para contratar as soluções personalizadas ON.LOC, basta ter em mente a quantidade e a configuração desejada, ou simplesmente nos informar a funcionalidade esperada com a máquina.
-
-        Com essas informações, indicaremos a melhor configuração, levando em conta a disponibilidade do estoque da ONLOC.
-
-        Os desktops e notebooks que fornecemos já vão com o sistema operacional original da Microsoft instalado, o Windows licenciado.
-
-        A equipe de TI da sua preferência poderá instalar ou formatar a máquina com os softwares necessários, incluindo o pacote Office. Com isso, você estará à vontade para gerenciar seus sistemas usuais.`,
+      title: "O que é a locação de computadores para empresas?",
+      content: `É uma solução que permite utilizar computadores, notebooks e outros equipamentos de TI por meio de um contrato mensal, com suporte técnico incluso, sem a necessidade de compra e imobilização de capital.`,
     },
     {
       id: "02",
-      title: "É seguro alugar pela plataforma?",
-      content: `Lorem ipsum dolor sit amet consectetur. Leo donec netus libero facilisi pellentesque. 
-    
-        Donec sed nunc sed amet. Nunc sed nunc sed amet. Leo donec netus libero facilisi pellentesque. Donec sed nunc sed amet. Nunc sed nunc sed amet.`,
+      title: "Quais equipamentos posso alugar com a ON.LOC?",
+      content: `A ON.LOC oferece locação de mini desktops, notebooks, workstations, servidores, monitores, entre outras soluções, sempre configuradas conforme a necessidade da sua empresa.`,
     },
     {
       id: "03",
-      title: "Preciso pagar alguma taxa para usar a on.loc?",
-      content: `Lorem ipsum dolor sit amet consectetur. Leo donec netus libero facilisi pellentesque. 
-    
-        Donec sed nunc sed amet. Nunc sed nunc sed amet. Leo donec netus libero facilisi pellentesque. Donec sed nunc sed amet. Nunc sed nunc sed amet.`,
+      title: "A locação inclui suporte técnico?",
+      content: `Sim. Todos os equipamentos contam com suporte técnico ágil e especializado, garantindo continuidade da operação e redução de paradas no dia a dia.`,
     },
     {
       id: "04",
-      title: "Posso cancelar uma locação?",
-      content: `Lorem ipsum dolor sit amet consectetur. Leo donec netus libero facilisi pellentesque. 
-    
-        Donec sed nunc sed amet. Nunc sed nunc sed amet. Leo donec netus libero facilisi pellentesque. Donec sed nunc sed amet. Nunc sed nunc sed amet.`,
+      title: "Alugar computadores é mais vantajoso do que comprar?",
+      content: `Para muitas empresas, sim. A locação oferece previsibilidade de custos, equipamentos atualizados, menor impacto fiscal e menos preocupação com manutenção e obsolescência.`,
     },
     {
       id: "05",
-      title: "O que acontece se o item locado apresentar problemas?",
-      content: `Lorem ipsum dolor sit amet consectetur. Leo donec netus libero facilisi pellentesque. 
-    
-        Donec sed nunc sed amet. Nunc sed nunc sed amet. Leo donec netus libero facilisi pellentesque. Donec sed nunc sed amet. Nunc sed nunc sed amet.`,
+      title: "A ON.LOC atende empresas de qualquer porte?",
+      content: `Sim. Atendemos desde pequenas e médias empresas até operações maiores, sempre com soluções sob medida para cada realidade.`,
     },
   ];
 
