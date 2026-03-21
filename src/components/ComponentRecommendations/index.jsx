@@ -28,38 +28,27 @@ function ComponentRecommendations() {
 
   const content = [
     {
-      text: `Para utilizar o Cinema 4D para modelagem 3D e animações,
-    recomendamos um processador de 4 a 6 núcleos com alta velocidade
-    de clock.
+      text: `O processador (CPU) é o principal componente responsável pelo 
+      desempenho do computador, executando cálculos, gerenciando processos 
+      e garantindo fluidez na operação de sistemas e aplicações corporativas.
       
-    Se seu objetivo é renderizar, um processador com uma grande
-    quantidade de núcleos de CPU fornecerá melhor desempenho.`,
+      A escolha correta da CPU impacta diretamente na produtividade, 
+      no tempo de resposta dos sistemas e na vida útil do equipamento..`,
     },
     {
-      text: `Para utilizar o Cinema 4D com fluidez, recomendamos no 
-      mínimo 16 GB de memória RAM para lidar com cenas complexas 
-      e múltiplas tarefas simultâneas.
+      text: `A solução gráfica (GPU) é responsável pelo processamento visual, sendo essencial para atividades que envolvem múltiplos monitores, edição gráfica, engenharia, arquitetura ou análise de dados visuais.
 
-      Se você trabalha com projetos maiores ou renderizações 
-      pesadas, considerar 32 GB ou mais de RAM garantirá mais 
-      estabilidade e desempenho.`,
+      Com a configuração gráfica correta, o ambiente de trabalho se torna mais confortável, produtivo e compatível com aplicações específicas do mercado corporativo.`,
     },
     {
-      text: `Para modelagem 3D e animações no Cinema 4D, uma placa de 
-      vídeo dedicada com, no mínimo, 4 GB de memória VRAM 
-      é altamente recomendada.
+      text: `A memória RAM é responsável por manter ativos os dados e aplicações em uso, influenciando diretamente o desempenho em tarefas simultâneas e a fluidez do sistema operacional.
 
-      Para renderizações mais complexas e em tempo real, uma GPU 
-      de alto desempenho será essencial para melhorar a 
-      produtividade.`,
+      Uma quantidade correta de memória reduz travamentos, melhora a experiência do usuário e aumenta a produtividade da equipe.`,
     },
     {
-      text: `Recomendamos o uso de SSDs para garantir carregamentos 
-      rápidos de projetos, softwares e arquivos.
+      text: `O armazenamento é responsável por guardar sistemas, arquivos e dados corporativos, impactando diretamente a velocidade de inicialização, abertura de programas e acesso às informações.
       
-      Para armazenar arquivos grandes de animação e render, 
-      combinar um SSD para o sistema com um HD adicional pode ser 
-      uma solução eficiente.
+      Um sistema de armazenamento bem dimensionado garante agilidade operacional, reduz o tempo de espera e contribui para a continuidade do negócio.
       `,
     },
   ];
