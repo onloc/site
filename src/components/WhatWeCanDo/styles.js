@@ -74,7 +74,7 @@ export const BlockContainer = styled.div`
 
 export const Block = styled.div`
   width: 230px;
-  height: 260px;
+  min-height: 300px;
   border-radius: 16px;
   border: 1px solid #bac8e5;
   padding: 16px 20px;
@@ -84,7 +84,7 @@ export const Block = styled.div`
 
   @media (max-width: 768px) {
     width: 100%;
-    height: 200px;
+    min-height: 200px;
   }
 `;
 

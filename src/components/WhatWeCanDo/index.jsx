@@ -34,27 +34,29 @@ function WhatWeCanDo() {
               <Block>
                 <BlockTitle>Melhor Custo x Benefício</BlockTitle>
                 <BlockText>
-                  Com a locação de computadores, você pode investir o capital da
-                  sua empresa em desenvolvimento e novas oportunidades, sem
-                  perder a eficiência tecnológica, garantindo tranquilidade para
-                  seus colaboradores.
+                  A locação de equipamentos permite que sua empresa tenha
+                  tecnologia atualizada, sem a necessidade de grandes
+                  investimentos iniciais. Com a ON.LOC, você paga apenas pelo
+                  que usa, mantendo previsibilidade de custos e melhor
+                  aproveitamento do orçamento de TI.
                 </BlockText>
               </Block>
               <Block>
-                <BlockTitle>Suporte Técnico Ágil</BlockTitle>
+                <BlockTitle>Suporte técnico ágil e especializado</BlockTitle>
                 <BlockText>
-                  Nossa equipe especializada está sempre pronta para
-                  substituição e atualização dos equipamentos, eliminando o
-                  período ocioso e improdutivo que seu colaborador teria durante
-                  um reparo.
+                  Contar com suporte técnico rápido faz toda a diferença na
+                  rotina da empresa. A ON.LOC oferece atendimento ágil e
+                  especializado, reduzindo paradas, evitando retrabalho e
+                  garantindo a continuidade da operação.
                 </BlockText>
               </Block>
               <Block>
-                <BlockTitle>Melhor Custo x Benefício</BlockTitle>
+                <BlockTitle>Redução fiscal</BlockTitle>
                 <BlockText>
-                  Os valores investidos com o aluguel de computadores podem ser
-                  deduzidos no Imposto de Renda da Empresa em até 40%. Reduza os
-                  custos mantendo a funcionabilidade e otimize seus recursos
+                  A locação de equipamentos de TI pode gerar vantagens fiscais,
+                  além de simplificar a gestão contábil da empresa. Em vez de
+                  imobilizar ativos, os custos passam a ser operacionais,
+                  facilitando o planejamento financeiro.
                 </BlockText>
               </Block>
             </BlockContainer>
