@@ -11,74 +11,54 @@ export function Duvidas() {
   const faqData = [
     {
       id: "01",
-      title: "Como faço para iniciar uma Locação?",
-      content: `Para contratar as soluções personalizadas ON.LOC, basta ter em mente a quantidade e a configuração desejada, ou simplesmente nos informar a funcionalidade esperada com a máquina.
-
-Com essas informações, indicaremos a melhor configuração, levando em conta a disponibilidade do estoque da ONLOC.
-
-Os desktops e notebooks que fornecemos já vão com o sistema operacional original da Microsoft instalado, o Windows licenciado.
-
-A equipe de TI da sua preferência poderá instalar ou formatar a máquina com os softwares necessários, incluindo o pacote Office. Com isso, você estará à vontade para gerenciar seus sistemas usuais.`,
+      title: "Existem planos de locação de curto, médio e longo prazo?",
+      content: `Os contratos de locação podem ser de 12, 24 ou 36 meses, sendo o último mais vantajoso em custo-benefício.`,
     },
     {
       id: "02",
-      title: "Qual número do Suporte Técnico?",
-      content: `Lorem ipsum dolor sit amet consectetur. Leo donec netus libero facilisi pellentesque. 
-    
-Donec sed nunc sed amet. Nunc sed nunc sed amet. Leo donec netus libero facilisi pellentesque. Donec sed nunc sed amet. Nunc sed nunc sed amet.`,
+      title: "Como é feito o pagamento da locação?",
+      content: `O pagamento é feito através de boletos bancários enviados mensalmente ao cliente.`,
     },
     {
       id: "03",
-      title: "Dúvidas Financeiras",
-      content: `Lorem ipsum dolor sit amet consectetur. Leo donec netus libero facilisi pellentesque. 
-    
-Donec sed nunc sed amet. Nunc sed nunc sed amet. Leo donec netus libero facilisi pellentesque. Donec sed nunc sed amet. Nunc sed nunc sed amet.`,
+      title: "É possível renovar ou encerrar o contrato antes do prazo estabelecido?",
+      content: `É possível rescindir o contrato antes do término do prazo mediante solicitação formal via e-mail, e será cobrada multa equivalente a apenas 3 mensalidades.`,
     },
     {
       id: "04",
-      title: "Política de Pagamento",
-      content: `Lorem ipsum dolor sit amet consectetur. Leo donec netus libero facilisi pellentesque. 
-    
-Donec sed nunc sed amet. Nunc sed nunc sed amet. Leo donec netus libero facilisi pellentesque. Donec sed nunc sed amet. Nunc sed nunc sed amet.`,
+      title: "O valor da locação é fixo durante todo o contrato?",
+      content: `O valor da locação de cada equipamento é fixo durante todo o período de contrato, o valor total a ser pago só é alterado mediante novas locações e upgrades solicitados diretamente pelo cliente.`,
     },
     {
       id: "05",
-      title: "Qual prazo de entrega?",
-      content: `Lorem ipsum dolor sit amet consectetur. Leo donec netus libero facilisi pellentesque. 
-    
-Donec sed nunc sed amet. Nunc sed nunc sed amet. Leo donec netus libero facilisi pellentesque. Donec sed nunc sed amet. Nunc sed nunc sed amet.`,
+      title: "É possível aumentar ou reduzir a quantidade de equipamentos durante o contrato?",
+      content: `Sim, é possível realizar toda e qualquer alteração na quantidade/tipo de equipamentos locados ao longo do contrato. `,
     },
     {
       id: "06",
-      title: "Como solicitar um Upgrade em minha Locação?",
-      content: `Lorem ipsum dolor sit amet consectetur. Leo donec netus libero facilisi pellentesque. 
-    
-Donec sed nunc sed amet. Nunc sed nunc sed amet. Leo donec netus libero facilisi pellentesque. Donec sed nunc sed amet. Nunc sed nunc sed amet.`,
+      title: "Há substituição do equipamento em caso de problemas?",
+      content: `Se, através da abertura do chamado, for verificado a necessidade de substituição do equipamento, a mesma será feita em até 8 horas úteis.`,
     },
     {
       id: "07",
-      title: "Qual diferença entre Hardware e Software?",
-      content: `Lorem ipsum dolor sit amet consectetur. Leo donec netus libero facilisi pellentesque. 
-    
-Donec sed nunc sed amet. Nunc sed nunc sed amet. Leo donec netus libero facilisi pellentesque. Donec sed nunc sed amet. Nunc sed nunc sed amet.`,
+      title: "Como funciona o processo de entrega e retirada dos equipamentos?",
+      content: `Nossa equipe realiza a entrega e retirada de equipamentos após agendamento direto com o cliente, sem custos adicionais de trajeto.`,
     },
     {
       id: "08",
-      title: "Política de Devolução",
-      content: `Lorem ipsum dolor sit amet consectetur. Leo donec netus libero facilisi pellentesque. 
-    
-Donec sed nunc sed amet. Nunc sed nunc sed amet. Leo donec netus libero facilisi pellentesque. Donec sed nunc sed amet. Nunc sed nunc sed amet.`,
+      title: "Existe custo adicional para transporte, instalação ou configuração?",
+      content: `Não existe custo adicional para estes serviços.`,
     },
     {
       id: "09",
-      title: "Política de Privacidade",
+      title: "Como é garantida a segurança das informações armazenadas nos equipamentos?",
       content: `Lorem ipsum dolor sit amet consectetur. Leo donec netus libero facilisi pellentesque. 
     
 Donec sed nunc sed amet. Nunc sed nunc sed amet. Leo donec netus libero facilisi pellentesque. Donec sed nunc sed amet. Nunc sed nunc sed amet.`,
     },
     {
       id: "10",
-      title: "Política de Cookies",
+      title: "Como o serviço apoia empresas em projetos temporários, eventos ou expansão rápida?",
       content: `Lorem ipsum dolor sit amet consectetur. Leo donec netus libero facilisi pellentesque. 
     
 Donec sed nunc sed amet. Nunc sed nunc sed amet. Leo donec netus libero facilisi pellentesque. Donec sed nunc sed amet. Nunc sed nunc sed amet.`,
