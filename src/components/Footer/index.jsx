@@ -148,12 +148,12 @@ const Footer = () => (
       </FooterContent>
     </FooterContainer>
 
-    <FooterCopyright>
-      <span>
-        2025 - <BrandLink href="#">Onloc.</BrandLink> Todos os direitos
-        reservados.
-      </span>
-      <span>
+      <FooterCopyright>
+        <span>
+          2025 - <BrandLink href="#">Onloc.</BrandLink> Todos os direitos
+          reservados.
+        </span>
+        {/* <span>
         Desenvolvido por{" "}
         <BrandLink
           href="https://postali.com.br"
@@ -162,8 +162,8 @@ const Footer = () => (
         >
           Postali
         </BrandLink>
-      </span>
-    </FooterCopyright>
+      </span> */}
+      </FooterCopyright>
   </>
 );
 
