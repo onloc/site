@@ -8,7 +8,12 @@ export const Container = styled.div`
   padding: 100px 200px 0 200px;
   padding-bottom: 0;
 
-
+  @media (max-width: 768px) {
+    display: flex;
+    padding: 0;
+    flex-direction: column;
+    height: auto;
+}
 `;
 
 export const LeftContent = styled.div`
