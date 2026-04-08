@@ -7,7 +7,7 @@ function ClientsBar() {
         <>
             <Wrap>
                 <Container>
-                    <Title>Há 10 anos, <b>impulsionando a produtividade</b> de grandes empresas.</Title>
+                    <Title>Há mais de 13 anos, <b>impulsionando a produtividade</b> de grandes empresas.</Title>
                     <Logos>
                         <Logo  src={logoBranca} alt="Logo da Empresa" />
                         <MainLogo src={logoBranca} alt="Logo da Empresa" />
