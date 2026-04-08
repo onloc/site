@@ -30,7 +30,7 @@ function HomeQuestions() {
     {
       id: "04",
       title: "Alugar computadores é mais vantajoso do que comprar?",
-      content: `Para muitas empresas, sim. A locação oferece previsibilidade de custos, equipamentos atualizados, menor impacto fiscal e menos preocupação com manutenção e obsolescência.`,
+      content: `A locação oferece previsibilidade de custos, equipamentos atualizados, menor impacto fiscal e menos preocupação com manutenção e obsolescência.`,
     },
     {
       id: "05",
