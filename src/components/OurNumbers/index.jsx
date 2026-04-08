@@ -32,12 +32,12 @@ function OurNumbers() {
 
           <BlockSection>
             <Number>+650</Number>
-            <Text>Clientes atendidos</Text>
+            <Text>Clientes</Text>
           </BlockSection>
 
           <BlockSection>
-            <Number>+8000</Number>
-            <Text>Produtos locados</Text>
+            <Number>+8 mil</Number>
+            <Text>Equipamentos locados</Text>
           </BlockSection>
 
           <BlockSection>

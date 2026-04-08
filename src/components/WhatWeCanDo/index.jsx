@@ -20,7 +20,7 @@ function WhatWeCanDo() {
       <Wrap>
         <Container>
           <ContentContainer>
-            <Title>O que podemos fazer por você</Title>
+            <Title>Soluções que fazem sentido para o dia a dia da sua empresa</Title>
             <Text>
               Com equipamentos de alta performance e o know-how de uma equipe
               especializada, a ON.LOC entrega aos clientes tecnologia, inovação
