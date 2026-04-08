@@ -76,8 +76,6 @@ export const Logo = styled.img`
   width: 100px;
   height: auto;
   object-fit: contain;
-  filter: brightness(0) invert(1);
-  opacity: 0.4;
 
   @media (max-width: 768px) {
     width: 80px;
