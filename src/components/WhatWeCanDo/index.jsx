@@ -20,7 +20,9 @@ function WhatWeCanDo() {
       <Wrap>
         <Container>
           <ContentContainer>
-            <Title>Soluções que fazem sentido para o dia a dia da sua empresa</Title>
+            <Title>
+              Soluções que fazem sentido para o dia a dia da sua empresa
+            </Title>
             <Text>
               Com equipamentos de alta performance e o know-how de uma equipe
               especializada, a ON.LOC entrega aos clientes tecnologia, inovação
@@ -34,11 +36,11 @@ function WhatWeCanDo() {
               <Block>
                 <BlockTitle>Melhor Custo x Benefício</BlockTitle>
                 <BlockText>
-                  A locação de equipamentos permite que sua empresa tenha
-                  tecnologia atualizada, sem a necessidade de grandes
-                  investimentos iniciais. Com a ON.LOC, você paga apenas pelo
-                  que usa, mantendo previsibilidade de custos e melhor
-                  aproveitamento do orçamento de TI.
+                  Trabalhamos de forma consultiva, entendendo o cenário de cada
+                  cliente para indicar a infraestrutura de tecnologia mais
+                  adequada, sempre com suporte técnico especializado,
+                  atendimento ágil e soluções escaláveis. Inserir abaixo de
+                  'Melhor custo-benefício na categoria de alta performance'
                 </BlockText>
               </Block>
               <Block>

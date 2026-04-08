@@ -73,7 +73,7 @@ export const BlockContainer = styled.div`
 `;
 
 export const Block = styled.div`
-  width: 230px;
+  width: 240px;
   min-height: 300px;
   border-radius: 16px;
   border: 1px solid #bac8e5;
