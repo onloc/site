@@ -55,7 +55,7 @@ const Footer = () => (
       <FooterContent>
         <div style={{ flex: "1 1 250px", minWidth: 0 }}>
           <LogoImage src={logo} alt="On.Loc" />
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit...</p>
+          <p>A tecnologia não precisa ser complicada. Nem Distante. Nem sua. A gente entrega, conecta e transforma. </p>
         </div>
         <div>
           <SectionTitle>Institucional</SectionTitle>
