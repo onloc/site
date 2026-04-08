@@ -35,13 +35,13 @@ const Unidades = () => {
       unitys: [
         {
           name: "Loja 1",
-          location: "Av. 70A, 1185 - Rio Claro",
-          phone: "+55 19 3536-9100",
+          location: "R. Quatro, 1544 - Vila Operaria, Rio Claro - SP, 13500-170",
+          phone: "+55 (19) 3023-6697",
           email: "vendas@cafmaquinas.com.br",
         },
         {
           name: "Loja 2",
-          location: "Rua Exemplo, 200 - Rio Claro",
+          location: "Rua Barão de Paranapanema, nº 46, sala 21, Bosque, Campinas/SP",
           phone: "+55 19 3536-9999",
           email: "loja2@cafmaquinas.com.br",
         },
@@ -52,7 +52,7 @@ const Unidades = () => {
       unitys: [
         {
           name: "Loja 4",
-          location: "Av. 70A, 1185 - Campinas",
+          location: "RUA ALFREDO GUEDES, 937, sala 05 - ALTO, PIRACICABA - SP, 13419-075",
           phone: "+55 19 3536-9100",
           email: "vendas@cafmaquinas.com.br",
         },
