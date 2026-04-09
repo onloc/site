@@ -29,6 +29,8 @@ export default function Banner({
   sideImage,
   textColor,
   socialBarColor = "white",
+  onNext,
+  onPrev,
 }) {
   return (
     <>
@@ -51,20 +53,38 @@ export default function Banner({
         </BannerCornerText>
         {sideImage && <BannerSideImage src={sideImage} alt="banner image" />}
         <BannerIconsContainer>
-          {banner == 1 ? (
+          {banner == 0 ? (
             <>
-              <BannerIcon src={arrowUp} alt="arrow up" />
-              <BannerIcon src={arrowDown} alt="arrow down" />
+              <BannerIcon src={arrowUp} alt="arrow up" onClick={onPrev} />
+              <BannerIcon src={arrowDown} alt="arrow down" onClick={onNext} />
             </>
-          ) : banner == 2 ? (
+          ) : banner == 1 ? (
             <>
-              <BannerIcon src={arrowUpGray} alt="arrow up gray" />
-              <BannerIcon src={arrowDownBlue} alt="arrow down blue" />
+              <BannerIcon
+                src={arrowUpGray}
+                alt="arrow up gray"
+                onClick={onPrev}
+              />
+              <BannerIcon
+                src={arrowDownBlue}
+                alt="arrow down blue"
+                onClick={onNext}
+              />
             </>
           ) : (
             <>
-              <BannerIcon $rotate="180deg" src={arrowDown} alt="arrow down" />
-              <BannerIcon $rotate="180deg" src={arrowUp} alt="arrow up" />
+              <BannerIcon
+                $rotate="180deg"
+                src={arrowDown}
+                alt="arrow down"
+                onClick={onPrev}
+              />
+              <BannerIcon
+                $rotate="180deg"
+                src={arrowUp}
+                alt="arrow up"
+                onClick={onNext}
+              />
             </>
           )}
         </BannerIconsContainer>

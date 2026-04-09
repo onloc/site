@@ -148,4 +148,8 @@ export const BannerIcon = styled.img`
   height: 36px;
 
   ${(props) => props.$rotate && `transform: rotate(${props.$rotate});`}
+
+  &:hover {
+    cursor: pointer;
+  }
 `;

@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import BlackHeader from "../../components/BlackHeader";
 import Footer from "../../components/Footer";
 
@@ -103,7 +103,7 @@ export function Home() {
 
   const banners = [
     {
-      banner: 1,
+      banner: 0,
       bannerImage: bluebanner,
       title: "Tecnologia sob medida para o seu negócio",
       subtitle:
@@ -117,7 +117,7 @@ export function Home() {
       textColor: "white",
     },
     {
-      banner: 2,
+      banner: 1,
       backgroundColor: "white",
       title: "Tecnologia sob medida para o seu negócio",
       subtitle:
@@ -132,7 +132,7 @@ export function Home() {
       socialBarColor: "blue",
     },
     {
-      banner: 3,
+      banner: 2,
       bannerImage: bluebanner,
       title: "Tecnologia sob medida para o seu negócio",
       subtitle:
@@ -149,13 +149,29 @@ export function Home() {
 
   const [currentBanner, setCurrentBanner] = useState(0);
 
-  useEffect(() => {
-    const interval = setInterval(() => {
-      setCurrentBanner((prev) => (prev === banners.length - 1 ? 0 : prev + 1));
-    }, 7000);
+  const intervalRef = useRef();
 
-    return () => clearInterval(interval);
+  useEffect(() => {
+    startAutoSlide();
+    return () => clearInterval(intervalRef.current);
   }, []);
+
+  const startAutoSlide = () => {
+    clearInterval(intervalRef.current);
+    intervalRef.current = setInterval(() => {
+      nextBanner();
+    }, 7000);
+  };
+
+  const nextBanner = () => {
+    setCurrentBanner((prev) => (prev === banners.length - 1 ? 0 : prev + 1));
+    startAutoSlide();
+  };
+
+  const prevBanner = () => {
+    setCurrentBanner((prev) => (prev === 0 ? banners.length - 1 : prev - 1));
+    startAutoSlide();
+  };
 
   return (
     <>
@@ -169,7 +185,7 @@ export function Home() {
           >
             {banners.map((banner, index) => (
               <Slide key={index}>
-                <Banner {...banner} />
+                <Banner {...banner} onNext={nextBanner} onPrev={prevBanner} />
               </Slide>
             ))}
           </SliderTrack>
