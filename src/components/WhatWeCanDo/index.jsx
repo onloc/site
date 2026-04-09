@@ -39,8 +39,7 @@ function WhatWeCanDo({ onScrollToForm }) {
                   Trabalhamos de forma consultiva, entendendo o cenário de cada
                   cliente para indicar a infraestrutura de tecnologia mais
                   adequada, sempre com suporte técnico especializado,
-                  atendimento ágil e soluções escaláveis. Inserir abaixo de
-                  'Melhor custo-benefício na categoria de alta performance'
+                  atendimento ágil e soluções escaláveis.
                 </BlockText>
               </Block>
               <Block>
