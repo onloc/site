@@ -19,6 +19,7 @@ import Form from "../Form";
 
 const FormContainer = () => {
   return (
+    <div id="form-section">
     <Container>
       <ContentContainer>
         <LeftContent>
@@ -73,6 +74,7 @@ const FormContainer = () => {
         <Form />
       </ContentContainer>
     </Container>
+    </div>
   );
 };
 

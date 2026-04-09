@@ -20,7 +20,7 @@ import {
   Dot,
 } from "./styles";
 
-function HomeSlider() {
+function HomeSlider({ onScrollToForm }) {
   const [index, setIndex] = useState(0);
   const [visibleItems, setVisibleItems] = useState(4);
 
@@ -103,6 +103,7 @@ function HomeSlider() {
                 image={item.image}
                 title={item.title}
                 text={item.text}
+                onScrollToForm={onScrollToForm}
               />
             ))}
           </SliderTrack>

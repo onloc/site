@@ -14,7 +14,7 @@ import {
 
 import sideImage from "../../assets/what-we-can-do-banner.png";
 
-function WhatWeCanDo() {
+function WhatWeCanDo({ onScrollToForm }) {
   return (
     <>
       <Wrap>
@@ -62,7 +62,7 @@ function WhatWeCanDo() {
                 </BlockText>
               </Block>
             </BlockContainer>
-            <Button>Quero alugar</Button>
+            <Button onClick={onScrollToForm}>Quero alugar</Button>
           </ContentContainer>
           <SideImage src={sideImage} alt="Imagem de equipamentos" />
         </Container>

@@ -151,6 +151,16 @@ export function Home() {
 
   const intervalRef = useRef();
 
+  const formRef = useRef(null);
+
+  const scrollToForm = () => {
+    const element = document.getElementById("form-section");
+
+    if (element) {
+      element.scrollIntoView({ behavior: "smooth" });
+    }
+  };
+
   useEffect(() => {
     startAutoSlide();
     return () => clearInterval(intervalRef.current);
@@ -185,7 +195,12 @@ export function Home() {
           >
             {banners.map((banner, index) => (
               <Slide key={index}>
-                <Banner {...banner} onNext={nextBanner} onPrev={prevBanner} />
+                <Banner
+                  {...banner}
+                  onNext={nextBanner}
+                  onPrev={prevBanner}
+                  onScrollToForm={scrollToForm}
+                />
               </Slide>
             ))}
           </SliderTrack>
@@ -203,7 +218,7 @@ export function Home() {
           </Subtitle>
         </Container>
 
-        <HomeSlider />
+        <HomeSlider onScrollToForm={scrollToForm} />
 
         <WhyLeaseComponent />
 
@@ -217,21 +232,21 @@ export function Home() {
 
         <EquipamentsGallery />
 
-        <WhatWeCanDo />
+        <WhatWeCanDo onScrollToForm={scrollToForm} />
 
         <ComponentRecommendations />
 
-        <EquipamentLease />
+        <EquipamentLease onScrollToForm={scrollToForm}/>
 
         <HomeQuestions />
 
-        <EquipamentoBannerFooter />
+        <EquipamentoBannerFooter onScrollToForm={scrollToForm}/>
 
         <ClientComments />
 
         <ClientsBar />
 
-        <FormContainer />
+        <FormContainer ref={formRef} />
 
         <Footer />
       </PageWrapper>

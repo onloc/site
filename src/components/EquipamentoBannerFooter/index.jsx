@@ -1,7 +1,9 @@
 import { Container, ContentContainer, Subtitle, Title } from "./styles";
 import ButtonComponent from "../ButtonComponent";
 
-const EquipamentoBannerFooter = () => {
+const EquipamentoBannerFooter = ({ onScrollToForm }) => {
+
+  console.log(onScrollToForm)
   return (
     <Container>
       <ContentContainer>
@@ -11,7 +13,7 @@ const EquipamentoBannerFooter = () => {
           soluções que se encaixam na sua necessidade.
         </Subtitle>
       </ContentContainer>
-      <ButtonComponent text="Quero Alugar" />
+      <ButtonComponent text="Quero Alugar" func={onScrollToForm} />
     </Container>
   );
 };

@@ -11,7 +11,7 @@ import {
   TopImage,
 } from "./styles";
 
-function HomeCard({ image, title, text }) {
+function HomeCard({ image, title, text, onScrollToForm }) {
   return (
     <Card>
       <TopImage src={image} />
@@ -27,7 +27,7 @@ function HomeCard({ image, title, text }) {
         </Description>
       </Content>
 
-      <CardButton>Quero alugar</CardButton>
+      <CardButton onClick={onScrollToForm}>Quero alugar</CardButton>
     </Card>
   );
 }

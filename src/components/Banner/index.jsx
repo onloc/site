@@ -31,6 +31,7 @@ export default function Banner({
   socialBarColor = "white",
   onNext,
   onPrev,
+  onScrollToForm,
 }) {
   return (
     <>
@@ -45,7 +46,7 @@ export default function Banner({
           <BannerSubtitle>{subtitle}</BannerSubtitle>
 
           {buttonText && (
-            <BannerButton $buttonStyle={buttonStyle}>{buttonText}</BannerButton>
+            <BannerButton $buttonStyle={buttonStyle} onClick={onScrollToForm}>{buttonText}</BannerButton>
           )}
         </BannerContent>
         <BannerCornerText $textColor={textColor}>

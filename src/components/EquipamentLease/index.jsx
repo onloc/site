@@ -21,7 +21,7 @@ import checkIcon from "../../assets/check-icon.png";
 import leftImage from "../../assets/left-image-banner.png";
 import rightImage from "../../assets/right-image-banner.png";
 
-function EquipamentLease() {
+function EquipamentLease({ onScrollToForm }) {
   const disadvantages = [
     "Capital imobilizado em equipamentos;",
     "Queda na produtividade;",
@@ -83,7 +83,7 @@ function EquipamentLease() {
                 ))}
               </Column>
             </ListContainer>
-            <Button>Quero Alugar</Button>
+            <Button onClick={onScrollToForm}>Quero Alugar</Button>
             <Block src={leftImage} $display={false} />
           </ContentContainer>
         </Container>
