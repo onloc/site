@@ -2,8 +2,6 @@ import { Container, ContentContainer, Subtitle, Title } from "./styles";
 import ButtonComponent from "../ButtonComponent";
 
 const EquipamentoBannerFooter = ({ onScrollToForm }) => {
-
-  console.log(onScrollToForm)
   return (
     <Container>
       <ContentContainer>
