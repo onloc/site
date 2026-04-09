@@ -44,7 +44,7 @@ const FormContainer = () => {
               <div>
                 <ContactTitle>Localização</ContactTitle>
                 <ContactInfo>
-                  Av. 70A, 1185 - Rio Claro - SP - Brasil - CEP: 13506-450
+                  R. Quatro, 1544 - Vila Operaria, Rio Claro - SP, 13500-170
                 </ContactInfo>
               </div>
             </div>
@@ -58,7 +58,7 @@ const FormContainer = () => {
               <ContactIcon src={Call} alt="Telefone" />
               <div>
                 <ContactTitle>Atendimento</ContactTitle>
-                <ContactInfo>+55 19 3536-9100</ContactInfo>
+                <ContactInfo>+55 (19) 3023-6697</ContactInfo>
               </div>
             </div>
 
