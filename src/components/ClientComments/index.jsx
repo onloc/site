@@ -42,15 +42,15 @@ function ClientComments() {
             prática, segura e o atendimento foi impecável."
           </Comment>
           <br />
-          <Comment>— Camila R., São Paulo/SP</Comment>
+          {/* <Comment>— Camila R., São Paulo/SP</Comment> */}
         </CommentContainer>
 
         <CommentFooterContainer>
           <AuthorDetails>
-            <CommentAuthorInfoIcon
+            {/* <CommentAuthorInfoIcon
               src="https://randomuser.me/api/portraits/men/32.jpg"
               alt="Carlos Henrique"
-            />
+            /> */}
             <NameWrapper>
               <CommentAuthor>Carlos Henrique</CommentAuthor>
               <CommentAuthorRole>Gerente de TI</CommentAuthorRole>
