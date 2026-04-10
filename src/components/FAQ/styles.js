@@ -43,7 +43,7 @@ export const AccordionHeader = styled.div`
 
   .icon {
     transition: transform 0.3s ease;
-    transform: ${({ isOpen }) => (isOpen ? "rotate(180deg)" : "rotate(0deg)")};
+    transform: ${({ $isOpen }) => ($isOpen ? "rotate(180deg)" : "rotate(0deg)")};
   }
 
   @media (max-width: 768px) {
@@ -60,11 +60,11 @@ export const AccordionContent = styled.div`
   line-height: 125%;
   letter-spacing: 0%;
 
-  margin: ${({ $variant, isOpen }) =>
-    isOpen ? ($variant === "home" ? "16px 0" : "24px 0") : "0"};
-  max-height: ${({ isOpen }) => (isOpen ? "400px" : "0")};
-  opacity: ${({ isOpen }) => (isOpen ? "1" : "0")};
-  padding-bottom: ${({ isOpen }) => (isOpen ? "16px" : "0")};
+  margin: ${({ $variant, $isOpen }) =>
+    $isOpen ? ($variant === "home" ? "16px 0" : "24px 0") : "0"};
+  max-height: ${({ $isOpen }) => ($isOpen ? "400px" : "0")};
+  opacity: ${({ $isOpen }) => ($isOpen ? "1" : "0")};
+  padding-bottom: ${({ $isOpen }) => ($isOpen ? "16px" : "0")};
   transition: all 0.3s ease-in-out;
   color: #555;
 

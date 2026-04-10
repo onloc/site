@@ -35,7 +35,7 @@ export const Button = styled.button`
   }
 
   ${(props) => {
-    switch (props.variant) {
+    switch (props.$variant) {
       case "black":
         return css`
           background: #0e1017;

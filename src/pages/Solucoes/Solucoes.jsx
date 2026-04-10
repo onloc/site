@@ -119,7 +119,7 @@ export function Solucoes() {
 
         <RightBlock>
           <RightImageContainer>
-            <Title fontSize="40px" variant="Quicksand" colorText="#fff">
+            <Title>
               Tecnologia a favor da sua Empresa{" "}
             </Title>
             <Text>

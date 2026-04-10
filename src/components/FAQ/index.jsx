@@ -20,7 +20,7 @@ const FAQ = ({ data, variant = "default" }) => {
       {data.map((item, index) => (
         <AccordionItem $variant={variant} key={item.id}>
           <AccordionHeader $variant={variant}
-            isOpen={activeIndex === index}
+            $isOpen={activeIndex === index}
             onClick={() => toggleAccordion(index)}
           >
             <span className="number">{item.id}</span>
@@ -28,7 +28,7 @@ const FAQ = ({ data, variant = "default" }) => {
             <img className="icon" src={Arrow} alt="Arrow" />
           </AccordionHeader>
 
-          <AccordionContent $variant={variant} isOpen={activeIndex === index}>
+          <AccordionContent $variant={variant} $isOpen={activeIndex === index}>
             {item.content.split("\n").map((line, i) => (
               <span key={i}>
                 {line}

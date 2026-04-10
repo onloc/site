@@ -10,9 +10,9 @@ const ButtonComponent = ({
 }) => {
   return (
     <Button 
-    style={style}
+      style={style}
       onClick={func} 
-      variant={variant} 
+      $variant={variant} 
       $minWidth={minWidth} 
       $flex={flex}
     >
