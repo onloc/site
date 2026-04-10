@@ -15,9 +15,12 @@ import {
 
 import desk from "../../assets/mock-produto.png";
 import { useState } from "react";
+import { useNavigate } from "react-router-dom";
 
 function ComponentRecommendations() {
   const [activeTab, setActiveTab] = useState(0);
+
+    const navigate = useNavigate();
 
   const tabs = [
     "Processadores",
@@ -80,7 +83,7 @@ function ComponentRecommendations() {
             <ContentImage src={desk} alt="Desk" />
             <ContentGroup>
               <ContentText>{content[activeTab].text}</ContentText>
-              <ContentButton>Ver Computadores</ContentButton>
+              <ContentButton onClick={() => navigate("/equipamentos")}>Ver Computadores</ContentButton>
             </ContentGroup>
           </Content>
         </Block>
