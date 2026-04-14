@@ -1,10 +1,11 @@
 import { useEffect, useState } from "react";
 import HomeCard from "../HomeEquipmentCard";
 
-import desk1 from "../../assets/card/desk.png";
-import desk2 from "../../assets/card/desk2.png";
-import screen from "../../assets/card/screen.png";
-import server from "../../assets/card/server.png";
+import miniDesk from "../../assets/equipamentos-2026/DESK MINI DELL OPTIPLEX 3000 I3-12100T.jpg";
+import notebook from "../../assets/equipamentos-2026/NOTEBOOK HP ELITEBOOK 840 G7 I5-10310U.png";
+import workstation from "../../assets/equipamentos-2026/WORKSTATION HP Z2 G4 TOWER XEON E-2144G.webp"; 
+import notework from "../../assets/equipamentos-2026/NOTEBOOK WORKSTATION HP ZBOOK FURY 15 G7 I7-10850H 1.webp";
+import server from "../../assets/equipamentos-2026/SERVIDOR DELL POWEREDGE R540 2X XEON GOLD 6138 1.webp";
 import work from "../../assets/card/work.png";
 
 import arrowLeft from "../../assets/slider-arrow-left.png";
@@ -26,22 +27,22 @@ function HomeSlider({ onScrollToForm }) {
 
   const items = [
     {
-      image: desk1,
+      image: miniDesk,
       title: "Mini Desktops",
       text: "Indicados para ambientes administrativos, call centers e estações fixas com pouco espaço, os mini desktops oferecem desempenho estável, baixo consumo de energia e fácil integração à infraestrutura de TI da empresa.",
     },
     {
-      image: desk1,
+      image: notebook,
       title: "Notebooks",
       text: "Os notebooks corporativos são ideais para empresas que precisam de mobilidade sem abrir mão de desempenho. Atendem desde tarefas administrativas até operações mais exigentes, com autonomia, segurança e compatibilidade com ambientes empresariais.",
     },
     {
-      image: desk2,
+      image: workstation,
       title: "Workstations",
       text: "As workstations são projetadas para tarefas que exigem grande poder de processamento gráfico e computacional. Indicadas para profissionais que trabalham com softwares pesados e precisam de máxima performance e estabilidade.",
     },
     {
-      image: screen,
+      image: notework,
       title: "NoteWorks",
       text: "Os netbooks corporativos atendem operações básicas que demandam mobilidade e acesso rápido a sistemas, com foco em custo-benefício e facilidade de uso.",
     },
