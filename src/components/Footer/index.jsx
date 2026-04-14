@@ -55,7 +55,10 @@ const Footer = () => (
       <FooterContent>
         <div style={{ flex: "1 1 250px", minWidth: 0 }}>
           <LogoImage src={logo} alt="On.Loc" />
-          <p>A tecnologia não precisa ser complicada. Nem Distante. Nem sua. A gente entrega, conecta e transforma. </p>
+          <p>
+            A tecnologia não precisa ser complicada. Nem Distante. Nem sua. A
+            gente entrega, conecta e transforma.{" "}
+          </p>
         </div>
         <div>
           <SectionTitle>Institucional</SectionTitle>
@@ -63,7 +66,7 @@ const Footer = () => (
             <div>
               <FooterLink href="#">Home</FooterLink>
               <Dropdown>
-                <FooterLink href="#">Equipamentos ▾</FooterLink>
+                <FooterLink href="/equipamentos">Equipamentos ▾</FooterLink>
                 <DropdownMenu>
                   <DropdownItem>Desktop</DropdownItem>
                   <DropdownItem>Minidesks</DropdownItem>
@@ -82,14 +85,16 @@ const Footer = () => (
                   <DropdownItem>Workstation</DropdownItem>
                 </DropdownMenu>
               </Dropdown>
-              <FooterLink href="#">Serviços</FooterLink>
-              <FooterLink href="#">Suporte</FooterLink>
+              <FooterLink href="/Suporte">Suporte</FooterLink>
+              <FooterLink href="/duvidas">Dúvidas</FooterLink>
             </div>
-
             <div>
-              <FooterLink href="#">Quem Somos</FooterLink>
-              <FooterLink href="#">Contato</FooterLink>
+              <FooterLink href="/quem-somos">Quem Somos</FooterLink>
+              <FooterLink href="/contato">Contato</FooterLink>
               <FooterLink href="#">Blog</FooterLink>
+              <FooterLink href="/PoliticaPrivacidade">
+                Política de Privacidade
+              </FooterLink>
             </div>
           </InstitutionalLinks>
         </div>
@@ -148,12 +153,12 @@ const Footer = () => (
       </FooterContent>
     </FooterContainer>
 
-      <FooterCopyright>
-        <span>
-          2025 - <BrandLink href="#">Onloc.</BrandLink> Todos os direitos
-          reservados.
-        </span>
-        {/* <span>
+    <FooterCopyright>
+      <span>
+        2025 - <BrandLink href="#">Onloc.</BrandLink> Todos os direitos
+        reservados.
+      </span>
+      {/* <span>
         Desenvolvido por{" "}
         <BrandLink
           href="https://postali.com.br"
@@ -163,7 +168,7 @@ const Footer = () => (
           Postali
         </BrandLink>
       </span> */}
-      </FooterCopyright>
+    </FooterCopyright>
   </>
 );
 
