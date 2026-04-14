@@ -19,8 +19,8 @@ const PoliticaPrivacidade = () => {
         <Text>
           A presente Política de Privacidade tem por objetivo estabelecer
           diretrizes, responsabilidades e critérios para o tratamento de dados
-          pessoais pela On.loc Locação de Computadores Ltda, em conformidade com
-          a Lei nº 13.709/2018 – Lei Geral de Proteção de Dados (LGPD).
+          pessoais pela <b>On.loc Locação de Computadores Ltda</b>, em conformidade com
+          a <b>Lei nº 13.709/2018 – Lei Geral de Proteção de Dados (LGPD)</b>.
         </Text>
 
         <Text>
@@ -77,7 +77,7 @@ const PoliticaPrivacidade = () => {
           <strong>2.5. Controlador</strong>
           <br />
           Pessoa jurídica responsável pelas decisões referentes ao tratamento de
-          dados pessoais. Neste caso, a On.loc Locação de Computadores Ltda atua
+          dados pessoais. Neste caso, a <b>On.loc Locação de Computadores Ltda</b> atua
           como Controladora de Dados nas relações com seus clientes e parceiros.
         </Text>
 
