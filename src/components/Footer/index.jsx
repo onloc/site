@@ -92,7 +92,7 @@ const Footer = () => (
               <FooterLink href="/quem-somos">Quem Somos</FooterLink>
               <FooterLink href="/contato">Contato</FooterLink>
               <FooterLink href="#">Blog</FooterLink>
-              <FooterLink href="/PoliticaPrivacidade">
+              <FooterLink href="/politica-de-privacidade">
                 Política de Privacidade
               </FooterLink>
             </div>

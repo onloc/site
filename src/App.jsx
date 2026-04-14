@@ -10,6 +10,7 @@ import { Suporte } from "./pages/Suporte/Suporte";
 import { TermoDeUso } from "./pages/TermoDeUso/TermoDeUso";
 
 import ScrollToTop from "./components/utils/ScrollTop";
+import PoliticaPrivacidade from "./pages/PoliticaPrivacidade";
 
 function App() {
   return (
@@ -25,6 +26,7 @@ function App() {
         <Route path="/solucoes" element={<Solucoes />} />
         <Route path="/suporte" element={<Suporte />} />
         <Route path="/termo-de-uso" element={<TermoDeUso />} />
+        <Route path="/politica-de-privacidade" element={<PoliticaPrivacidade />} />
       </Routes>
     </BrowserRouter>
   );
