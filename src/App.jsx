@@ -7,6 +7,7 @@ import { Contato } from "./pages/Contato/Contato";
 import { QuemSomos } from "./pages/QuemSomos/QuemSomos";
 import { Solucoes } from "./pages/Solucoes/Solucoes";
 import { Suporte } from "./pages/Suporte/Suporte";
+import { TermoDeUso } from "./pages/TermoDeUso/TermoDeUso";
 
 import ScrollToTop from "./components/utils/ScrollTop";
 
@@ -23,6 +24,7 @@ function App() {
         <Route path="/quem-somos" element={<QuemSomos />} />
         <Route path="/solucoes" element={<Solucoes />} />
         <Route path="/suporte" element={<Suporte />} />
+        <Route path="/termo-de-uso" element={<TermoDeUso />} />
       </Routes>
     </BrowserRouter>
   );
