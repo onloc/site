@@ -95,6 +95,7 @@ const Footer = () => (
               <FooterLink href="/politica-de-privacidade">
                 Política de Privacidade
               </FooterLink>
+              <FooterLink href="/termo-de-uso">Termo de Uso</FooterLink>
             </div>
           </InstitutionalLinks>
         </div>
