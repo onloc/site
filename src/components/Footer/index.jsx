@@ -64,9 +64,9 @@ const Footer = () => (
           <SectionTitle>Institucional</SectionTitle>
           <InstitutionalLinks>
             <div>
-              <FooterLink href="#">Home</FooterLink>
+              <FooterLink to="/">Home</FooterLink>
               <Dropdown>
-                <FooterLink href="/equipamentos">Equipamentos ▾</FooterLink>
+                <FooterLink to="/equipamentos">Equipamentos ▾</FooterLink>
                 <DropdownMenu>
                   <DropdownItem>Desktop</DropdownItem>
                   <DropdownItem>Minidesks</DropdownItem>
@@ -76,7 +76,6 @@ const Footer = () => (
                 </DropdownMenu>
               </Dropdown>
               <Dropdown>
-                <FooterLink>Soluções ▾</FooterLink>
                 <DropdownMenu>
                   <DropdownItem>Desktop</DropdownItem>
                   <DropdownItem>Minidesks</DropdownItem>
@@ -85,17 +84,17 @@ const Footer = () => (
                   <DropdownItem>Workstation</DropdownItem>
                 </DropdownMenu>
               </Dropdown>
-              <FooterLink href="/Suporte">Suporte</FooterLink>
-              <FooterLink href="/duvidas">Dúvidas</FooterLink>
+              <FooterLink to="/Suporte">Suporte</FooterLink>
+              <FooterLink to="/duvidas">Dúvidas</FooterLink>
             </div>
             <div>
-              <FooterLink href="/quem-somos">Quem Somos</FooterLink>
-              <FooterLink href="/contato">Contato</FooterLink>
-              <FooterLink href="#">Blog</FooterLink>
-              <FooterLink href="/politica-de-privacidade">
+              <FooterLink to="/quem-somos">Quem Somos</FooterLink>
+              <FooterLink to="/contato">Contato</FooterLink>
+              <FooterLink to="/blog">Blog</FooterLink>
+              <FooterLink to="/politica-de-privacidade">
                 Política de Privacidade
               </FooterLink>
-              <FooterLink href="/termo-de-uso">Termo de Uso</FooterLink>
+              <FooterLink to="/termo-de-uso">Termo de Uso</FooterLink>
             </div>
           </InstitutionalLinks>
         </div>

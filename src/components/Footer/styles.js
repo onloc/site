@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import { Link } from "react-router-dom";
 
 export const FooterContainer = styled.footer`
   background-color: #1e1e20;
@@ -49,12 +50,13 @@ export const SectionTitle = styled.h4`
   margin-bottom: 24px;
 `;
 
-export const FooterLink = styled.a`
+export const FooterLink = styled(Link)`
   display: block;
   color: #cccccc;
   text-decoration: none;
   margin-bottom: 10px;
   cursor: pointer;
+
   &:hover {
     color: #ffffff;
   }
