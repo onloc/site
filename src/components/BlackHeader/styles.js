@@ -4,6 +4,10 @@ import { Link } from "react-router-dom";
 export const Wrapper = styled.header`
   width: 100%;
   background-color: #000000;
+
+  position: sticky;
+  top: 0;
+  z-index: 1000;
 `;
 
 export const MobileContainer = styled.div`
