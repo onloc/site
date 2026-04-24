@@ -112,52 +112,52 @@ const PoliticaPrivacidade = () => {
         </Text>
 
         <Text>
-          4.1. Finalidade
+          <strong>4.1. Finalidade</strong>
           <br />
           Os dados pessoais serão tratados para propósitos legítimos,
           específicos e informados ao titular.
         </Text>
 
         <Text>
-          4.2. Adequação
+          <strong>4.2. Adequação</strong>
           <br />O tratamento será compatível com a finalidade informada ao
           titular.
         </Text>
 
         <Text>
-          4.3. Necessidade
+          <strong>4.3. Necessidade</strong>
           <br />
           Serão coletados apenas os dados estritamente necessários para a
           finalidade pretendida.
         </Text>
 
         <Text>
-          4.5. Transparência
+          <strong>4.5. Transparência</strong>
           <br />
           Os titulares serão informados sobre como seus dados são utilizados.
         </Text>
 
         <Text>
-          4.6. Segurança
+          <strong>4.6. Segurança</strong>
           <br />A empresa adota medidas técnicas e administrativas para proteger
           os dados contra acesso não autorizado.
         </Text>
 
         <Text>
-          4.7. Prevenção
+          <strong>4.7. Prevenção</strong>
           <br />A empresa busca prevenir incidentes relacionados à segurança e
           privacidade dos dados.
         </Text>
 
         <Text>
-          4.8. Não discriminação
+          <strong>4.8. Não discriminação</strong>
           <br />
           Os dados não serão utilizados para fins discriminatórios, ilícitos ou
           abusivos.
         </Text>
 
         <Text>
-          4.9. Responsabilização
+          <strong>4.9. Responsabilização</strong>
           <br />A empresa mantém mecanismos capazes de demonstrar a conformidade
           com a legislação.
         </Text>
@@ -171,7 +171,7 @@ const PoliticaPrivacidade = () => {
         </Text>
 
         <Text>
-          5.1. Dados de clientes
+          <strong>5.1. Dados de clientes</strong>
           <br />
           Serão coletados dos clientes dados como nome, CPF ou CNPJ, endereço,
           telefone, e-mail, dados para faturamento e demais informações
@@ -179,7 +179,7 @@ const PoliticaPrivacidade = () => {
         </Text>
 
         <Text>
-          5.2. Dados de fornecedores e parceiros
+          <strong>5.2. Dados de fornecedores e parceiros</strong>
           <br />
           Serão coletados dos fornecedores e parceiros dados como dados
           cadastrais, dados de contato como endereço, telefone e e-mail, dados
@@ -188,7 +188,7 @@ const PoliticaPrivacidade = () => {
         </Text>
 
         <Text>
-          5.3. Dados de colaboradores
+          <strong>5.3. Dados de colaboradores</strong>
           <br />
           Serão coletados dos colaboradores informações trabalhistas, documentos
           pessoais, dados para folha de pagamento e demais dados exigidos por
