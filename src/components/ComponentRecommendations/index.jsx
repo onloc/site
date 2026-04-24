@@ -13,7 +13,8 @@ import {
   Triangle,
 } from "./styles";
 
-import desk from "../../assets/mock-produto.png";
+import note from "../../assets/equipamentos-2026/NOTEBOOK WORKSTATION HP ZBOOK FURY 15 G7 I7-10850H 1.webp"
+
 import { useState } from "react";
 import { useNavigate } from "react-router-dom";
 
@@ -80,7 +81,7 @@ function ComponentRecommendations() {
           <Rectangle />
 
           <Content>
-            <ContentImage src={desk} alt="Desk" />
+            <ContentImage src={note} alt="Desk" />
             <ContentGroup>
               <ContentText>{content[activeTab].text}</ContentText>
               <ContentButton onClick={() => navigate("/equipamentos")}>Ver Computadores</ContentButton>
