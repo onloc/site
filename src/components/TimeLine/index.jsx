@@ -83,6 +83,17 @@ const TimeLine = () => {
             fontWeight="500"
             style={{ marginBottom: "16px" }}
           >
+            2012 - Nasceu oficialmente a ONLOC.
+          </Typography>
+        </TimelineItem>
+        <TimelineItem>
+          <Typography
+            colorText="#014C80"
+            variant="Quicksand"
+            fontSize="18px"
+            fontWeight="500"
+            style={{ marginBottom: "16px" }}
+          >
             2014 - Lançamento dos serviços de locação ON.LOC
           </Typography>
           <Typography
@@ -95,6 +106,63 @@ const TimeLine = () => {
             Após pesquisas realizadas no setor, a ON.LOC colocou em prática o
             projeto criado de locação online de equipamento de TI. Desde então,
             a ON.LOC conquista cada vez mais clientes de Rio Claro/SP e região.
+          </Typography>
+        </TimelineItem>
+        <TimelineItem>
+          <Typography
+            colorText="#014C80"
+            variant="Quicksand"
+            fontSize="18px"
+            fontWeight="500"
+            style={{ marginBottom: "16px" }}
+          >
+            2017 - Já celebrávamos nosso contrato nº100.
+          </Typography>
+        </TimelineItem>
+        <TimelineItem>
+          <Typography
+            colorText="#014C80"
+            variant="Quicksand"
+            fontSize="18px"
+            fontWeight="500"
+            style={{ marginBottom: "16px" }}
+          >
+            2018 - Chegamos a 100 clientes ativos.
+          </Typography>
+        </TimelineItem>
+        <TimelineItem>
+          <Typography
+            colorText="#014C80"
+            variant="Quicksand"
+            fontSize="18px"
+            fontWeight="500"
+            style={{ marginBottom: "16px" }}
+          >
+            2019 - Atualizamos nossos contratos para a LGPD e expandimos para
+            Campinas.
+          </Typography>
+        </TimelineItem>
+        <TimelineItem>
+          <Typography
+            colorText="#014C80"
+            variant="Quicksand"
+            fontSize="18px"
+            fontWeight="500"
+            style={{ marginBottom: "16px" }}
+          >
+            2020 - Lançamos o ERP On.Loc 1.0, e em 2021 batemos recorde de
+            vendas.
+          </Typography>
+        </TimelineItem>
+        <TimelineItem>
+          <Typography
+            colorText="#014C80"
+            variant="Quicksand"
+            fontSize="18px"
+            fontWeight="500"
+            style={{ marginBottom: "16px" }}
+          >
+            2024 - Um marco: novo escritório em Piracicaba, certificação ISO 9001 e nosso cliente nº1000.
           </Typography>
         </TimelineItem>
         <TimelineItem>
