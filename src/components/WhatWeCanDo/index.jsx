@@ -26,11 +26,9 @@ function WhatWeCanDo({ onScrollToForm }) {
             <Text>
               Com equipamentos de alta performance e o know-how de uma equipe
               especializada, a ON.LOC entrega aos clientes tecnologia, inovação
-              e a tranquilidade do outsourcing,
-              <br />
-              <br />
-              permitindo assim que suas equipes possam se dedicar a outros
-              trabalhos, essenciais para o desenvolvimento do seu negócio.
+              e a tranquilidade do outsourcing, permitindo assim que suas
+              equipes possam se dedicar a outros trabalhos, essenciais para o
+              desenvolvimento do seu negócio.
             </Text>
             <BlockContainer>
               <Block>
