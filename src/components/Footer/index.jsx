@@ -136,13 +136,13 @@ const Footer = () => (
         <div>
           <SectionTitle>Rede Social</SectionTitle>
           <SocialContainer>
-            <a href="#" target="_blank" rel="noreferrer">
+            <a href="https://www.facebook.com/onloc.brasil/" target="_blank" rel="noreferrer">
               <SocialIcon src={facebook} alt="Rede Social 1" />
             </a>
-            <a href="#" target="_blank" rel="noreferrer">
+            <a href="https://www.instagram.com/on.loc/" target="_blank" rel="noreferrer">
               <SocialIcon src={instagram} alt="Rede Social 2" />
             </a>
-            <a href="#" target="_blank" rel="noreferrer">
+            <a href="https://www.linkedin.com/company/on.loc?originalSubdomain=br" target="_blank" rel="noreferrer">
               <SocialIcon src={linkedin} alt="Rede Social 3" />
             </a>
             <a href="#" target="_blank" rel="noreferrer">
