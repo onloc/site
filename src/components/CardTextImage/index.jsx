@@ -1,12 +1,12 @@
 import Typography from "../Typography";
 import { Container } from "./styles";
 
-const CardTextImage = ({ image, text, variant = "title" }) => {
+const CardTextImage = ({ image, backgroundColor, text, tinyText, variant = "title" }) => {
   const containerStyle =
     variant === "other" ? { padding: "68px 32px" } : { padding: "150px 32px" };
 
   return (
-    <Container $bgImage={image} style={containerStyle}>
+    <Container $bgImage={image} $bgColor={backgroundColor} style={containerStyle}>
       {variant === "title" ? (
         <Typography
           variant="Quicksand"
@@ -24,6 +24,17 @@ const CardTextImage = ({ image, text, variant = "title" }) => {
           colorText="#FFF"
         >
           {text}
+        </Typography>
+      )}
+      {tinyText && (
+        <Typography
+          variant="Qubic Grid; Sans-serif"
+          fontSize="18px"
+          fontWeight="400"
+          colorText="#FFF"
+          style={{ marginTop: "16px", alignSelf: "flex-end" }}
+        >
+          {tinyText}
         </Typography>
       )}
     </Container>

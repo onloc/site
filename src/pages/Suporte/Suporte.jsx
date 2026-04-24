@@ -69,10 +69,11 @@ export function Suporte() {
 
         <CardTextImage
           variant="other"
-          image={relatoTraumec}
+          backgroundColor={"#014c80"}
           text={
-            "A Onloc é um grande parceiro da Traumec, com um ótimo atendimento, agilidade, qualidade e sobretudo proximidade com o cliente. Certamente é um parceiro que se preocupa com as nossas necessidades e que estará nos acompanhando em nossa jornada de TI"
+            "“O desenvolvimento tecnológico trouxe grandes oportunidades  e somente empresas de visão aproveitam e transformam oportunidades em ótimos negócios. A locação de computadores, pela ON LOC  trouxe facilidade e agilidade para outras empresas. Excelência em prestação de serviços. Parabéns !!!” "
           }
+          tinyText={"Cliente de Planejados"}
         />
 
         <CardTextImage
