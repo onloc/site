@@ -18,7 +18,6 @@ function HomeCard({ image, title, text, onScrollToForm }) {
 
       <Content>
         <LogoTitleWrapper>
-          <Logo src={dellLogo} alt="Dell" />
           <CardTitle>{title}</CardTitle>
         </LogoTitleWrapper>
 
