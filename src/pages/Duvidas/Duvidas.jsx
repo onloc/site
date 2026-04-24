@@ -85,8 +85,8 @@ export function Duvidas() {
     {
       id: "14",
       title:
-        "Como é garantida a segurança das informações armazenadas nos equipamentos?",
-      content: `Lorem ipsum dolor sit amet consectetur. Leo donec netus libero facilisi pellentesque. Donec sed nunc sed amet. Nunc sed nunc sed amet.`,
+        "A locação de computadores gera benefícios fiscais?",
+      content: `Sim. Em muitos casos, os valores pagos na locação podem ser lançados como despesa operacional, reduzindo a base de cálculo de impostos (especialmente no Lucro Real). Além disso, a locação evita imobilização de capital e pode trazer ganhos no fluxo de caixa, tornando-se uma alternativa financeiramente mais eficiente em comparação à compra.`,
     },
     {
       id: "15",
