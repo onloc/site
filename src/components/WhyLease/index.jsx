@@ -10,7 +10,7 @@ import {
 
 import backgroundImage from "../../assets/background-image.png";
 import computerIcon from "../../assets/computer-icon.png";
-import whiteDesk from "../../assets/white-desk.png";
+import desk from "../../assets/equipamentos-2026/DESKTOP DELL SFF OPTIPLEX 3080 I5-10500.webp";
 
 function WhyLeaseComponent() {
   return (
@@ -27,7 +27,7 @@ function WhyLeaseComponent() {
             custos previsíveis.
            <b> A locação elimina altos investimentos iniciais, reduz a preocupação com manutenção e permite que sua equipe foque no que realmente importa</b>
           </WhyLeaseText>
-          <WhyLeaseImage src={whiteDesk} alt="White Desk" />
+          <WhyLeaseImage src={desk} alt="Desk" />
         </WhyLeaseContainer>
       </WhyLease>
     </>
