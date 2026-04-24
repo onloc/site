@@ -88,11 +88,12 @@ export const Block2 = styled.img`
 
 export const ImageText = styled.div`
   position: absolute;
+  width: 100%;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
   color: white;
-  font-size: 24px;
+  font-size: 28px;
   font-weight: 600;
   text-align: center;
 `;
