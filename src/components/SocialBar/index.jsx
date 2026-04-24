@@ -27,13 +27,31 @@ function SocialBar({ color = "white", styleCustom }) {
         };
 
   return (
-      <StyledSocialBar color={color} style={styleCustom}>
-        Redes sociais
-        <SocialIcon src={icons.youtube} alt="YouTube" />
+    <StyledSocialBar color={color} style={styleCustom}>
+      Redes sociais
+      <a
+        href="https://www.facebook.com/onloc.brasil/"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
         <SocialIcon src={icons.facebook} alt="Facebook" />
+      </a>
+      <a
+        href="https://www.instagram.com/on.loc/"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
         <SocialIcon src={icons.instagram} alt="Instagram" />
+      </a>
+      <a
+        href="https://www.linkedin.com/company/on.loc?originalSubdomain=br"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
         <SocialIcon src={icons.linkedin} alt="LinkedIn" />
-      </StyledSocialBar>
+      </a>
+        <SocialIcon src={icons.youtube} alt="YouTube" />
+    </StyledSocialBar>
   );
 }
 
