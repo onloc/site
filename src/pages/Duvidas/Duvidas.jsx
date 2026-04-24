@@ -91,8 +91,8 @@ export function Duvidas() {
     {
       id: "15",
       title:
-        "Como o serviço apoia empresas em projetos temporários, eventos ou expansão rápida?",
-      content: `Lorem ipsum dolor sit amet consectetur. Leo donec netus libero facilisi pellentesque. Donec sed nunc sed amet. Nunc sed nunc sed amet.`,
+        "É possível integrar os computadores alugados à infraestrutura de TI existente?",
+      content: `Sim. Os equipamentos podem ser configurados para operar dentro da infraestrutura já existente da empresa, respeitando padrões de rede, domínio, segurança e sistemas utilizados. Isso garante continuidade operacional sem impacto na rotina dos usuários.`,
     },
   ];
   return (
