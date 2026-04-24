@@ -5,8 +5,8 @@ import miniDesk from "../../assets/equipamentos-2026/DESK MINI DELL OPTIPLEX 300
 import notebook from "../../assets/equipamentos-2026/NOTEBOOK HP ELITEBOOK 840 G7 I5-10310U.png";
 import workstation from "../../assets/equipamentos-2026/WORKSTATION HP Z2 G4 TOWER XEON E-2144G.webp"; 
 import notework from "../../assets/equipamentos-2026/NOTEBOOK WORKSTATION HP ZBOOK FURY 15 G7 I7-10850H 1.webp";
-import server from "../../assets/equipamentos-2026/SERVIDOR DELL POWEREDGE R540 2X XEON GOLD 6138 1.webp";
-import work from "../../assets/card/work.png";
+import server from "../../assets/equipamentos-2026/SERVIDOR DELL POWEREDGE T440 2X XEON GOLD 6138.png";
+import screen from "../../assets/equipamentos-2026/1200.webp";
 
 import arrowLeft from "../../assets/slider-arrow-left.png";
 import arrowRight from "../../assets/slider-arrow-right.png";
@@ -52,7 +52,7 @@ function HomeSlider({ onScrollToForm }) {
       text: "Os servidores corporativos são a base da infraestrutura de TI, responsáveis por armazenar dados, hospedar sistemas e garantir disponibilidade e segurança da informação.",
     },
     {
-      image: work,
+      image: screen,
       title: "Monitores",
       text: "Os monitores corporativos melhoram a ergonomia e aumentam a produtividade, especialmente em operações que utilizam múltiplas janelas ou mais de uma tela.",
     },
