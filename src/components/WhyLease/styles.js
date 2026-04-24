@@ -103,7 +103,7 @@ export const WhyLeaseText = styled.p`
 `;
 
 export const WhyLeaseImage = styled.img`
-  max-width: 240px;
+  max-width: 180px;
   height: auto;
   object-fit: contain;
   z-index: 1;
