@@ -6,6 +6,11 @@ import bannerequipment from "../../assets/banner-equipment.png";
 import bannerequipment2 from "../../assets/banner-equipment-2.png";
 import bannerequipment3 from "../../assets/banner-equipment-3.png";
 
+import screen from "../../assets/equipamentos-2026/1200.webp";
+import note from "../../assets/equipamentos-2026/NOTEBOOK WORKSTATION HP ZBOOK FURY 15 G7 I7-10850H 1.webp"
+import server from "../../assets/equipamentos-2026/SERVIDOR DELL POWEREDGE T440 2X XEON GOLD 6138.png";
+
+
 import imageCard1 from "../../assets/content-image-1.png";
 import imageCard2 from "../../assets/content-image-2.png";
 import imageCard3 from "../../assets/content-image-3.png";
@@ -113,7 +118,7 @@ export function Home() {
         color: "#3c54a4",
         background: "linear-gradient(90deg,#FFFFFF,#CDEAFF)",
       },
-      sideImage: bannerequipment,
+      sideImage: note,
       textColor: "white",
     },
     {
@@ -127,7 +132,7 @@ export function Home() {
         color: "white",
         background: "linear-gradient(90deg,#014575,#497FA6)",
       },
-      sideImage: bannerequipment2,
+      sideImage: screen,
       textColor: "black",
       socialBarColor: "blue",
     },
@@ -142,7 +147,7 @@ export function Home() {
         color: "#3c54a4",
         background: "linear-gradient(90deg,#FFFFFF,#CDEAFF)",
       },
-      sideImage: bannerequipment3,
+      sideImage: server,
       textColor: "white",
     },
   ];

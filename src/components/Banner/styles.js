@@ -46,8 +46,20 @@ export const BannerContent = styled.div`
 `;
 
 export const BannerSideImage = styled.img`
-  width: 45%;
   height: auto;
+
+  width: ${({ banner }) => {
+    switch (banner) {
+      case 0:
+        return "45%";
+      case 1:
+        return "40%";
+      case 2:
+        return "30%";
+      default:
+        return "45%";
+    }
+  }};
 
   @media (max-width: 768px) {
     width: 60%;

@@ -46,13 +46,17 @@ export default function Banner({
           <BannerSubtitle>{subtitle}</BannerSubtitle>
 
           {buttonText && (
-            <BannerButton $buttonStyle={buttonStyle} onClick={onScrollToForm}>{buttonText}</BannerButton>
+            <BannerButton $buttonStyle={buttonStyle} onClick={onScrollToForm}>
+              {buttonText}
+            </BannerButton>
           )}
         </BannerContent>
         <BannerCornerText $textColor={textColor}>
           Técnologia que <b>transforma</b>
         </BannerCornerText>
-        {sideImage && <BannerSideImage src={sideImage} alt="banner image" />}
+        {sideImage && (
+          <BannerSideImage src={sideImage} alt="banner image" banner={banner} />
+        )}
         <BannerIconsContainer>
           {banner == 0 ? (
             <>
