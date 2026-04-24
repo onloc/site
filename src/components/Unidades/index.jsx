@@ -34,16 +34,10 @@ const Unidades = () => {
       name: "Rio Claro",
       unitys: [
         {
-          name: "Loja 1",
-          location: "R. Quatro, 1544 - Vila Operaria, Rio Claro - SP, 13500-170",
+          name: "Matriz",
+          location: "Quatro, nº1544 - Vila Operaria, Rio Claro - SP",
           phone: "+55 (19) 3023-6697",
-          email: "vendas@cafmaquinas.com.br",
-        },
-        {
-          name: "Loja 2",
-          location: "Rua Barão de Paranapanema, nº 46, sala 21, Bosque, Campinas/SP",
-          phone: "+55 19 3536-9999",
-          email: "loja2@cafmaquinas.com.br",
+          email: "contato@onloc.com.br",
         },
       ],
     },
@@ -51,10 +45,11 @@ const Unidades = () => {
       name: "Campinas",
       unitys: [
         {
-          name: "Loja 4",
-          location: "RUA ALFREDO GUEDES, 937, sala 05 - ALTO, PIRACICABA - SP, 13419-075",
-          phone: "+55 19 3536-9100",
-          email: "vendas@cafmaquinas.com.br",
+          name: "Filial Campinas",
+          location:
+            "Rua Barão de Paranapanema, nº 46, sala 21, Bosque, Campinas/SP",
+          phone: "+55 (19) 3023-6697",
+          email: "contato@onloc.com.br",
         },
       ],
     },
@@ -62,16 +57,11 @@ const Unidades = () => {
       name: "Piracicaba",
       unitys: [
         {
-          name: "Loja 3",
-          location: "Av. 70A, 1185 - Piracicaba",
-          phone: "+55 19 3536-9100",
-          email: "vendas@cafmaquinas.com.br",
-        },
-        {
-          name: "Loja 5",
-          location: "Rua Teste, 50 - Piracicaba",
-          phone: "+55 19 3536-8888",
-          email: "piracicaba2@cafmaquinas.com.br",
+          name: "Filial Piracicaba",
+          location:
+            "Rua Alfredo Guedes, nº 937, sala 05 - Alto, Piracicaba - SP",
+          phone: "+55 (19) 3023-6697",
+          email: "contato@onloc.com.br",
         },
       ],
     },
