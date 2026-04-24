@@ -45,6 +45,9 @@ export const Cards = styled.div`
 export const Card = styled.div`
   display: flex;
   flex-direction: column;
+  border: 1px solid #bac8e5;
+  border-radius: 8px;
+  padding: 16px;
 `;
 
 export const Icon = styled.img`
