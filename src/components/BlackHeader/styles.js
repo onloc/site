@@ -186,8 +186,8 @@ export const SearchIcon = styled.img`
 
 export const Button = styled.button`
   background: transparent;
-  color: white;
-  border: 2px solid white;
+  color: #00b90f; 
+  border: 2px solid #00b90f;
   padding: 12px 32px;
   border-radius: 32px;
   cursor: pointer;
