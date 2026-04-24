@@ -66,7 +66,7 @@ const FormContainer = () => {
               <ContactIcon src={Mail} alt="E-mail" />
               <div>
                 <ContactTitle>E-mail</ContactTitle>
-                <ContactInfo>vendas@cafmaquinas.com.br</ContactInfo>
+                <ContactInfo>contato@onloc.com.br</ContactInfo>
               </div>
             </div>
           </ContactBox>
