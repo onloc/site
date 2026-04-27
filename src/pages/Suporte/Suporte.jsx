@@ -21,6 +21,8 @@ import {
   LinkText,
   SoftwareContent,
   SoftwarePatern,
+  CallButton,
+  ButtonContainer,
 } from "./styles";
 
 export function Suporte() {
@@ -50,11 +52,9 @@ export function Suporte() {
           uma solução ideal em até 8 horas úteis.
         </Typography>
 
-        <LinkText>
-          <Typography variant="Montserrat" colorText="#014C80">
-            Abra um Chamado
-          </Typography>
-        </LinkText>
+        <ButtonContainer>
+          <CallButton>Abra um Chamado</CallButton>
+        </ButtonContainer>
       </Intro>
 
       <CardsSection>

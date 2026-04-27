@@ -11,7 +11,7 @@ export const Intro = styled.section`
   flex-direction: column;
   gap: 16px;
 
-  margin: 120px auto;
+  margin: 64px auto;
   padding: 0 20px;
 
   max-width: 1280px;
@@ -134,4 +134,25 @@ export const SoftwarePatern = styled.img.attrs({
   transform: translateY(25%);
 
   border: none;
+`;
+
+export const ButtonContainer = styled.div`
+  display: flex;
+  justify-content: center;
+  margin-top: 32px;
+`;
+
+export const CallButton = styled.button`
+  background: transparent;
+  color: #00b90f; 
+  border: 2px solid #00b90f;
+  padding: 12px 32px;
+  border-radius: 32px;
+  cursor: pointer;
+
+  width: fit-content;
+
+  &:hover {
+    background: rgba(0, 185, 15, 0.1);
+  }
 `;
