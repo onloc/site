@@ -162,16 +162,6 @@ const Footer = () => (
         2025 - <BrandLink href="#">Onloc.</BrandLink> Todos os direitos
         reservados.
       </span>
-      {/* <span>
-        Desenvolvido por{" "}
-        <BrandLink
-          href="https://postali.com.br"
-          target="_blank"
-          rel="noreferrer"
-        >
-          Postali
-        </BrandLink>
-      </span> */}
     </FooterCopyright>
   </>
 );

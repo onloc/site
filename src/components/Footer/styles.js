@@ -167,7 +167,7 @@ export const FooterCopyright = styled.div`
   width: 100%;
   padding: 20px 350px;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
   color: #ffffff;
   font-family: Inter;
