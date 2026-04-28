@@ -147,9 +147,9 @@ export const ButtonContainer = styled.div`
 `;
 
 export const CallButton = styled.button`
-  background: transparent;
-  color: #00b90f;
-  border: 2px solid #00b90f;
+  background: linear-gradient(90deg, #25D366, #00af0f);
+  color: white;
+  border: 2px solid #25D366;
   padding: 12px 32px;
   border-radius: 32px;
   cursor: pointer;
@@ -157,7 +157,8 @@ export const CallButton = styled.button`
   width: fit-content;
 
   &:hover {
-    background: rgba(0, 185, 15, 0.1);
+    background: linear-gradient(90deg, #1ebc5b, #009e0c);
+    border-color: #1ebc5b;
   }
 
   @media (max-width: 768px) {
