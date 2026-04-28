@@ -148,6 +148,7 @@ export const Block = styled.div`
 
   @media (max-width: 768px) {
     margin-bottom: 200px;
+    height: 450px;
   }
 
   > * {

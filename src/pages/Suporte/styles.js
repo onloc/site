@@ -17,7 +17,7 @@ export const Intro = styled.section`
   max-width: 1280px;
 
   @media (max-width: 768px) {
-    margin: 80px auto;
+    margin: 32px auto;
   }
 `;
 
@@ -140,11 +140,15 @@ export const ButtonContainer = styled.div`
   display: flex;
   justify-content: center;
   margin-top: 32px;
+
+  @media (max-width: 768px) {
+    margin-top: 16px;
+  }
 `;
 
 export const CallButton = styled.button`
   background: transparent;
-  color: #00b90f; 
+  color: #00b90f;
   border: 2px solid #00b90f;
   padding: 12px 32px;
   border-radius: 32px;
@@ -154,5 +158,10 @@ export const CallButton = styled.button`
 
   &:hover {
     background: rgba(0, 185, 15, 0.1);
+  }
+
+  @media (max-width: 768px) {
+    font-size: 16px;
+    padding: 12px 32px;
   }
 `;

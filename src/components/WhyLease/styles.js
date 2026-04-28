@@ -107,4 +107,8 @@ export const WhyLeaseImage = styled.img`
   height: auto;
   object-fit: contain;
   z-index: 1;
+
+  @media (max-width: 768px) {
+    max-width: 160px;
+  }
 `;

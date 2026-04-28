@@ -13,7 +13,7 @@ export const Content = styled.section`
   }
 
   @media (max-width: 768px) {
-    padding: 60px 20px;
+    padding: 48px 24px;
   }
 `;
 
@@ -22,7 +22,7 @@ export const TitleContainer = styled.div`
   margin-bottom: 100px;
 
   @media (max-width: 768px) {
-    margin-bottom: 60px;
+    margin-bottom: 32px;
   }
 `;
 
