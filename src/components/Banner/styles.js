@@ -62,7 +62,14 @@ export const BannerSideImage = styled.img`
   }};
 
   @media (max-width: 768px) {
-    width: 60%;
+    width: ${({ banner }) => {
+      switch (banner) {
+        case 2:
+          return "44%";
+        default:
+          return "60%";
+      }
+    }};
     margin-left: 0;
     margin-top: 20px;
     order: 1;
