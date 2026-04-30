@@ -94,7 +94,16 @@ function BlackHeader() {
               />
             )}
           </SearchContainer>
-          <Button>Suporte Técnico</Button>
+          <Button
+            onClick={() =>
+              window.open(
+                "https://wa.me/5519984573320",
+                "_blank",
+              )
+            }
+          >
+            Suporte Técnico
+          </Button>
         </Actions>
       </Container>
     </Wrapper>
