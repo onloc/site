@@ -53,7 +53,11 @@ export function Suporte() {
         </Typography>
 
         <ButtonContainer>
-          <CallButton>Abra um Chamado</CallButton>
+          <CallButton
+            onClick={() => window.open("https://wa.me/5519984573320", "_blank")}
+          >
+            Abra um Chamado
+          </CallButton>
         </ButtonContainer>
       </Intro>
 
