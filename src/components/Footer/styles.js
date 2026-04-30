@@ -7,27 +7,12 @@ export const FooterContainer = styled.footer`
 `;
 
 export const ImageGrid = styled.div`
-  display: grid;
-  grid-template-columns: repeat(7, 1fr);
   width: 100%;
-  height: auto;
-  gap: 0;
-
-  @media (max-width: 768px) {
-  & > img {
-      width: 100%; // garante que cada img ocupe 100% da coluna
-      height: auto; // mantém a proporção
-    }
-    grid-template-columns: repeat(5, 1fr);
-    & > img:nth-last-child(-n+2) {
-      display: none;
-    }
-  }
 `;
 
 export const FooterImage = styled.img`
   width: 100%;
-  height: 330px;
+  height: 100%;
   object-fit: cover;
   display: block;
 `;
