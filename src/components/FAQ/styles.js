@@ -49,6 +49,11 @@ export const AccordionHeader = styled.div`
   @media (max-width: 768px) {
     text-align: left;
     font-size: 16px;
+    padding: 16px 0;
+
+    .number {
+      margin-right: 16px;
+    }
   }
 `;
 
