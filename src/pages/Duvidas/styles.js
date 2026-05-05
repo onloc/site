@@ -3,7 +3,7 @@ import styled from "styled-components";
 export const Title = styled.h1`
     font-family: "Qubic", sans-serif;
     font-weight: normal;
-    font-size: 48px;
+    font-size: 44px;
     color: black;
     margin-bottom: 64px;
     width: 40%;
@@ -21,6 +21,7 @@ export const FAQContainer = styled.div`
   flex-direction: column;
   width: 80%;
   margin: 64px auto;
+  max-width: 1280px;
 
   @media (max-width: 768px) {
     width: 100%;

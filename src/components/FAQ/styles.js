@@ -4,7 +4,8 @@ export const FAQContainer = styled.div`
   display: flex;
   flex-direction: column;
   gap: 16px;
-  max-width: 1216px;
+  max-width: 1280px;
+  margin: 0 auto;
 `;
 
 export const Title = styled.h2`
