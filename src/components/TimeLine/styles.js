@@ -1,12 +1,13 @@
 import styled from "styled-components";
 
 export const Container = styled.div`
-  margin: 120px 200px 120px 200px;
+  margin: 64px auto;
 
-  display: inline-flex;
+  display: flex;
   justify-content: center;
   align-items: center;
   gap: 32px;
+  max-width: 1280px;
 
   @media (max-width: 768px) {
     flex-direction: column;

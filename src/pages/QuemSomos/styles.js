@@ -6,13 +6,15 @@ export const Page = styled.div`
 
 export const Section = styled.section`
   padding: 20px;
-  margin: 120px 150px auto 100px;
+  margin: 64px auto;
 
   display: flex;
   flex-direction: row;
   align-items: center;
   gap: 24px;
   text-align: justify;
+  justify-content: center;
+  max-width: 1280px;
 
   @media (max-width: 1024px) {
     margin: 80px 40px;
