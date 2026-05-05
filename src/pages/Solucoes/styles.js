@@ -6,7 +6,10 @@ export const Page = styled.div`
 `;
 
 export const Content = styled.section`
-  padding: 64px 128px;
+  margin: 64px auto;
+  padding: 0 32px;
+
+  max-width: 1280px;
 
   @media (max-width: 1024px) {
     padding: 80px 60px;
@@ -19,7 +22,7 @@ export const Content = styled.section`
 
 export const TitleContainer = styled.div`
   max-width: 666px;
-  margin-bottom: 100px;
+  margin-bottom: 64px;
 
   @media (max-width: 768px) {
     margin-bottom: 32px;
@@ -120,6 +123,10 @@ export const LeftImagemContainer = styled.div`
   width: 80%;
   gap: 16px;
 
+  @media (min-width: 1640px) {
+    width: 68%;
+  }
+
   @media (max-width: 768px) {
     width: 100%;
     min-height: 300px;
@@ -151,6 +158,10 @@ export const RightImageContainer = styled.div`
   padding: 0 32px;
   width: 80%;
   gap: 16px;
+
+  @media (min-width: 1640px) {
+    width: 68%;
+  }
 
   @media (max-width: 768px) {
     width: 100%;
