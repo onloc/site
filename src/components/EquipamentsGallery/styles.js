@@ -43,7 +43,7 @@ export const CubeContent = styled.div`
   justify-content: center;
   opacity: 0;
   transition: opacity 0.1s ease;
-  flex-direction: row;
+  flex-direction: column;
   padding: 0px;
   margin-right: -12px;
 
@@ -53,8 +53,8 @@ export const CubeContent = styled.div`
 `;
 
 export const CubeImage = styled.img`
-  width: 160px;
-  height: 160px;
+  width: 80px;
+  height: 80px;
 `;
 
 export const Text = styled.p`
