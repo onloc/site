@@ -14,13 +14,11 @@ function SocialBar({ color = "white", styleCustom }) {
   const icons =
     color === "blue"
       ? {
-          youtube: YoutubeBlue,
           facebook: FacebookBlue,
           instagram: InstagramBlue,
           linkedin: LinkedInBlue,
         }
       : {
-          youtube: YoutubeWhite,
           facebook: FacebookWhite,
           instagram: InstagramWhite,
           linkedin: LinkedInWhite,
@@ -50,7 +48,6 @@ function SocialBar({ color = "white", styleCustom }) {
       >
         <SocialIcon src={icons.linkedin} alt="LinkedIn" />
       </a>
-        <SocialIcon src={icons.youtube} alt="YouTube" />
     </StyledSocialBar>
   );
 }

@@ -143,9 +143,6 @@ const Footer = () => {
               >
                 <SocialIcon src={linkedin} alt="Linkedin" />
               </a>
-              <a href="#" target="_blank" rel="noreferrer">
-                <SocialIcon src={youtube} alt="Youtube" />
-              </a>
             </SocialContainer>
           </div>
         </FooterContent>
