@@ -51,7 +51,7 @@ export function QuemSomos() {
           </Typography>
 
           <Typography variant="Montserrat" fontSize="16px" colorText="#0E1017">
-            Presente no mercado há 10 anos, a ON.LOC através da qualidade
+            Presente no mercado há 13 anos, a ON.LOC através da qualidade
             promove o crescimento e maiores resultados, aumentando a
             produtividade dos nossos clientes através da entrega de qualidade e
             soluções corporativas em tecnologias inovadoras e fáceis de usar.
