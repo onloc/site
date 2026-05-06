@@ -93,7 +93,7 @@ export const ImageText = styled.div`
   left: 50%;
   transform: translate(-50%, -50%);
   color: white;
-  font-size: 28px;
+  font-size: 36px;
   font-weight: 600;
   text-align: center;
 `;
