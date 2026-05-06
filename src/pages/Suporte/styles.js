@@ -150,9 +150,10 @@ export const CallButton = styled.button`
   background: linear-gradient(90deg, #25D366, #00af0f);
   color: white;
   border: 2px solid #25D366;
-  padding: 12px 32px;
+  padding: 16px 64px;
   border-radius: 32px;
   cursor: pointer;
+  font-size: 16px;
 
   width: fit-content;
 
