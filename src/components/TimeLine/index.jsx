@@ -150,7 +150,7 @@ const TimeLine = () => {
             fontWeight="500"
             style={{ marginBottom: "16px" }}
           >
-            2020 - Lançamos o ERP On.Loc 1.0, e em 2021 batemos recorde de
+            2020 - Lançamos o ERP ON.LOC 1.0, e em 2021 batemos recorde de
             vendas.
           </Typography>
         </TimelineItem>

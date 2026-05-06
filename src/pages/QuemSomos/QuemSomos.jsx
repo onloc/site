@@ -100,7 +100,7 @@ export function QuemSomos() {
             fontStyle="Medium"
             colorText="#1E1E20"
           >
-            Por que escolher a On.Loc?
+            Por que escolher a ON.LOC?
           </Typography>
 
           <Typography variant="Montserrat" fontSize="16px" colorText="#0E1017">

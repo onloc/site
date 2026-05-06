@@ -19,7 +19,7 @@ const PoliticaPrivacidade = () => {
         <Text>
           A presente Política de Privacidade tem por objetivo estabelecer
           diretrizes, responsabilidades e critérios para o tratamento de dados
-          pessoais pela <b>On.loc Locação de Computadores Ltda</b>, em conformidade com
+          pessoais pela <b>ON.LOC Locação de Computadores Ltda</b>, em conformidade com
           a <b>Lei nº 13.709/2018 – Lei Geral de Proteção de Dados (LGPD)</b>.
         </Text>
 
@@ -31,7 +31,7 @@ const PoliticaPrivacidade = () => {
         </Text>
 
         <Text>
-          A On.loc compromete-se a tratar os dados pessoais de forma
+          A ON.LOC compromete-se a tratar os dados pessoais de forma
           transparente, segura, responsável e em conformidade com a legislação
           vigente.
         </Text>
@@ -77,7 +77,7 @@ const PoliticaPrivacidade = () => {
           <strong>2.5. Controlador</strong>
           <br />
           Pessoa jurídica responsável pelas decisões referentes ao tratamento de
-          dados pessoais. Neste caso, a <b>On.loc Locação de Computadores Ltda</b> atua
+          dados pessoais. Neste caso, a <b>ON.LOC Locação de Computadores Ltda</b> atua
           como Controladora de Dados nas relações com seus clientes e parceiros.
         </Text>
 
@@ -107,7 +107,7 @@ const PoliticaPrivacidade = () => {
         <Title>4. PRINCÍPIOS DE PROTEÇÃO DE DADOS</Title>
 
         <Text>
-          A On.loc realiza o tratamento de dados pessoais com base nos
+          A ON.LOC realiza o tratamento de dados pessoais com base nos
           princípios estabelecidos pela LGPD:
         </Text>
 
@@ -166,7 +166,7 @@ const PoliticaPrivacidade = () => {
 
         <Text>
           {" "}
-          A On.loc poderá coletar e tratar dados pessoais necessários à execução
+          A ON.LOC poderá coletar e tratar dados pessoais necessários à execução
           de suas atividades empresariais, incluindo:{" "}
         </Text>
 
@@ -209,7 +209,7 @@ const PoliticaPrivacidade = () => {
           7. TRATAMENTO DE DADOS NO CONTEXTO DA LOCAÇÃO DE COMPUTADORES
         </Title>
         <Text>
-          Para a realização das atividades da empresa, a On.loc realizará
+          Para a realização das atividades da empresa, a ON.LOC realizará
           serviços de instalação de equipamentos, manutenção técnica,
           substituição de equipamentos, suporte técnico e retirada de
           equipamentos ao término da locação.
@@ -244,7 +244,7 @@ const PoliticaPrivacidade = () => {
         </Text>
 
         <Text>
-          A On.loc não se responsabiliza pela perda de dados decorrente de
+          A ON.LOC não se responsabiliza pela perda de dados decorrente de
           falhas de hardware ou de software e procedimentos técnicos necessários
           para manutenção dos equipamentos, exceto nos casos em que for
           comprovada culpa direta da empresa.
@@ -252,7 +252,7 @@ const PoliticaPrivacidade = () => {
 
         <Title>9. DEVOLUÇÃO DE EQUIPAMENTOS E ELIMINAÇÃO DE DADOS</Title>
         <Text>
-          Quando os equipamentos retornarem à posse da empresa, a On.loc
+          Quando os equipamentos retornarem à posse da empresa, a ON.LOC
           realizará procedimentos de formatação, limpeza de dados e reinstalação
           de sistemas, com o objetivo de garantir que dados eventualmente
           remanescentes não possam ser acessados por terceiros.
@@ -269,7 +269,7 @@ const PoliticaPrivacidade = () => {
 
         <Title>11. SEGURANÇA DA INFORMAÇÃO</Title>
         <Text>
-          A On.loc adota medidas técnicas e administrativas para proteger os
+          A ON.LOC adota medidas técnicas e administrativas para proteger os
           dados pessoais contra acesso não autorizado, vazamentos, perda,
           alteração indevida e destruição acidental ou ilícita.
         </Text>

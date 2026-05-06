@@ -22,8 +22,8 @@ export function TermoDeUso() {
 
         <Text>
           O presente Termo de Uso estabelece as condições para utilização dos
-          serviços e eventual acesso aos sistemas ou plataformas da On.loc
-          Locação de Computadores Ltda, doravante denominada “On.loc”.
+          serviços e eventual acesso aos sistemas ou plataformas da ON.LOC
+          Locação de Computadores Ltda, doravante denominada “ON.LOC”.
           <br />
           Ao contratar serviços, utilizar equipamentos fornecidos pela empresa
           ou acessar seus canais digitais, o usuário declara que leu,
@@ -34,7 +34,7 @@ export function TermoDeUso() {
           <Title>1. OBJETO</Title>
           <Text>
             Este Termo regula as condições de utilização dos serviços prestados
-            pela On.loc, especialmente locação de computadores e equipamentos de
+            pela ON.LOC, especialmente locação de computadores e equipamentos de
             informática; instalação de equipamentos; manutenção técnica;
             substituição de equipamentos; suporte técnico e retirada de
             equipamentos ao término da locação.
@@ -48,7 +48,7 @@ export function TermoDeUso() {
         <section>
           <Title>2. ACEITAÇÃO DOS TERMOS</Title>
           <Text>
-            Ao contratar ou utilizar os serviços da On.loc, o usuário declara
+            Ao contratar ou utilizar os serviços da ON.LOC, o usuário declara
             que possui capacidade legal para contratar; utilizará os serviços e
             equipamentos de forma lícita; respeitará as condições estabelecidas
             neste Termo e na Política de Privacidade da empresa.
@@ -61,7 +61,7 @@ export function TermoDeUso() {
         <section>
           <Title>3. UTILIZAÇÃO DOS EQUIPAMENTOS LOCADOS</Title>
           <Text>
-            Os equipamentos fornecidos pela On.loc deverão ser utilizados
+            Os equipamentos fornecidos pela ON.LOC deverão ser utilizados
             exclusivamente para fins lícitos e de acordo com a legislação
             vigente.
             <br />
@@ -81,16 +81,16 @@ export function TermoDeUso() {
             O cliente é integralmente responsável pela instalação, utilização e
             regularidade das licenças de softwares instalados nos equipamentos
             locados, salvo quando o software for previamente fornecido pela
-            On.loc como parte do serviço contratado.
+            ON.LOC como parte do serviço contratado.
             <br />
             É vedado ao cliente instalar softwares sem a devida licença;
             utilizar versões piratas ou não autorizadas de programas; utilizar
             softwares em desacordo com os termos de licenciamento do fabricante.
             <br />
-            A On.loc não se responsabiliza por eventuais infrações relacionadas
+            A ON.LOC não se responsabiliza por eventuais infrações relacionadas
             à propriedade intelectual ou licenciamento de software, sendo tais
             responsabilidades exclusivas do cliente. <br /> Caso seja constatada
-            a utilização de softwares ilegais nos equipamentos locados, a On.loc
+            a utilização de softwares ilegais nos equipamentos locados, a ON.LOC
             poderá notificar o cliente para regularização imediata; suspender o
             suporte técnico relacionado ao software irregular; adotar as medidas
             contratuais e legais cabíveis.
@@ -115,12 +115,12 @@ export function TermoDeUso() {
             a segurança das informações armazenadas nos dispositivos; remover
             dados confidenciais antes da devolução dos equipamentos.
             <br />
-            A On.loc não se responsabiliza pela perda de dados decorrente de
+            A ON.LOC não se responsabiliza pela perda de dados decorrente de
             falhas de hardware e de software; procedimentos técnicos necessários
             para manutenção dos equipamentos, salvo nos casos em que for
             comprovada culpa direta da empresa.
             <br />
-            A On.loc não realiza monitoramento do conteúdo armazenado nos
+            A ON.LOC não realiza monitoramento do conteúdo armazenado nos
             equipamentos locados e não poderá ser responsabilizada por
             informações inseridas ou mantidas pelo cliente.
             <br />
@@ -138,7 +138,7 @@ export function TermoDeUso() {
             ocorrer acesso eventual a dados armazenados nos equipamentos do
             cliente.
             <br />
-            Nessas situações, a On.loc compromete-se a limitar o acesso às
+            Nessas situações, a ON.LOC compromete-se a limitar o acesso às
             informações apenas quando estritamente necessário para execução do
             serviço; não copiar, utilizar ou divulgar dados para finalidades
             diversas da prestação do serviço contratado; restringir o acesso
@@ -150,7 +150,7 @@ export function TermoDeUso() {
         <section>
           <Title>7. DEVOLUÇÃO DOS EQUIPAMENTOS</Title>
           <Text>
-            Quando os equipamentos retornarem à posse da On.loc, poderão ser
+            Quando os equipamentos retornarem à posse da ON.LOC, poderão ser
             realizados procedimentos técnicos de formatação de dispositivos;
             limpeza de dados e reinstalação de sistemas operacionais. Essas
             medidas têm como finalidade garantir que dados eventualmente
@@ -161,7 +161,7 @@ export function TermoDeUso() {
         <section>
           <Title>8. PROTEÇÃO DE DADOS PESSOAIS</Title>
           <Text>
-            A On.loc realiza o tratamento de dados pessoais em conformidade com
+            A ON.LOC realiza o tratamento de dados pessoais em conformidade com
             a Lei nº 13.709/2018 – Lei Geral de Proteção de Dados (LGPD). <br />
             Os dados pessoais poderão ser coletados e tratados para finalidades
             como celebração e execução de contratos; prestação de serviços de
@@ -190,7 +190,7 @@ export function TermoDeUso() {
         <section>
           <Title>10. SEGURANÇA DA INFORMAÇÃO</Title>
           <Text>
-            A On.loc adota medidas técnicas e administrativas para proteger os
+            A ON.LOC adota medidas técnicas e administrativas para proteger os
             dados pessoais contra acesso não autorizado; vazamentos; perda de
             dados; alteração indevida; destruição acidental ou ilícita.
             <br />
@@ -228,7 +228,7 @@ export function TermoDeUso() {
             refletir alterações na legislação; mudanças nos serviços prestados
             visando a melhorias nos processos internos da empresa. <br />A
             versão atualizada será disponibilizada pelos canais oficiais da
-            On.loc.
+            ON.LOC.
           </Text>
         </section>
       </Content>

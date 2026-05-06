@@ -29,7 +29,7 @@ function ClientComments() {
         <Title>Quem usa, recomenda</Title>
 
         <Text>
-          Veja como a on.loc está transformando a experiência de locação para
+          Veja como a ON.LOC está transformando a experiência de locação para
           quem aluga e para quem oferece.
         </Text>
 
