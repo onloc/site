@@ -71,7 +71,11 @@ export function QuemSomos() {
             </Typography>
           </HighlightBox>
 
-          <Button>Quero Alugar</Button>
+          <Button
+            onClick={() => window.open("https://wa.me/551930236697", "_blank")}
+          >
+            Quero Alugar
+          </Button>
         </Column>
 
         <ImageContainer $display={true}>
@@ -122,7 +126,11 @@ export function QuemSomos() {
             infraestrutura de TI moderna, escalável e sem complicações.
           </Typography>
 
-          <Button>Quero Alugar</Button>
+          <Button
+            onClick={() => window.open("https://wa.me/551930236697", "_blank")}
+          >
+            Quero Alugar
+          </Button>
         </Column>
       </Section>
 

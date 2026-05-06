@@ -72,9 +72,13 @@ const EquipamentoViewer = ({ item }) => {
           <Button>24 meses</Button>
         </ButtonGroup>
 
-        <MainButton>Quero alugar</MainButton>
+        <MainButton
+          onClick={() => window.open("https://wa.me/551930236697", "_blank")}
+        >
+          Quero Alugar
+        </MainButton>
 
-          <BenefitsContainer>
+        <BenefitsContainer>
           <ButtonGroupTitle>BENEFÍCIOS E VANTAGENS</ButtonGroupTitle>
           <br />
           <BenefitsList>

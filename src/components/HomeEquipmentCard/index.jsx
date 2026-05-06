@@ -21,12 +21,14 @@ function HomeCard({ image, title, text, onScrollToForm }) {
           <CardTitle>{title}</CardTitle>
         </LogoTitleWrapper>
 
-        <Description>
-            {text}
-        </Description>
+        <Description>{text}</Description>
       </Content>
 
-      <CardButton onClick={onScrollToForm}>Quero alugar</CardButton>
+      <CardButton
+        onClick={() => window.open("https://wa.me/551930236697", "_blank")}
+      >
+        Quero Alugar
+      </CardButton>
     </Card>
   );
 }

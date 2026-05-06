@@ -14,7 +14,11 @@ const EquipamentoCard = ({ item }) => {
       <Title>{item.name}</Title>
       <Image src={item.image} alt={item.name} />
       <Description>{item.description}</Description>
-      <Button onClick={handleNavigation}>Quero Alugar</Button>
+      <Button
+        onClick={() => window.open("https://wa.me/551930236697", "_blank")}
+      >
+        Quero Alugar
+      </Button>
     </Container>
   );
 };

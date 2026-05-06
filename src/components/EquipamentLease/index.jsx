@@ -83,7 +83,13 @@ function EquipamentLease({ onScrollToForm }) {
                 ))}
               </Column>
             </ListContainer>
-            <Button onClick={onScrollToForm}>Quero Alugar</Button>
+            <Button
+              onClick={() =>
+                window.open("https://wa.me/551930236697", "_blank")
+              }
+            >
+              Quero Alugar
+            </Button>
             <Block src={leftImage} $display={false} />
           </ContentContainer>
         </Container>

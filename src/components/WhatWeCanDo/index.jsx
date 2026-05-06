@@ -59,7 +59,13 @@ function WhatWeCanDo({ onScrollToForm }) {
                 </BlockText>
               </Block>
             </BlockContainer>
-            <Button onClick={onScrollToForm}>Quero alugar</Button>
+            <Button
+              onClick={() =>
+                window.open("https://wa.me/551930236697", "_blank")
+              }
+            >
+              Quero Alugar
+            </Button>
           </ContentContainer>
           <SideImage src={sideImage} alt="Imagem de equipamentos" />
         </Container>
