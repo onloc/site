@@ -20,28 +20,37 @@ import Payments from "../../assets/payments.png";
 import Documents from "../../assets/assignment.png";
 import Delivery from "../../assets/airport_shuttle.png";
 
-const EquipamentoDetalhesInfo = () => {
+const EquipamentoDetalhesInfo = ({ item }) => {
+  const { cpu, monitor, cabo } = item?.includes || {};
+
   return (
     <>
       <Title>O que vem na caixa</Title>
       <InfoSection>
-        <InfoBox>
-          <InfoIcon src={CPU} alt="CPU Icon" />
-          <InfoText>CPU</InfoText>
-        </InfoBox>
-        <InfoBox>
-          <InfoIcon src={Monitor} alt="Monitor Icon" />
-          <InfoText>Monitor</InfoText>
-        </InfoBox>
-        <InfoBox>
-          <InfoIcon src={Cabo} alt="Cabo de Energia Icon" />
-          <InfoText>Cabo de Energia</InfoText>
-        </InfoBox>
+        {cpu && (
+          <InfoBox>
+            <InfoIcon src={CPU} alt="CPU Icon" />
+            <InfoText>CPU</InfoText>
+          </InfoBox>
+        )}
+
+        {monitor && (
+          <InfoBox>
+            <InfoIcon src={Monitor} alt="Monitor Icon" />
+            <InfoText>Monitor</InfoText>
+          </InfoBox>
+        )}
+
+        {cabo && (
+          <InfoBox>
+            <InfoIcon src={Cabo} alt="Cabo de Energia Icon" />
+            <InfoText>Cabo de Energia</InfoText>
+          </InfoBox>
+        )}
       </InfoSection>
 
-        <Title>Próximos passos:</Title>
-              <NextStepsSection>
-
+      <Title>Próximos passos:</Title>
+      <NextStepsSection>
         <InfoBoxBig>
           <InfoBigBoxIcon src={Call} alt="Call Icon" />
           <InfoBoxTitle>1. Entrar em Contato</InfoBoxTitle>
@@ -51,6 +60,7 @@ const EquipamentoDetalhesInfo = () => {
             facilisi pellentesque.
           </InfoBoxText>
         </InfoBoxBig>
+
         <InfoBoxBig>
           <InfoBigBoxIcon src={Payments} alt="Payments Icon" />
           <InfoBoxTitle>2. Escolher forma de pagamento</InfoBoxTitle>

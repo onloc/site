@@ -16,15 +16,19 @@ import workstation from "../../assets/workstation.png";
 
 const categorias = [
   { id: "Desktop", img: desktop },
-  { id: "Minidesks", img: minidesks },
-  { id: "Notebooks", img: notebooks },
-  { id: "Servidores", img: servidores },
+  { id: "Minidesk", img: minidesks },
+  { id: "Notebook", img: notebooks },
+  { id: "Servidor", img: servidores },
   { id: "Workstation", img: workstation },
 ];
 
 const EquipamentoFilter = ({ selected, setSelected }) => {
+  // Ajuste na lógica: apenas dispara a mudança se for um item diferente do atual
+  // e removemos o "null" para o visualizador nunca ficar vazio ao clicar duas vezes
   const handleSelect = (id) => {
-    setSelected((prev) => (prev === id ? null : id));
+    if (selected !== id) {
+      setSelected(id);
+    }
   };
 
   return (

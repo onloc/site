@@ -1,6 +1,6 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { Home } from "./pages/Home/Home";
-import { Equipamentos } from "./pages/Equipamentos";
+import { Equipamentos } from "./pages/Equipamentos/Equipamentos";
 import { EquipamentoDetalhes } from "./pages/EuipamentoDetalhes/EquipamentoDetalhes";
 import { Duvidas } from "./pages/Duvidas/Duvidas";
 import { Contato } from "./pages/Contato/Contato";
