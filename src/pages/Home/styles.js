@@ -31,6 +31,10 @@ export const Container = styled.div`
   gap: 16px;
   padding: 0 8px;
 
+  @media (max-width: 1024px) {
+    width: 80%;
+  }
+
   @media (max-width: 768px) {
     width: 90%;
   }
@@ -42,7 +46,7 @@ export const Title = styled.h2`
   font-size: 32px;
   font-weight: normal;
   font-family: "Qubic", sans-serif;
-  letter-spacing: 0.4px
+  letter-spacing: 0.4px;
 `;
 
 export const Subtitle = styled.p`
@@ -51,5 +55,5 @@ export const Subtitle = styled.p`
   font-size: 16px;
   font-weight: normal;
   font-family: "Montserrat", sans-serif;
-  letter-spacing: 0.4px
+  letter-spacing: 0.4px;
 `;

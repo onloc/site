@@ -17,14 +17,7 @@ export const WhyLease = styled.div`
     background-size: cover;
     background-position: center;
     border-radius: 16px;
-    clip-path: polygon(
-      60px 0%,
-      100% 0%,
-      100% 100%,
-      75% 100%,
-      0 100%,
-      0 60px
-    );
+    clip-path: polygon(60px 0%, 100% 0%, 100% 100%, 75% 100%, 0 100%, 0 60px);
   }
 
   > * {
@@ -37,6 +30,11 @@ export const WhyLease = styled.div`
   justify-content: space-between;
   padding: 32px;
   gap: 32px;
+
+  @media (max-width: 1024px) {
+    width: 90%;
+    height: 200px;
+  }
 
   @media (max-width: 768px) {
     height: auto;
@@ -79,12 +77,21 @@ export const WhyLeaseTitle = styled.h2`
   font-weight: normal;
   font-family: "Qubic", sans-serif;
   letter-spacing: 0.4px;
+
+  @media (max-width: 1024px) {
+    font-size: 20px;
+  }
 `;
 
 export const WhyLeaseIcon = styled.img`
   width: 48px;
   height: 48px;
   margin-top: 16px;
+
+  @media (max-width: 1024px) {
+    width: 40px;
+    height: 40px;
+  }
 `;
 
 export const WhyLeaseText = styled.p`
@@ -96,8 +103,12 @@ export const WhyLeaseText = styled.p`
   text-align: left;
   letter-spacing: 0.4px;
 
+  @media (max-width: 1024px) {
+    font-size: 14px;
+  }
+
   @media (max-width: 768px) {
-   font-size: 14px;
+    font-size: 14px;
   }
 `;
 
@@ -106,6 +117,10 @@ export const WhyLeaseImage = styled.img`
   height: auto;
   object-fit: contain;
   z-index: 1;
+
+  @media (max-width: 1024px) {
+    max-width: 150px;
+  }
 
   @media (max-width: 768px) {
     max-width: 160px;
