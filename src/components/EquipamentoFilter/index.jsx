@@ -8,11 +8,11 @@ import {
   ListContainer,
 } from "./styles";
 
-import desktop from "../../assets/desktop.png";
-import minidesks from "../../assets/minidesk.png";
-import notebooks from "../../assets/notebook.png";
-import servidores from "../../assets/servidor.png";
-import workstation from "../../assets/workstation.png";
+import desktop from "../../assets/Equipamentos-Site-2026/Desktop/imgi_4_desktop-optiplex-7020-sff-plus-black-gallery-1.png";
+import minidesks from "../../assets/Equipamentos-Site-2026/Minidesk/imgi_9_glqtvt97991qr6pvpld5xlndawix36601264.png";
+import notebooks from "../../assets/Equipamentos-Site-2026/Note/imgi_7_Notebook-Hp-Elitebook-640-G11-Pot-ncia-Ia-Seguran-a-Corporativa-E-Mobilidade-Profissional-Tela-14-16-10-Desempenho-Intel-Para-Trabalho-H-brido_1776256735.png";
+import servidores from "../../assets/Equipamentos-Site-2026/Servidores/imgi_3_server-poweredge-t560-silver-gallery-5.png";
+import workstation from "../../assets/Equipamentos-Site-2026/Workdesk/Sem-Título-1_0003_imgi_76_71eGNRo6GiL._AC_SL1500_.png";
 
 const categorias = [
   { id: "Desktop", img: desktop },
@@ -23,8 +23,6 @@ const categorias = [
 ];
 
 const EquipamentoFilter = ({ selected, setSelected }) => {
-  // Ajuste na lógica: apenas dispara a mudança se for um item diferente do atual
-  // e removemos o "null" para o visualizador nunca ficar vazio ao clicar duas vezes
   const handleSelect = (id) => {
     if (selected !== id) {
       setSelected(id);
@@ -40,7 +38,9 @@ const EquipamentoFilter = ({ selected, setSelected }) => {
             <FilterItem $isSelected={selected === cat.id}>
               <FilterImage src={cat.img} alt={cat.id} />
             </FilterItem>
-            <FilterTitle $isSelected={selected === cat.id}>{cat.id}</FilterTitle>
+            <FilterTitle $isSelected={selected === cat.id}>
+              {cat.id}
+            </FilterTitle>
           </ItemWrapper>
         ))}
       </ListContainer>

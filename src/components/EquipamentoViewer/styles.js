@@ -29,31 +29,23 @@ export const LeftColumn = styled.div`
 `;
 
 export const ImageContainer = styled.div`
-  position: relative;
   width: 100%;
-  max-width: 592px;
-  height: 592px;
+  max-width: 500px; /* Ou o tamanho que você desejar */
+  height: 500px; /* Altura fixa ajuda a manter a consistência */
+  position: relative;
+  overflow: hidden; /* Garante que nada saia da caixa */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #eee;
   cursor: crosshair;
-  overflow: hidden;
-  border-radius: 16px;
-  border: 1px solid #bac8e5;
-
-  @media (max-width: 768px) {
-    max-width: 100%;
-    height: auto;
-    min-height: 350px;
-  }
 `;
 
 export const Image = styled.img`
   width: 100%;
   height: 100%;
-  object-fit: cover;
-
-  @media (max-width: 768px) {
-    height: auto;
-    margin: auto;
-  }
+  object-fit: contain; /* Isso mantém a proporção da imagem sem cortá-la */
+  pointer-events: none; /* Deixa o evento de mouse passar para o container pai */
 `;
 
 export const ZoomLens = styled.div`
@@ -63,8 +55,8 @@ export const ZoomLens = styled.div`
   width: 100%;
   height: 100%;
   background-repeat: no-repeat;
-  background-size: 200%;
-  pointer-events: none;
+  background-size: 200%; /* Ajuste aqui o nível de zoom (ex: 200% aumenta 2x) */
+  pointer-events: none; /* Importante para não interceptar o mousemove do pai */
 `;
 
 export const ImageCarrousel = styled.div`
@@ -87,19 +79,26 @@ export const ImageCarrousel = styled.div`
 export const Thumb = styled.img`
   width: 100px;
   height: 100px;
-  min-width: 120px;
   border-radius: 8px;
-  object-fit: cover;
+
+  object-fit: contain;
+
+  object-position: center;
   cursor: pointer;
   border: 2px solid ${(props) => (props.$active ? "#014c80" : "#bac8e5")};
-  transition: border 0.3s ease;
+  transition: all 0.3s ease;
+
+  &:hover {
+    border-color: #014c80;
+    opacity: 0.8;
+  }
 `;
 
 export const RightColumn = styled.div`
   flex-direction: column;
   width: 50%;
 
-    @media (max-width: 768px) {
+  @media (max-width: 768px) {
     width: 100%;
     max-width: none;
   }

@@ -27,7 +27,6 @@ import { Link } from "react-router-dom";
 
 function BlackHeader() {
   const [searchOpen, setSearchOpen] = useState(false);
-
   const [menuOpen, setMenuOpen] = useState(false);
 
   return (
@@ -50,15 +49,15 @@ function BlackHeader() {
           <Dropdown>
             <NavItem open={menuOpen} to="/equipamentos">
               Equipamentos
-              <img src={ArrowDown} alt="arrow down" />
+              {/* <img src={ArrowDown} alt="arrow down" /> */}
             </NavItem>
-            <DropdownMenu>
+            {/* <DropdownMenu>
               <DropdownItem>Desktop</DropdownItem>
               <DropdownItem>Minidesks</DropdownItem>
               <DropdownItem>Notebooks</DropdownItem>
               <DropdownItem>Servidores</DropdownItem>
               <DropdownItem>Workstation</DropdownItem>
-            </DropdownMenu>
+            </DropdownMenu> */}
           </Dropdown>
           <NavItem open={menuOpen} to="/quem-somos">
             Quem Somos
@@ -95,12 +94,7 @@ function BlackHeader() {
             )}
           </SearchContainer>
           <Button
-            onClick={() =>
-              window.open(
-                "https://wa.me/5519984573320",
-                "_blank",
-              )
-            }
+            onClick={() => window.open("https://wa.me/5519984573320", "_blank")}
           >
             Suporte Técnico
           </Button>

@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useState, useEffect } from "react"; // Adicionado useEffect
 import {
   Container,
   LeftColumn,
@@ -22,6 +22,10 @@ import {
 const EquipamentoViewer = ({ item }) => {
   const [selectedImage, setSelectedImage] = useState(item.image);
   const [zoomStyle, setZoomStyle] = useState({ display: "none" });
+
+  useEffect(() => {
+    setSelectedImage(item.image);
+  }, [item]);
 
   const handleMouseMove = (e) => {
     const { left, top, width, height } = e.target.getBoundingClientRect();
