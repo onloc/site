@@ -24,6 +24,7 @@ import {
   CallButton,
   ButtonContainer,
 } from "./styles";
+import { InfoSuportSection } from "../../components/InfoSuportSection";
 
 export function Suporte() {
   return (
@@ -91,7 +92,7 @@ export function Suporte() {
         />
       </CardsSection>
 
-      <SoftwareSection>
+      {/* <SoftwareSection>
         <SoftwareContainer>
           <SoftwareContent>
             <svg
@@ -139,10 +140,11 @@ export function Suporte() {
               configurações, atualizações, questões sobre Backups de arquivos e
               Vírus.
             </Typography>
-            <SoftwarePatern />
           </SoftwareContent>
         </SoftwareContainer>
-      </SoftwareSection>
+      </SoftwareSection> */}
+
+      <InfoSuportSection />
 
       <FormContainer />
       <Footer />

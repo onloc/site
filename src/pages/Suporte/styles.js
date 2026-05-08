@@ -29,6 +29,7 @@ export const CardsSection = styled.section`
   max-width: 1280px;
   margin: auto;
   justify-content: space-between;
+  margin-bottom: 64px;
 
   @media (max-width: 1024px) {
     flex-wrap: wrap;
@@ -42,7 +43,7 @@ export const CardsSection = styled.section`
 `;
 
 export const SoftwareSection = styled.section`
-  margin: 64px auto;
+  margin: 16px auto;
 
   display: flex;
   justify-content: center;
@@ -72,7 +73,6 @@ export const LinkText = styled.div`
 export const SoftwareContainer = styled.div`
   width: 100%;
   max-width: 1217px;
-  min-height: 572px;
 
   display: flex;
   flex-direction: column;
@@ -117,7 +117,7 @@ export const SoftwareContent = styled.div`
   max-width: 801px;
   gap: 16px;
 
-  padding-top: 120px;
+  padding: 32px;
 
   flex: 1;
 `;
