@@ -59,6 +59,7 @@ export const BannerContent = styled.div`
     text-align: left;
     margin-bottom: 16px;
     margin-right: 0;
+    margin-left: 0;
     order: 3;
   }
 `;
