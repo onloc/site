@@ -52,6 +52,7 @@ export const Title = styled.h2`
     font-size: 32px;
     color: black;
     margin-bottom: 16px;
+    letter-spacing: 0.4px;
 `;
 
 export const Text = styled.p`
@@ -60,5 +61,5 @@ export const Text = styled.p`
     font-size: 16px;
     color: black;
     margin-bottom: 16px;
-    
+    letter-spacing: 0.4px;
 `;

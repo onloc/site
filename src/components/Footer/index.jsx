@@ -48,7 +48,7 @@ const Footer = () => {
         <FooterContent>
           <div style={{ flex: "1 1 250px", minWidth: 0 }}>
             <LogoImage src={logo} alt="On.Loc" />
-            <p>
+            <p style={{letterSpacing: "0.2px"}}>
               A tecnologia não precisa ser complicada. Nem Distante. Nem sua. A
               gente entrega, conecta e transforma.
             </p>
@@ -149,7 +149,7 @@ const Footer = () => {
       </FooterContainer>
 
       <FooterCopyright>
-        <span>
+        <span style={{letterSpacing: "0.4px"}}>
           2025 - <BrandLink href="#">Onloc.</BrandLink> Todos os direitos
           reservados.
         </span>

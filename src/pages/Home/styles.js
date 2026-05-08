@@ -42,6 +42,7 @@ export const Title = styled.h2`
   font-size: 32px;
   font-weight: normal;
   font-family: "Qubic", sans-serif;
+  letter-spacing: 0.4px
 `;
 
 export const Subtitle = styled.p`
@@ -50,4 +51,5 @@ export const Subtitle = styled.p`
   font-size: 16px;
   font-weight: normal;
   font-family: "Montserrat", sans-serif;
+  letter-spacing: 0.4px
 `;

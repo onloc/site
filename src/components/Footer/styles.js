@@ -33,6 +33,7 @@ export const SectionTitle = styled.h4`
   font-size: 18px;
   color: #a4c8de;
   margin-bottom: 24px;
+  letter-spacing: 0.4px;
 `;
 
 export const FooterLink = styled(Link)`

@@ -45,6 +45,7 @@ export const Title = styled.h2`
   font-size: 32px;
   font-weight: normal;
   font-family: "Qubic", sans-serif;
+  letter-spacing: 0.4px;
 `;
 
 export const Subtitle = styled.p`
@@ -53,6 +54,7 @@ export const Subtitle = styled.p`
   font-size: 24px;
   font-weight: normal;
   font-family: "Montserrat", sans-serif;
+  letter-spacing: 0.4px;
 `;
 
 export const Text = styled.p`
@@ -61,6 +63,7 @@ export const Text = styled.p`
   font-size: 16px;
   font-weight: normal;
   font-family: "Montserrat", sans-serif;
+  letter-spacing: 0.4px;
 `;
 
 export const Block = styled.img`
@@ -96,6 +99,7 @@ export const ImageText = styled.div`
   font-size: 36px;
   font-weight: 600;
   text-align: center;
+  letter-spacing: 0.4px;
 `;
 
 export const ListContainer = styled.div`
@@ -118,6 +122,7 @@ export const ListItem = styled.div`
   align-items: flex-start;
   gap: 8px;
   font-size: 16px;
+  letter-spacing: 0.4px;
 `;
 
 export const Icon = styled.img`
@@ -129,7 +134,7 @@ export const Icon = styled.img`
 export const Button = styled.button`
   padding: 0.8rem 2rem;
   font-size: 16px;
-
+  letter-spacing: 0.4px;
   color: white;
   background: linear-gradient(90deg, #014c80 0%, #497fa6 100%);
 

@@ -32,6 +32,7 @@ export const Title = styled.h2`
   font-weight: normal;
   font-family: "Qubic", sans-serif;
   width: 35%;
+  letter-spacing: 0.4px;
 
   @media (max-width: 768px) {
     width: 100%;

@@ -61,4 +61,5 @@ export const Text = styled.p`
   color: black;
   font-size: 16px;
   text-align: center;
+  letter-spacing: 0.4px;
 `;

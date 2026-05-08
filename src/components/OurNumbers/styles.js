@@ -40,8 +40,7 @@ export const Title = styled.h2`
   font-size: 32px;
   font-weight: normal;
   font-family: "Qubic", sans-serif;
-
-  @media (max-width: 768px) {
+  letter-spacing: 0.4px @media (max-width: 768px) {
     font-size: 28px;
   }
 `;
@@ -52,6 +51,7 @@ export const Subtitle = styled.p`
   font-size: 16px;
   font-weight: normal;
   font-family: "Montserrat", sans-serif;
+  letter-spacing: 0.4px;
 
   @media (max-width: 768px) {
     font-size: 12px;
@@ -111,6 +111,7 @@ export const BlockSection = styled.div`
 export const Number = styled.span`
   font-size: 36px;
   font-weight: bold;
+  letter-spacing: 0.4px;
 
   @media (max-width: 768px) {
     font-size: 28px;
@@ -122,6 +123,7 @@ export const Text = styled.span`
   margin-top: 4px;
   color: white;
   font-weight: normal;
+  letter-spacing: 0.4px;
 
   @media (max-width: 768px) {
     font-size: 12px;

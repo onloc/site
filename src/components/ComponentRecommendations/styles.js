@@ -6,6 +6,7 @@ export const Title = styled.h2`
   font-size: 32px;
   font-weight: normal;
   font-family: "Qubic", sans-serif;
+  letter-spacing: 0.4px;
 `;
 
 export const TabsContainer = styled.div`
@@ -25,6 +26,7 @@ export const Tab = styled.div`
   border-right: 1px solid #bac8e5;
   font-size: 14px;
   color: #280180;
+  letter-spacing: 0.4px;
 
   &:last-child {
     border-right: none;
@@ -79,6 +81,7 @@ export const ContentText = styled.p`
   text-align: left;
   font-size: 16px;
   white-space: pre-line;
+  letter-spacing: 0.4px;
 
 
   @media (max-width: 768px) {
@@ -90,6 +93,7 @@ export const ContentText = styled.p`
 export const ContentButton = styled.button`
   padding: 0.8rem 2rem;
   font-size: 16px;
+  letter-spacing: 0.4px;
 
   color: white;
   background: linear-gradient(90deg, #014575, #497fa6);

@@ -44,6 +44,7 @@ export const Title = styled.h2`
   color: #fff;
   margin: 0;
   max-width: 800px;
+  letter-spacing: 0.4px;
 
   @media (max-width: 768px) {
     font-size: 24px;
@@ -59,6 +60,7 @@ export const Subtitle = styled.p`
   color: #fff;
   margin: 0;
   max-width: 600px;
+  letter-spacing: 0.4px;
 
   @media (max-width: 768px) {
     font-size: 14px;

@@ -18,6 +18,7 @@ export const Title = styled.h1`
   line-height: 125%;
   color: #1e1e20;
   margin-bottom: 16px;
+  letter-spacing: 0.4px;
 
   @media (max-width: 768px) {
     font-size: 28px;
@@ -31,6 +32,7 @@ export const Text = styled.p`
   line-height: 125%;
   color: #0e1017;
   margin-bottom: 24px;
+  letter-spacing: 0.4px;
 
   @media (max-width: 768px) {
     font-size: 14px;
@@ -44,6 +46,7 @@ export const Subtitle = styled.p`
   line-height: 125%;
   color: #014c80;
   margin-bottom: 16px;
+  letter-spacing: 0.4px;
 `;
 
 export const CommentContainer = styled.div`
@@ -66,6 +69,7 @@ export const Comment = styled.p`
   font-size: 16px;
   line-height: 125%;
   color: #4c5258;
+  letter-spacing: 0.4px;
 `;
 
 export const CommentAuthor = styled.p`
@@ -75,6 +79,7 @@ export const CommentAuthor = styled.p`
   line-height: 125%;
   color: #0e1017;
   margin: 0;
+  letter-spacing: 0.4px;
 `;
 
 export const CommentAuthorRole = styled.p`
@@ -84,6 +89,7 @@ export const CommentAuthorRole = styled.p`
   line-height: 125%;
   color: #014c80;
   margin: 0;
+  letter-spacing: 0.4px;
 `;
 
 export const CommentFooterContainer = styled.div`

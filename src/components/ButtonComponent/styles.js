@@ -9,6 +9,8 @@ export const Button = styled.button`
       flex: 1;
     `}
 
+  letter-spacing: 0.4px;
+
   width: auto;
   min-width: ${(props) => props.$minWidth};
   height: auto;

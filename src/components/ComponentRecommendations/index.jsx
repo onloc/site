@@ -33,8 +33,7 @@ function ComponentRecommendations() {
   const content = [
     {
       text: `O processador (CPU) é o principal componente responsável pelo 
-      desempenho do computador, executando cálculos, gerenciando processos 
-      e garantindo fluidez na operação de sistemas e aplicações corporativas.
+      desempenho do computador, executando cálculos, gerenciando processos e garantindo fluidez na operação de sistemas e aplicações corporativas.
       
       A escolha correta da CPU impacta diretamente na produtividade, 
       no tempo de resposta dos sistemas e na vida útil do equipamento..`,

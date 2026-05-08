@@ -78,6 +78,7 @@ export const WhyLeaseTitle = styled.h2`
   font-size: 28px;
   font-weight: normal;
   font-family: "Qubic", sans-serif;
+  letter-spacing: 0.4px;
 `;
 
 export const WhyLeaseIcon = styled.img`
@@ -93,6 +94,7 @@ export const WhyLeaseText = styled.p`
   font-weight: normal;
   font-family: "Montserrat", sans-serif;
   text-align: left;
+  letter-spacing: 0.4px;
 
   @media (max-width: 768px) {
    font-size: 14px;

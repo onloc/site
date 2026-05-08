@@ -45,12 +45,14 @@ export const Logo = styled.img`
 export const CardTitle = styled.h3`
   font-size: 18px;
   font-weight: bold;
+  letter-spacing: 0.4px;
   margin: 0;
 `;
 
 export const Description = styled.p`
   font-size: 14px;
   color: #555;
+  letter-spacing: 0.4px;
 `;
 
 export const CardButton = styled.button`
@@ -62,6 +64,7 @@ export const CardButton = styled.button`
   padding: 8px 16px;
   cursor: pointer;
   margin: 0;
+  letter-spacing: 0.4px;
 
   &:hover {
     opacity: 0.9;
