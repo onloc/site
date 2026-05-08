@@ -63,7 +63,7 @@ const EquipamentoDetalhesInfo = ({ item }) => {
 
         <InfoBoxBig>
           <InfoBigBoxIcon src={Payments} alt="Payments Icon" />
-          <InfoBoxTitle>2. Definir tempo de contrato</InfoBoxTitle>
+          <InfoBoxTitle>2. Solicitar Orçamento</InfoBoxTitle>
           <br />
           {/* <InfoBoxText>
             Lorem ipsum dolor sit amet consectetur. Leo donec netus libero

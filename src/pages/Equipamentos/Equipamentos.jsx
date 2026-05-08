@@ -47,9 +47,36 @@ const mockItem = [
     gallery: [minidesk, minidesk2, minidesk3, minidesk4],
     includes: { cpu: true, monitor: true, cabo: true },
     faq: [
-      { id: "01", title: "Como funciona?", content: "Conteúdo aqui..." },
-      { id: "02", title: "Dúvida sobre software", content: "Conteúdo aqui..." },
-      { id: "03", title: "Dúvida sobre hardware", content: "Conteúdo aqui..." },
+      {
+        id: "01",
+        title: "Como funciona?",
+        content:
+          "Contratar a ON.LOC é simples. Você pode nos informar a quantidade de equipamentos e a configuração desejada ou apenas descrever o que precisa no dia a dia. Com base nisso, indicamos a melhor solução disponível em nosso estoque, pronta para uso. Todos os equipamentos são entregues com Windows original e licenciado, garantindo segurança e confiabilidade desde o primeiro uso.",
+      },
+      {
+        id: "02",
+        title: "E os aparelhos que não têm mais atualização de software?",
+        content:
+          "Na ON.LOC, trabalhamos com responsabilidade. Equipamentos sem atualização são direcionados apenas para usos compatíveis e controlados. Quando não atendem aos requisitos atuais de desempenho e segurança, são destinados ao reaproveitamento ou descarte consciente, sempre seguindo boas práticas.",
+      },
+      {
+        id: "03",
+        title: "Como é o processo de análise?",
+        content:
+          "Após a definição da solução, realizamos uma análise financeira para aprovação da locação. Esse processo é rápido e tem como objetivo garantir segurança e viabilidade para ambas as partes.",
+      },
+      {
+        id: "04",
+        title: "Quais formas de pagamento?",
+        content:
+          "Após a aprovação do orçamento, o faturamento é realizado conforme a locação contratada, com a primeira cobrança após 30 dias do recebimento do equipamento. Os boletos são gerados de acordo com os valores e prazos previamente aprovados, garantindo previsibilidade e organização financeira.",
+      },
+      {
+        id: "05",
+        title: "O que acontece ao final da minha assinatura?",
+        content:
+          "Ao final do contrato, você escolhe o melhor caminho: renovar, atualizar os equipamentos ou devolver. A ON.LOC cuida de todo o processo, incluindo a retirada dos equipamentos e o tratamento seguro dos dados, garantindo tranquilidade total que a norma da LGPD exige.",
+      },
     ],
   },
   {
@@ -59,8 +86,36 @@ const mockItem = [
     gallery: [desktop, desktop2, desktop3, desktop4],
     includes: { cpu: true, monitor: true, cabo: true },
     faq: [
-      { id: "01", title: "Como funciona?", content: "Conteúdo aqui..." },
-      { id: "02", title: "Dúvida sobre software", content: "Conteúdo aqui..." },
+      {
+        id: "01",
+        title: "Como funciona?",
+        content:
+          "Contratar a ON.LOC é simples. Você pode nos informar a quantidade de equipamentos e a configuração desejada ou apenas descrever o que precisa no dia a dia. Com base nisso, indicamos a melhor solução disponível em nosso estoque, pronta para uso. Todos os equipamentos são entregues com Windows original e licenciado, garantindo segurança e confiabilidade desde o primeiro uso.",
+      },
+      {
+        id: "02",
+        title: "E os aparelhos que não têm mais atualização de software?",
+        content:
+          "Na ON.LOC, trabalhamos com responsabilidade. Equipamentos sem atualização são direcionados apenas para usos compatíveis e controlados. Quando não atendem aos requisitos atuais de desempenho e segurança, são destinados ao reaproveitamento ou descarte consciente, sempre seguindo boas práticas.",
+      },
+      {
+        id: "03",
+        title: "Como é o processo de análise?",
+        content:
+          "Após a definição da solução, realizamos uma análise financeira para aprovação da locação. Esse processo é rápido e tem como objetivo garantir segurança e viabilidade para ambas as partes.",
+      },
+      {
+        id: "04",
+        title: "Quais formas de pagamento?",
+        content:
+          "Após a aprovação do orçamento, o faturamento é realizado conforme a locação contratada, com a primeira cobrança após 30 dias do recebimento do equipamento. Os boletos são gerados de acordo com os valores e prazos previamente aprovados, garantindo previsibilidade e organização financeira.",
+      },
+      {
+        id: "05",
+        title: "O que acontece ao final da minha assinatura?",
+        content:
+          "Ao final do contrato, você escolhe o melhor caminho: renovar, atualizar os equipamentos ou devolver. A ON.LOC cuida de todo o processo, incluindo a retirada dos equipamentos e o tratamento seguro dos dados, garantindo tranquilidade total que a norma da LGPD exige.",
+      },
     ],
   },
   {
@@ -71,8 +126,36 @@ const mockItem = [
     gallery: [notebook, notebook2, notebook3, notebook4],
     includes: { cpu: true, monitor: false, cabo: true },
     faq: [
-      { id: "01", title: "Como funciona?", content: "Conteúdo aqui..." },
-      { id: "02", title: "Dúvida sobre software", content: "Conteúdo aqui..." },
+      {
+        id: "01",
+        title: "Como funciona?",
+        content:
+          "Contratar a ON.LOC é simples. Você pode nos informar a quantidade de equipamentos e a configuração desejada ou apenas descrever o que precisa no dia a dia. Com base nisso, indicamos a melhor solução disponível em nosso estoque, pronta para uso. Todos os equipamentos são entregues com Windows original e licenciado, garantindo segurança e confiabilidade desde o primeiro uso.",
+      },
+      {
+        id: "02",
+        title: "E os aparelhos que não têm mais atualização de software?",
+        content:
+          "Na ON.LOC, trabalhamos com responsabilidade. Equipamentos sem atualização são direcionados apenas para usos compatíveis e controlados. Quando não atendem aos requisitos atuais de desempenho e segurança, são destinados ao reaproveitamento ou descarte consciente, sempre seguindo boas práticas.",
+      },
+      {
+        id: "03",
+        title: "Como é o processo de análise?",
+        content:
+          "Após a definição da solução, realizamos uma análise financeira para aprovação da locação. Esse processo é rápido e tem como objetivo garantir segurança e viabilidade para ambas as partes.",
+      },
+      {
+        id: "04",
+        title: "Quais formas de pagamento?",
+        content:
+          "Após a aprovação do orçamento, o faturamento é realizado conforme a locação contratada, com a primeira cobrança após 30 dias do recebimento do equipamento. Os boletos são gerados de acordo com os valores e prazos previamente aprovados, garantindo previsibilidade e organização financeira.",
+      },
+      {
+        id: "05",
+        title: "O que acontece ao final da minha assinatura?",
+        content:
+          "Ao final do contrato, você escolhe o melhor caminho: renovar, atualizar os equipamentos ou devolver. A ON.LOC cuida de todo o processo, incluindo a retirada dos equipamentos e o tratamento seguro dos dados, garantindo tranquilidade total que a norma da LGPD exige.",
+      },
     ],
   },
   {
@@ -83,8 +166,36 @@ const mockItem = [
     gallery: [servidor, servidor2, servidor3, servidor4],
     includes: { cpu: true, monitor: false, cabo: true },
     faq: [
-      { id: "01", title: "Como funciona?", content: "Conteúdo aqui..." },
-      { id: "02", title: "Dúvida sobre software", content: "Conteúdo aqui..." },
+      {
+        id: "01",
+        title: "Como funciona?",
+        content:
+          "Contratar a ON.LOC é simples. Você pode nos informar a quantidade de equipamentos e a configuração desejada ou apenas descrever o que precisa no dia a dia. Com base nisso, indicamos a melhor solução disponível em nosso estoque, pronta para uso. Todos os equipamentos são entregues com Windows original e licenciado, garantindo segurança e confiabilidade desde o primeiro uso.",
+      },
+      {
+        id: "02",
+        title: "E os aparelhos que não têm mais atualização de software?",
+        content:
+          "Na ON.LOC, trabalhamos com responsabilidade. Equipamentos sem atualização são direcionados apenas para usos compatíveis e controlados. Quando não atendem aos requisitos atuais de desempenho e segurança, são destinados ao reaproveitamento ou descarte consciente, sempre seguindo boas práticas.",
+      },
+      {
+        id: "03",
+        title: "Como é o processo de análise?",
+        content:
+          "Após a definição da solução, realizamos uma análise financeira para aprovação da locação. Esse processo é rápido e tem como objetivo garantir segurança e viabilidade para ambas as partes.",
+      },
+      {
+        id: "04",
+        title: "Quais formas de pagamento?",
+        content:
+          "Após a aprovação do orçamento, o faturamento é realizado conforme a locação contratada, com a primeira cobrança após 30 dias do recebimento do equipamento. Os boletos são gerados de acordo com os valores e prazos previamente aprovados, garantindo previsibilidade e organização financeira.",
+      },
+      {
+        id: "05",
+        title: "O que acontece ao final da minha assinatura?",
+        content:
+          "Ao final do contrato, você escolhe o melhor caminho: renovar, atualizar os equipamentos ou devolver. A ON.LOC cuida de todo o processo, incluindo a retirada dos equipamentos e o tratamento seguro dos dados, garantindo tranquilidade total que a norma da LGPD exige.",
+      },
     ],
   },
   {
@@ -95,8 +206,36 @@ const mockItem = [
     gallery: [workstation, workstation2, workstation3, workstation4],
     includes: { cpu: true, monitor: true, cabo: true },
     faq: [
-      { id: "01", title: "Como funciona?", content: "Conteúdo aqui..." },
-      { id: "02", title: "Dúvida sobre software", content: "Conteúdo aqui..." },
+      {
+        id: "01",
+        title: "Como funciona?",
+        content:
+          "Contratar a ON.LOC é simples. Você pode nos informar a quantidade de equipamentos e a configuração desejada ou apenas descrever o que precisa no dia a dia. Com base nisso, indicamos a melhor solução disponível em nosso estoque, pronta para uso. Todos os equipamentos são entregues com Windows original e licenciado, garantindo segurança e confiabilidade desde o primeiro uso.",
+      },
+      {
+        id: "02",
+        title: "E os aparelhos que não têm mais atualização de software?",
+        content:
+          "Na ON.LOC, trabalhamos com responsabilidade. Equipamentos sem atualização são direcionados apenas para usos compatíveis e controlados. Quando não atendem aos requisitos atuais de desempenho e segurança, são destinados ao reaproveitamento ou descarte consciente, sempre seguindo boas práticas.",
+      },
+      {
+        id: "03",
+        title: "Como é o processo de análise?",
+        content:
+          "Após a definição da solução, realizamos uma análise financeira para aprovação da locação. Esse processo é rápido e tem como objetivo garantir segurança e viabilidade para ambas as partes.",
+      },
+      {
+        id: "04",
+        title: "Quais formas de pagamento?",
+        content:
+          "Após a aprovação do orçamento, o faturamento é realizado conforme a locação contratada, com a primeira cobrança após 30 dias do recebimento do equipamento. Os boletos são gerados de acordo com os valores e prazos previamente aprovados, garantindo previsibilidade e organização financeira.",
+      },
+      {
+        id: "05",
+        title: "O que acontece ao final da minha assinatura?",
+        content:
+          "Ao final do contrato, você escolhe o melhor caminho: renovar, atualizar os equipamentos ou devolver. A ON.LOC cuida de todo o processo, incluindo a retirada dos equipamentos e o tratamento seguro dos dados, garantindo tranquilidade total que a norma da LGPD exige.",
+      },
     ],
   },
 ];
