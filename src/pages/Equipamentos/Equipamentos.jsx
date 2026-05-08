@@ -42,7 +42,8 @@ const mockItem = [
   {
     name: "Minidesk",
     image: minidesk,
-    description: "Configuração ultra compacta para escritórios modernos.",
+    description:
+      "Indicados para ambientes administrativos, call centers e estações fixas com pouco espaço, os mini desktops oferecem desempenho estável, baixo consumo de energia e fácil integração à infraestrutura de TI da empresa.",
     gallery: [minidesk, minidesk2, minidesk3, minidesk4],
     includes: { cpu: true, monitor: true, cabo: true },
     faq: [
@@ -65,7 +66,8 @@ const mockItem = [
   {
     name: "Notebook",
     image: notebook,
-    description: "Mobilidade e potência com a linha HP Zbook.",
+    description:
+      "Os notebooks corporativos são ideais para empresas que precisam de mobilidade sem abrir mão de desempenho. Atendem desde tarefas administrativas até operações mais exigentes, com autonomia, segurança e compatibilidade com ambientes empresariais.",
     gallery: [notebook, notebook2, notebook3, notebook4],
     includes: { cpu: true, monitor: false, cabo: true },
     faq: [
@@ -76,7 +78,8 @@ const mockItem = [
   {
     name: "Servidor",
     image: servidor,
-    description: "Infraestrutura robusta com Dell PowerEdge.",
+    description:
+      "Os servidores corporativos são a base da infraestrutura de TI, responsáveis por armazenar dados, hospedar sistemas e garantir disponibilidade e segurança da informação.",
     gallery: [servidor, servidor2, servidor3, servidor4],
     includes: { cpu: true, monitor: false, cabo: true },
     faq: [
@@ -88,7 +91,7 @@ const mockItem = [
     name: "Workstation",
     image: workstation,
     description:
-      "Estação de trabalho de alto desempenho para projetos complexos.",
+      "As workstations são projetadas para tarefas que exigem grande poder de processamento gráfico e computacional. Indicadas para profissionais que trabalham com softwares pesados e precisam de máxima performance e estabilidade.",
     gallery: [workstation, workstation2, workstation3, workstation4],
     includes: { cpu: true, monitor: true, cabo: true },
     faq: [

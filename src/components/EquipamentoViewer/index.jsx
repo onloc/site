@@ -86,9 +86,9 @@ const EquipamentoViewer = ({ item }) => {
           <ButtonGroupTitle>BENEFÍCIOS E VANTAGENS</ButtonGroupTitle>
           <br />
           <BenefitsList>
-            <BenefitItem>
+            {/* <BenefitItem>
               Proteção contra furto qualificado e roubo.
-            </BenefitItem>
+            </BenefitItem> */}
             <BenefitItem>
               Pague mês a mês sem comprometer o limite do cartão.
             </BenefitItem>
