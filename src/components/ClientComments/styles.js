@@ -1,13 +1,21 @@
 import styled from "styled-components";
 
 export const Image = styled.img`
-  max-width: 600px;
-  max-height: 400px;
+  width: 50%;
+  max-height: auto;
   opacity: 1;
   border-width: 1px;
 
   @media (max-width: 768px) {
     display: none;
+  }
+`;
+
+export const Stars = styled.img`
+  margin-bottom: 10px;
+
+  @media (max-width: 1024px) {
+    width: 140px;
   }
 `;
 
@@ -19,6 +27,10 @@ export const Title = styled.h1`
   color: #1e1e20;
   margin-bottom: 16px;
   letter-spacing: 0.4px;
+
+  @media (max-width: 1024px) {
+    font-size: 32px;
+  }
 
   @media (max-width: 768px) {
     font-size: 28px;
@@ -34,6 +46,10 @@ export const Text = styled.p`
   margin-bottom: 24px;
   letter-spacing: 0.4px;
 
+  @media (max-width: 1024px) {
+    font-size: 14px;
+  }
+
   @media (max-width: 768px) {
     font-size: 14px;
   }
@@ -47,6 +63,10 @@ export const Subtitle = styled.p`
   color: #014c80;
   margin-bottom: 16px;
   letter-spacing: 0.4px;
+
+  @media (max-width: 1024px) {
+    font-size: 14px;
+  }
 `;
 
 export const CommentContainer = styled.div`
@@ -57,6 +77,10 @@ export const CommentContainer = styled.div`
   box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.05);
   margin-bottom: 24px;
   width: 100%;
+
+  @media (max-width: 1024px) {
+    padding: 16px;
+  }
 
   @media (max-width: 768px) {
     width: 100%;
@@ -70,6 +94,10 @@ export const Comment = styled.p`
   line-height: 125%;
   color: #4c5258;
   letter-spacing: 0.4px;
+
+  @media (max-width: 1024px) {
+    font-size: 14px;
+  }
 `;
 
 export const CommentAuthor = styled.p`
@@ -80,6 +108,10 @@ export const CommentAuthor = styled.p`
   color: #0e1017;
   margin: 0;
   letter-spacing: 0.4px;
+
+  @media (max-width: 1024px) {
+    font-size: 14px;
+  }
 `;
 
 export const CommentAuthorRole = styled.p`
@@ -90,6 +122,10 @@ export const CommentAuthorRole = styled.p`
   color: #014c80;
   margin: 0;
   letter-spacing: 0.4px;
+
+  @media (max-width: 1024px) {
+    font-size: 14px;
+  }
 `;
 
 export const CommentFooterContainer = styled.div`
@@ -152,7 +188,7 @@ export const ContentWrapper = styled.div`
   display: flex;
   flex-direction: column;
   flex: 1;
-  max-width: 600px;
+  width: 50%;
 
   @media (max-width: 768px) {
     width: 100%;

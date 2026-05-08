@@ -14,6 +14,7 @@ import {
   NavButtons,
   SectionContainer,
   ContentWrapper,
+  Stars,
 } from "./styles";
 
 import Banner from "../../assets/client-comments.png";
@@ -36,21 +37,16 @@ function ClientComments() {
         <Subtitle>O que dizem por aqui</Subtitle>
 
         <CommentContainer>
-          <img src={Star} alt="stars" style={{ marginBottom: "10px" }} />
+          <Stars src={Star} alt="stars" />
           <Comment>
             "Encontrei tudo o que precisava em poucos cliques. A plataforma é
             prática, segura e o atendimento foi impecável."
           </Comment>
           <br />
-          {/* <Comment>— Camila R., São Paulo/SP</Comment> */}
         </CommentContainer>
 
         <CommentFooterContainer>
           <AuthorDetails>
-            {/* <CommentAuthorInfoIcon
-              src="https://randomuser.me/api/portraits/men/32.jpg"
-              alt="Carlos Henrique"
-            /> */}
             <NameWrapper>
               <CommentAuthor>Carlos Henrique</CommentAuthor>
               <CommentAuthorRole>Gerente de TI</CommentAuthorRole>
