@@ -1,4 +1,5 @@
 import {
+  IconContainer,
   InfoBigBoxIcon,
   InfoBox,
   InfoBoxBig,
@@ -52,9 +53,10 @@ const EquipamentoDetalhesInfo = ({ item }) => {
       <Title>Próximos passos:</Title>
       <NextStepsSection>
         <InfoBoxBig>
-          <InfoBigBoxIcon src={Call} alt="Call Icon" />
+          <IconContainer>
+            <InfoBigBoxIcon src={Call} alt="Call Icon" />
+          </IconContainer>
           <InfoBoxTitle>1. Entrar em Contato</InfoBoxTitle>
-          <br />
           {/* <InfoBoxText>
             Lorem ipsum dolor sit amet consectetur. Leo donec netus libero
             facilisi pellentesque.
@@ -62,27 +64,30 @@ const EquipamentoDetalhesInfo = ({ item }) => {
         </InfoBoxBig>
 
         <InfoBoxBig>
-          <InfoBigBoxIcon src={Payments} alt="Payments Icon" />
+          <IconContainer>
+            <InfoBigBoxIcon src={Payments} alt="Payments Icon" />
+          </IconContainer>
           <InfoBoxTitle>2. Solicitar Orçamento</InfoBoxTitle>
-          <br />
           {/* <InfoBoxText>
             Lorem ipsum dolor sit amet consectetur. Leo donec netus libero
             facilisi pellentesque.
           </InfoBoxText> */}
         </InfoBoxBig>
         <InfoBoxBig>
-          <InfoBigBoxIcon src={Documents} alt="Documents Icon" />
+          <IconContainer>
+            <InfoBigBoxIcon src={Documents} alt="Documents Icon" />
+          </IconContainer>
           <InfoBoxTitle>3. Envie os documentos</InfoBoxTitle>
-          <br />
           {/* <InfoBoxText>
             Lorem ipsum dolor sit amet consectetur. Leo donec netus libero
             facilisi pellentesque.
           </InfoBoxText> */}
         </InfoBoxBig>
         <InfoBoxBig>
-          <InfoBigBoxIcon src={Delivery} alt="Delivery Icon" />
+          <IconContainer>
+            <InfoBigBoxIcon src={Delivery} alt="Delivery Icon" />
+          </IconContainer>
           <InfoBoxTitle>4. Acompanhar a entrega</InfoBoxTitle>
-          <br />
           {/* <InfoBoxText>
             Lorem ipsum dolor sit amet consectetur. Leo donec netus libero
             facilisi pellentesque.

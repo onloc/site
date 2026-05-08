@@ -24,7 +24,6 @@ export const InfoBox = styled.div`
   flex-direction: column;
   align-items: center;
   justify-content: center;
-
 `;
 
 export const InfoText = styled.p`
@@ -44,6 +43,9 @@ export const InfoIcon = styled.img`
 `;
 
 export const InfoBoxBig = styled.div`
+  display: flex;
+  flex-direction: column;
+
   min-width: 272px;
   min-height: 150px;
   width: 292px;
@@ -51,7 +53,7 @@ export const InfoBoxBig = styled.div`
   opacity: 1;
   gap: 16px;
   border-radius: 8px;
-  padding: 16px;
+  padding: 32px 16px;
   background-color: #eff2f3;
   text-align: justify;
 
@@ -87,7 +89,14 @@ export const InfoBigBoxIcon = styled.img`
   max-height: 32px;
   margin-bottom: 16px;
   margin-top: 16px;
-  
+`;
+
+export const IconContainer = styled.div`
+  width: 32px;
+  height: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 `;
 
 export const InfoSection = styled.div`
