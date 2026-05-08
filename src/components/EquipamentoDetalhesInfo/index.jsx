@@ -55,38 +55,38 @@ const EquipamentoDetalhesInfo = ({ item }) => {
           <InfoBigBoxIcon src={Call} alt="Call Icon" />
           <InfoBoxTitle>1. Entrar em Contato</InfoBoxTitle>
           <br />
-          <InfoBoxText>
+          {/* <InfoBoxText>
             Lorem ipsum dolor sit amet consectetur. Leo donec netus libero
             facilisi pellentesque.
-          </InfoBoxText>
+          </InfoBoxText> */}
         </InfoBoxBig>
 
         <InfoBoxBig>
           <InfoBigBoxIcon src={Payments} alt="Payments Icon" />
-          <InfoBoxTitle>2. Escolher forma de pagamento</InfoBoxTitle>
+          <InfoBoxTitle>2. Definir tempo de contrato</InfoBoxTitle>
           <br />
-          <InfoBoxText>
+          {/* <InfoBoxText>
             Lorem ipsum dolor sit amet consectetur. Leo donec netus libero
             facilisi pellentesque.
-          </InfoBoxText>
+          </InfoBoxText> */}
         </InfoBoxBig>
         <InfoBoxBig>
           <InfoBigBoxIcon src={Documents} alt="Documents Icon" />
           <InfoBoxTitle>3. Envie os documentos</InfoBoxTitle>
           <br />
-          <InfoBoxText>
+          {/* <InfoBoxText>
             Lorem ipsum dolor sit amet consectetur. Leo donec netus libero
             facilisi pellentesque.
-          </InfoBoxText>
+          </InfoBoxText> */}
         </InfoBoxBig>
         <InfoBoxBig>
           <InfoBigBoxIcon src={Delivery} alt="Delivery Icon" />
           <InfoBoxTitle>4. Acompanhar a entrega</InfoBoxTitle>
           <br />
-          <InfoBoxText>
+          {/* <InfoBoxText>
             Lorem ipsum dolor sit amet consectetur. Leo donec netus libero
             facilisi pellentesque.
-          </InfoBoxText>
+          </InfoBoxText> */}
         </InfoBoxBig>
       </NextStepsSection>
     </>

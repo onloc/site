@@ -45,9 +45,9 @@ export const InfoIcon = styled.img`
 
 export const InfoBoxBig = styled.div`
   min-width: 272px;
-  min-height: 210px;
+  min-height: 150px;
   width: 292px;
-  height: 220px;
+  height: 150px;
   opacity: 1;
   gap: 16px;
   border-radius: 8px;
@@ -64,7 +64,7 @@ export const InfoBoxTitle = styled.p`
   font-family: "Quicksand";
   font-weight: 600;
   font-style: SemiBold;
-  font-size: 16px;
+  font-size: 18px;
   line-height: 125%;
   letter-spacing: 0%;
   color: #014c80;
