@@ -9,6 +9,11 @@ export const Container = styled.div`
   border-radius: 16px;
   max-width: 1280px;
 
+  @media (max-width: 1024px) {
+    width: 90%;
+    height: 320px;
+  }
+
   @media (max-width: 768px) {
     margin-bottom: 200px;
   }
@@ -43,6 +48,10 @@ export const Title = styled.h2`
   letter-spacing: 0.4px @media (max-width: 768px) {
     font-size: 28px;
   }
+
+  @media (max-width: 1024px) {
+    font-size: 28px;
+  }
 `;
 
 export const Subtitle = styled.p`
@@ -52,6 +61,10 @@ export const Subtitle = styled.p`
   font-weight: normal;
   font-family: "Montserrat", sans-serif;
   letter-spacing: 0.4px;
+
+  @media (max-width: 1024px) {
+    font-size: 14px;
+  }
 
   @media (max-width: 768px) {
     font-size: 12px;
@@ -73,6 +86,11 @@ export const Block = styled.div`
   overflow: hidden;
 
   clip-path: polygon(50px 0%, 100% 0%, 100% 100%, 0% 100%, 0% 50px);
+
+  @media (max-width: 1024px) {
+    width: 75%;
+    height: 170px;
+  }
 
   @media (max-width: 768px) {
     width: 85%;
@@ -112,6 +130,10 @@ export const Number = styled.span`
   font-size: 36px;
   font-weight: bold;
   letter-spacing: 0.4px;
+
+  @media (max-width: 1024px) {
+    font-size: 32px;
+  }
 
   @media (max-width: 768px) {
     font-size: 28px;
