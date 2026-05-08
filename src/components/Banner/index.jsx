@@ -40,7 +40,8 @@ export default function Banner({
         $backgroundColor={backgroundColor}
       >
         <SocialBar color={socialBarColor} />
-        <BannerContent $textColor={textColor}>
+      
+        <BannerContent $textColor={textColor} banner={banner}>
           <BannerTitle>{title}</BannerTitle>
 
           <BannerSubtitle>{subtitle}</BannerSubtitle>
@@ -51,12 +52,14 @@ export default function Banner({
             </BannerButton>
           )}
         </BannerContent>
-        <BannerCornerText $textColor={textColor}>
-          Técnologia que <b>transforma</b>
-        </BannerCornerText>
+
         {sideImage && (
           <BannerSideImage src={sideImage} alt="banner image" banner={banner} />
         )}
+
+        <BannerCornerText $textColor={textColor}>
+          Técnologia que <b>transforma</b>
+        </BannerCornerText>
         <BannerIconsContainer>
           {banner == 0 ? (
             <>

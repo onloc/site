@@ -29,13 +29,20 @@ export const BannerContainer = styled.div`
 
 export const BannerContent = styled.div`
   color: ${(props) => props.$textColor || "white"};
-  max-width: 32%;
+
   display: flex;
   flex-direction: column;
   gap: 1rem;
   margin-right: -5%;
 
+  width: 55%;
+
+  margin-right: ${({ banner }) => (banner == 0 ? "12px" : "0")};
+
+  max-width: 400px;
+
   @media (max-width: 768px) {
+    width: 100%;
     max-width: 100%;
     align-items: flex-start;
     text-align: left;
@@ -48,24 +55,13 @@ export const BannerContent = styled.div`
 export const BannerSideImage = styled.img`
   height: auto;
 
-  width: ${({ banner }) => {
-    switch (banner) {
-      case 0:
-        return "45%";
-      case 1:
-        return "40%";
-      case 2:
-        return "30%";
-      default:
-        return "45%";
-    }
-  }};
+  width: 45%;
 
   @media (max-width: 768px) {
     width: ${({ banner }) => {
       switch (banner) {
         case 2:
-          return "44%";
+          return "51%";
         default:
           return "60%";
       }
