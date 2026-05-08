@@ -20,6 +20,12 @@ export const BannerContainer = styled.div`
   justify-content: center;
   padding: 0 5%;
 
+  @media (max-width: 1024px) {
+    height: auto;
+    min-height: 30vh;
+    padding: 0 5%;
+  }
+
   @media (max-width: 768px) {
     flex-direction: column;
     height: auto;
@@ -41,6 +47,11 @@ export const BannerContent = styled.div`
 
   max-width: 400px;
 
+  @media (max-width: 1024px) {
+    max-width: 300px;
+    margin-left: 64px;
+  }
+
   @media (max-width: 768px) {
     width: 100%;
     max-width: 100%;
@@ -57,6 +68,19 @@ export const BannerSideImage = styled.img`
 
   width: 45%;
 
+  @media (max-width: 1024px) {
+    width: ${({ banner }) => {
+      switch (banner) {
+        case 2:
+          return "38%";
+        default:
+          return "45%";
+      }
+    }};
+    margin-top: 20px;
+    order: 1;
+  }
+
   @media (max-width: 768px) {
     width: ${({ banner }) => {
       switch (banner) {
@@ -69,16 +93,6 @@ export const BannerSideImage = styled.img`
     margin-left: 0;
     margin-top: 20px;
     order: 1;
-  }
-`;
-
-export const BannerTitle = styled.h1`
-  font-size: 32px;
-  margin: 0;
-  font-weight: normal;
-
-  @media (max-width: 768px) {
-    font-size: 6vw;
   }
 `;
 
@@ -103,6 +117,12 @@ export const BannerButton = styled.button`
     opacity: 0.9;
   }
 
+  @media (max-width: 1024px) {
+    font-size: 14px;
+    padding: 0.6rem 1.5rem;
+    width: fit-content;
+  }
+
   @media (max-width: 768px) {
     font-size: 16px;
     padding: 0.6rem 1.5rem;
@@ -110,10 +130,28 @@ export const BannerButton = styled.button`
   }
 `;
 
+export const BannerTitle = styled.h1`
+  font-size: 32px;
+  margin: 0;
+  font-weight: normal;
+
+  @media (max-width: 1024px) {
+    font-size: 24px;
+  }
+
+  @media (max-width: 768px) {
+    font-size: 6vw;
+  }
+`;
+
 export const BannerSubtitle = styled.p`
   font-size: 16px;
   margin: 0;
   width: 85%;
+
+  @media (max-width: 1024px) {
+  font-size: 14px;
+  }
 
   @media (max-width: 768px) {
     font-size: 14px;
@@ -130,6 +168,10 @@ export const BannerCornerText = styled.span`
   opacity: 0.6;
   font-family: "Qubic Grid", sans-serif;
   color: ${(props) => props.$textColor || "white"};
+
+  @media (max-width: 1024px) {
+      font-size: 16px;
+  }
 
   @media (max-width: 768px) {
     display: none;

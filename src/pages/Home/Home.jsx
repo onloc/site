@@ -172,10 +172,7 @@ export function Home() {
     );
   };
 
-  useEffect(() => {
-    startAutoSlide();
-    return () => clearInterval(intervalRef.current);
-  }, []);
+
 
   const startAutoSlide = () => {
     clearInterval(intervalRef.current);
@@ -186,12 +183,10 @@ export function Home() {
 
   const nextBanner = () => {
     setCurrentBanner((prev) => (prev === banners.length - 1 ? 0 : prev + 1));
-    startAutoSlide();
   };
 
   const prevBanner = () => {
     setCurrentBanner((prev) => (prev === 0 ? banners.length - 1 : prev - 1));
-    startAutoSlide();
   };
 
   return (
