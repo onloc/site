@@ -10,14 +10,19 @@ export const ViewerSection = styled.section`
 
 export const DetailsSection = styled.section`
   background: #fff;
-  padding: 100px 200px;
+
+  max-width: 1280px;
+  align-self: center;
+  justify-self: center;
+
+  padding: 64px 0px ;
 
   @media (max-width: 1024px) {
-    padding: 80px 80px;
+    padding: 48px 20px;
   }
 
   @media (max-width: 768px) {
-    padding: 60px 20px;
+    padding: 32px 24px;
   }
 `;
 
