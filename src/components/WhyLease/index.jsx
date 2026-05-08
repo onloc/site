@@ -10,7 +10,7 @@ import {
 
 import backgroundImage from "../../assets/background-image.png";
 import computerIcon from "../../assets/computer-icon.png";
-import desk from "../../assets/equipamentos-2026/DESKTOP DELL SFF OPTIPLEX 3080 I5-10500.webp";
+import desk from "../../assets/Equipamentos-Site-2026/Desktop/imgi_4_desktop-optiplex-7020-sff-plus-black-gallery-1.png";
 
 function WhyLeaseComponent() {
   return (
