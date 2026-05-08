@@ -50,7 +50,7 @@ function WhatWeCanDo({ onScrollToForm }) {
                 </BlockText>
               </Block>
               <Block>
-                <BlockTitle>Redução fiscal</BlockTitle>
+                <BlockTitle>Redução <br/>fiscal</BlockTitle>
                 <BlockText>
                   A locação de equipamentos de TI pode gerar vantagens fiscais,
                   além de simplificar a gestão contábil da empresa. Em vez de

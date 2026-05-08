@@ -48,7 +48,7 @@ export const Title = styled.h2`
   font-size: 32px;
   font-weight: normal;
   font-family: "Qubic", sans-serif;
-
+  letter-spacing: 0.4px;
 `;
 
 export const Text = styled.p`
@@ -57,7 +57,7 @@ export const Text = styled.p`
   font-size: 16px;
   font-weight: normal;
   font-family: "Montserrat", sans-serif;
-
+  letter-spacing: 0.4px;
 `;
 
 export const BlockContainer = styled.div`
@@ -77,7 +77,7 @@ export const Block = styled.div`
   min-height: 300px;
   border-radius: 16px;
   border: 1px solid #bac8e5;
-  padding: 16px 20px;
+  padding: 16px 16px;
   gap: 16px;
   display: flex;
   flex-direction: column;
@@ -88,20 +88,22 @@ export const Block = styled.div`
   }
 `;
 
-export const BlockTitle = styled.h3` 
-    text-align: left;
-    color: black;
-    font-size: 20px;
-    font-weight: normal;
-    font-family: "Qubic", sans-serif;
+export const BlockTitle = styled.h3`
+  text-align: left;
+  color: black;
+  font-size: 20px;
+  font-weight: normal;
+  font-family: "Qubic", sans-serif;
+  letter-spacing: 0.4px;
 `;
 
 export const BlockText = styled.p`
-    text-align: left;
-    color: black;
-    font-size: 14px;
-    font-weight: normal;
-    font-family: "Montserrat", sans-serif;
+  text-align: left;
+  color: black;
+  font-size: 14px;
+  font-weight: normal;
+  font-family: "Montserrat", sans-serif;
+  letter-spacing: 0.4px;
 `;
 
 export const Button = styled.button`
@@ -115,6 +117,8 @@ export const Button = styled.button`
   border-radius: 24px;
   cursor: pointer;
   transition: 0.3s;
+
+  letter-spacing: 0.4px;
 
   justify-self: center;
 
