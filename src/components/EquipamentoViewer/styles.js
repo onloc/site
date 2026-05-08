@@ -118,6 +118,7 @@ export const Description = styled.div`
 `;
 
 export const Button = styled.button`
+font-size: 12px;
   margin-top: 25px;
   padding: 16px 56px;
   border-radius: 47px;
@@ -173,7 +174,7 @@ export const BenefitItem = styled.li`
 
 export const ButtonGroup = styled.div`
   display: flex;
-  gap: 10px;
+  gap: 5px;
 `;
 
 export const BenefitsContainer = styled.div`

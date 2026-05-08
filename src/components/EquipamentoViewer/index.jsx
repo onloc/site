@@ -74,6 +74,7 @@ const EquipamentoViewer = ({ item }) => {
         <ButtonGroup>
           <Button>12 meses</Button>
           <Button>24 meses</Button>
+          <Button>36 meses</Button>
         </ButtonGroup>
 
         <MainButton
