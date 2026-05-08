@@ -13,7 +13,7 @@ import {
   Triangle,
 } from "./styles";
 
-import note from "../../assets/equipamentos-2026/NOTEBOOK WORKSTATION HP ZBOOK FURY 15 G7 I7-10850H 1.webp"
+import note from "../../assets/Equipamentos-Site-2026/Note/imgi_7_Notebook-Hp-Elitebook-640-G11-Pot-ncia-Ia-Seguran-a-Corporativa-E-Mobilidade-Profissional-Tela-14-16-10-Desempenho-Intel-Para-Trabalho-H-brido_1776256735.png";
 
 import { useState } from "react";
 import { useNavigate } from "react-router-dom";
@@ -81,7 +81,7 @@ function ComponentRecommendations() {
           <Rectangle />
 
           <Content>
-            <ContentImage src={note} alt="Desk" />
+            <ContentImage src={note} alt="Notebook" />
             <ContentGroup>
               <ContentText>{content[activeTab].text}</ContentText>
               <ContentButton onClick={() => navigate("/equipamentos")}>Ver Computadores</ContentButton>
