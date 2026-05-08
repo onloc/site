@@ -34,6 +34,11 @@ export const ContentContainer = styled.div`
   gap: 16px;
   width: 70%;
 
+  @media (max-width: 1024px) {
+    width: 100%;
+    margin: 32px 0;
+  }
+
   @media (max-width: 768px) {
     width: 80%;
     align-items: center;
@@ -128,6 +133,10 @@ export const Button = styled.button`
     opacity: 0.9;
   }
 
+  @media (max-width: 1024px) {
+    margin-left: auto;
+  }
+
   @media (max-width: 768px) {
     width: 100%;
   }
@@ -137,6 +146,10 @@ export const SideImage = styled.img`
   width: 30%;
   height: 100%;
   object-fit: cover;
+
+  @media (max-width: 1024px) {
+    display: none;
+  }
 
   @media (max-width: 768px) {
     width: 100%;
