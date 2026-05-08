@@ -12,7 +12,7 @@ export const Wrapper = styled.header`
 
 export const MobileContainer = styled.div`
   @media (max-width: 768px) {
-  width: 100%;
+    width: 100%;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -34,6 +34,10 @@ export const Container = styled.div`
   padding: 0 20px;
   box-sizing: border-box;
 
+  @media (max-width: 1024px) {
+    max-width: 90%;
+  }
+
   @media (max-width: 768px) {
     height: auto;
     padding: 10px 16px;
@@ -45,6 +49,10 @@ export const Container = styled.div`
 export const Logo = styled.img`
   height: 30px;
 
+  @media (max-width: 1024px) {
+    height: 24px;
+  }
+
   @media (max-width: 480px) {
     height: 24px;
   }
@@ -53,6 +61,11 @@ export const Logo = styled.img`
 export const Nav = styled.nav`
   display: flex;
   gap: 24px;
+
+  @media (max-width: 1024px) {
+    gap: 16px;
+    margin: 0 32px;
+  }
 
   @media (max-width: 768px) {
     position: static;
@@ -80,6 +93,10 @@ export const NavItem = styled(Link)`
 
   &:hover {
     color: #ccc;
+  }
+
+  @media (max-width: 1024px) {
+    font-size: 12px;
   }
 
   @media (max-width: 480px) {
@@ -152,6 +169,14 @@ export const SearchContainer = styled.div`
   display: flex;
   align-items: center;
   gap: 8px;
+
+  @media (max-width: 1024px) {
+    display: none;
+  }
+
+  @media (max-width: 768px) {
+    display: none;
+  }
 `;
 
 export const SearchBox = styled.div`
@@ -186,7 +211,7 @@ export const SearchIcon = styled.img`
 
 export const Button = styled.button`
   background: transparent;
-  color: #00b90f; 
+  color: #00b90f;
   border: 2px solid #00b90f;
   padding: 12px 32px;
   border-radius: 32px;
@@ -194,6 +219,10 @@ export const Button = styled.button`
 
   &:hover {
     background: rgba(255, 255, 255, 0.1);
+  }
+
+  @media (max-width: 1024px) {
+    padding: 10px 28px;
   }
 `;
 
