@@ -16,8 +16,12 @@ export const Container = styled.div`
   gap: 20px;
   min-height: 300px;
 
+  @media (max-width: 1024px) {
+    padding: 64px 0;
+}
+
   @media (max-width: 768px) {
-    min-height: 500px;
+    min-height: 400px;
   }
 `;
 
@@ -29,6 +33,10 @@ export const ContentContainer = styled.div`
   max-width: 600px;
   max-height: 150px;
   gap: 16px;
+
+  @media (max-width: 1024px) {
+    height: auto;
+  }
 
   @media (max-width: 768px) {
     max-width: 90%;
@@ -46,6 +54,10 @@ export const Title = styled.h2`
   max-width: 800px;
   letter-spacing: 0.4px;
 
+  @media (max-width: 1024px) {
+    font-size: 32px;
+  }
+
   @media (max-width: 768px) {
     font-size: 24px;
   }
@@ -61,6 +73,10 @@ export const Subtitle = styled.p`
   margin: 0;
   max-width: 600px;
   letter-spacing: 0.4px;
+
+  @media (max-width: 1024px) {
+    font-size: 14px;
+  }
 
   @media (max-width: 768px) {
     font-size: 14px;
