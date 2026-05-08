@@ -1,12 +1,12 @@
 import { useEffect, useState } from "react";
 import HomeCard from "../HomeEquipmentCard";
 
-import miniDesk from "../../assets/equipamentos-2026/DESK MINI DELL OPTIPLEX 3000 I3-12100T.jpg";
-import notebook from "../../assets/equipamentos-2026/NOTEBOOK HP ELITEBOOK 840 G7 I5-10310U.png";
+import miniDesk from "../../assets/Equipamentos-Site-2026/Minidesk/imgi_21_yq7rqz1e8o9ozgrcn4t71w1qzpxzfo327531.png";
+import notebook from "../../assets/Equipamentos-Site-2026/Note/imgi_7_Notebook-Hp-Elitebook-640-G11-Pot-ncia-Ia-Seguran-a-Corporativa-E-Mobilidade-Profissional-Tela-14-16-10-Desempenho-Intel-Para-Trabalho-H-brido_1776256735.png";
 import workstation from "../../assets/equipamentos-2026/WORKSTATION HP Z2 G4 TOWER XEON E-2144G.webp"; 
 import notework from "../../assets/equipamentos-2026/NOTEBOOK WORKSTATION HP ZBOOK FURY 15 G7 I7-10850H 1.webp";
-import server from "../../assets/equipamentos-2026/SERVIDOR DELL POWEREDGE T440 2X XEON GOLD 6138.png";
-import screen from "../../assets/equipamentos-2026/1200.webp";
+import server from "../../assets/Equipamentos-Site-2026/Servidores/imgi_3_server-poweredge-t560-silver-gallery-5.png";
+import screen from "../../assets/Equipamentos-Site-2026/Monitor/imgi_67_Monitor-Hp-Series-5-Pro-24-Fhd-Usb-c-Com-Webcam-Pop-up-5mp-udio-Com-Ia-100w-Power-Delivery-E-Design-Sustent-vel_1776256732.png";
 
 import arrowLeft from "../../assets/slider-arrow-left.png";
 import arrowRight from "../../assets/slider-arrow-right.png";
