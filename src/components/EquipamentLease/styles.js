@@ -16,6 +16,10 @@ export const Container = styled.div`
   margin: 64px auto;
   max-width: 1280px;
 
+  @media (max-width: 1024px) {
+    width: 90%;
+  }
+
   @media (max-width: 768px) {
     flex-direction: column;
     width: 100%;
@@ -46,6 +50,10 @@ export const Title = styled.h2`
   font-weight: normal;
   font-family: "Qubic", sans-serif;
   letter-spacing: 0.4px;
+
+  @media (max-width: 1024px) {
+    font-size: 28px;
+  }
 `;
 
 export const Subtitle = styled.p`
@@ -55,6 +63,10 @@ export const Subtitle = styled.p`
   font-weight: normal;
   font-family: "Montserrat", sans-serif;
   letter-spacing: 0.4px;
+
+  @media (max-width: 1024px) {
+    font-size: 20px;
+  }
 `;
 
 export const Text = styled.p`
@@ -100,6 +112,10 @@ export const ImageText = styled.div`
   font-weight: 600;
   text-align: center;
   letter-spacing: 0.4px;
+
+  @media (max-width: 1024px) {
+    font-size: 24px;
+  }
 `;
 
 export const ListContainer = styled.div`
@@ -123,6 +139,10 @@ export const ListItem = styled.div`
   gap: 8px;
   font-size: 16px;
   letter-spacing: 0.4px;
+
+  @media (max-width: 1024px) {
+    font-size: 14px;
+  }
 `;
 
 export const Icon = styled.img`
@@ -132,7 +152,6 @@ export const Icon = styled.img`
 `;
 
 export const Button = styled.button`
-  padding: 0.8rem 2rem;
   font-size: 16px;
   letter-spacing: 0.4px;
   color: white;
@@ -150,6 +169,12 @@ export const Button = styled.button`
 
   &:hover {
     opacity: 0.9;
+  }
+
+  @media (max-width: 1024px) {
+    font-size: 14px;
+    width: 180px;
+    min-height: 40px;
   }
 
   @media (max-width: 768px) {
