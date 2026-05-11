@@ -109,7 +109,7 @@ export function Home() {
     {
       banner: 0,
       bannerImage: bluebanner,
-      title: "Tecnologia sob medida para o seu negócio",
+      title: "Técnologia sob medida para o seu negócio",
       subtitle:
         "A melhor opção para Locação de Computadores, Notebooks, Servidores e Soluções Inteligentes para sua Empresa na região de Campinas.",
       buttonText: "Quero alugar",
@@ -123,7 +123,7 @@ export function Home() {
     {
       banner: 1,
       backgroundColor: "white",
-      title: "Tecnologia sob medida para o seu negócio",
+      title: "Técnologia sob medida para o seu negócio",
       subtitle:
         "A melhor opção para Locação de Computadores, Notebooks, Servidores e Soluções Inteligentes para sua Empresa na região de Campinas.",
       buttonText: "Quero alugar",
@@ -138,7 +138,7 @@ export function Home() {
     {
       banner: 2,
       bannerImage: bluebanner,
-      title: "Tecnologia sob medida para o seu negócio",
+      title: "Técnologia sob medida para o seu negócio",
       subtitle:
         "A melhor opção para Locação de Computadores, Notebooks, Servidores e Soluções Inteligentes para sua Empresa na região de Campinas.",
       buttonText: "Quero alugar",
@@ -219,7 +219,7 @@ export function Home() {
 
         <OurNumbers />
 
-        <Container $margin="128px auto 64px auto">
+        <Container $margin="128px auto 16px auto">
           <Title>Nossos Equipamentos</Title>
           <Subtitle>
             Indicados para ambientes administrativos, call centers e estações
