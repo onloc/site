@@ -7,14 +7,14 @@ const TimeLine = () => {
       <Box>
         <Title>Conheça a história da empresa</Title>
         <Typography variant="Montserrat" fontSize="16px" fontWeight="400">
-          A ideia de fundar uma empresa de locação de computadores, surgiu a
+          A ideia de fundar uma empresa de locação de computadores surgiu a
           partir do momento em que o mercado apresentou uma necessidade de
           redução de custos nas empresas, sem que isso afetasse a produtividade.
         </Typography>
         <Typography variant="Montserrat" fontSize="16px" fontWeight="400">
-          Foi então que os fundadores da ON.LOC se atentaram à possibilidade de
-          manter os negócios estáveis no país, mantendo a qualidade e ofertando
-          custos mais baixos.
+          Foi então que os fundadores da ON.LOC identificaram a oportunidade de
+          contribuir para a estabilidade operacional das empresas no país,
+          mantendo a qualidade e ofertando custos mais baixos.
         </Typography>
         <Typography variant="Montserrat" fontSize="16px" fontWeight="400">
           Nesse sentido e com a crescente rejeição de compras de novos
@@ -22,10 +22,10 @@ const TimeLine = () => {
           expansão da ON.LOC aumentaram.
         </Typography>
         <Typography variant="Montserrat" fontSize="16px" fontWeight="400">
-          Hoje, nosso maior compromisso é apresentar as nossas soluções com
-          transparência e ética, em especial, no que diz respeito ao
-          funcionamento dos nossos equipamentos, serviços e a garantia estendida
-          que o cliente tem com o atendimento da ON.LOC.
+          Hoje, nosso maior compromisso é apresentar soluções com transparência,
+          ética e eficiência, especialmente no que diz respeito ao funcionamento
+          dos equipamentos, à qualidade dos serviços prestados e à garantia
+          estendida oferecida por meio do suporte e atendimento da ON.LOC.
         </Typography>
       </Box>
       <TimeLineBox>
@@ -47,7 +47,7 @@ const TimeLine = () => {
             colorText="#0E1017"
           >
             Nossa equipe carrega 10 anos de experiência no mercado de tecnologia
-            da informação. No início o foco da empresa era na atuação de compra
+            da informação. No início, o foco da empresa era na atuação de compra
             e venda de equipamentos corporativos.
           </Typography>
         </TimelineItem>
@@ -162,7 +162,8 @@ const TimeLine = () => {
             fontWeight="500"
             style={{ marginBottom: "16px" }}
           >
-            2024 - Um marco: novo escritório em Piracicaba, certificação ISO 9001 e nosso cliente nº1000.
+            2024 - Um marco: novo escritório em Piracicaba, certificação ISO
+            9001 e nosso cliente nº1000.
           </Typography>
         </TimelineItem>
         <TimelineItem>
