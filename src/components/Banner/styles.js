@@ -66,31 +66,16 @@ export const BannerContent = styled.div`
 
 export const BannerSideImage = styled.img`
   height: auto;
-
+  object-fit: cover;
   width: 45%;
 
   @media (max-width: 1024px) {
-    width: ${({ banner }) => {
-      switch (banner) {
-        case 2:
-          return "38%";
-        default:
-          return "45%";
-      }
-    }};
     margin-top: 20px;
     order: 1;
   }
 
   @media (max-width: 768px) {
-    width: ${({ banner }) => {
-      switch (banner) {
-        case 2:
-          return "51%";
-        default:
-          return "60%";
-      }
-    }};
+    width: 60%;
     margin-left: 0;
     margin-top: 20px;
     order: 1;
