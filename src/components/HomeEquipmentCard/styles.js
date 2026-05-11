@@ -7,8 +7,10 @@ export const Card = styled.div`
   flex-direction: column;
   align-items: center;
   position: relative;
-    flex-shrink: 0;
+  flex-shrink: 0;
+  padding-top: 160px;
 
+  z-index: 1;
 
   @media (max-width: 768px) {
     width: 100%;
@@ -71,10 +73,25 @@ export const CardButton = styled.button`
   }
 `;
 
-export const TopImage = styled.img`
+export const ImageWrapper = styled.div`
   width: 200px;
   height: 200px;
+
+  position: absolute;
+  left: 50%;
+
+  transform: translateX(-50%);
+  top: 0px;
+
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  z-index: 2;
+`;
+
+export const TopImage = styled.img`
+  max-width: 100%;
+  max-height: 100%;
+
   object-fit: contain;
-  margin-bottom: -50px;
-  z-index: 1;
 `;

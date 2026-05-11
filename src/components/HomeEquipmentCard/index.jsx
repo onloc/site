@@ -9,12 +9,15 @@ import {
   LogoTitleWrapper,
   CardButton,
   TopImage,
+  ImageWrapper,
 } from "./styles";
 
 function HomeCard({ image, title, text, onScrollToForm }) {
   return (
     <Card>
-      <TopImage src={image} />
+      <ImageWrapper>
+        <TopImage src={image} />
+      </ImageWrapper>
 
       <Content>
         <LogoTitleWrapper>
