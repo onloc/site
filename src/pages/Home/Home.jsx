@@ -8,7 +8,7 @@ import bannerequipment3 from "../../assets/banner-equipment-3.png";
 
 import screen from "../../assets/Equipamentos-Site-2026/Monitor/imgi_67_Monitor-Hp-Series-5-Pro-24-Fhd-Usb-c-Com-Webcam-Pop-up-5mp-udio-Com-Ia-100w-Power-Delivery-E-Design-Sustent-vel_1776256732.png";
 import note from "../../assets/Equipamentos-Site-2026/Note/imgi_7_Notebook-Hp-Elitebook-640-G11-Pot-ncia-Ia-Seguran-a-Corporativa-E-Mobilidade-Profissional-Tela-14-16-10-Desempenho-Intel-Para-Trabalho-H-brido_1776256735.png";
-import server from "../../assets/equipamentos-2026/NOTEBOOK WORKSTATION HP ZBOOK FURY 15 G7 I7-10850H 1.webp";
+import server from "../../assets/Equipamentos-Site-2026/NoteWork/imgi_5_dell-pro-max-mb16250nt-laptop-c-22040rf115-bk-ir.png";
 
 import imageCard1 from "../../assets/content-image-1.png";
 import imageCard2 from "../../assets/content-image-2.png";
