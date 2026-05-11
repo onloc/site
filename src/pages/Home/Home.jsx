@@ -166,10 +166,7 @@ export function Home() {
   };
 
   const handleWhatsAppRedirect = () => {
-    window.open(
-      "https://wa.me/551930236697",
-      "_blank",
-    );
+    window.open("https://wa.me/551930236697", "_blank");
   };
 
   useEffect(() => {
@@ -222,10 +219,11 @@ export function Home() {
         <Container $margin="128px auto 16px auto">
           <Title>Nossos Equipamentos</Title>
           <Subtitle>
-            Indicados para ambientes administrativos, call centers e estações
-            fixas com pouco espaço, os mini desktops oferecem desempenho
-            estável, baixo consumo de energia e fácil integração à
-            infraestrutura de TI da empresa.
+            A ON.LOC trabalha de forma consultiva, analisando o cenário de cada
+            operação para indicar computadores, notebooks, servidores e soluções
+            em TI que garantem produtividade, redução de custos e continuidade
+            do negócio. Tudo isso com suporte técnico ágil, atendimento próximo
+            e foco em resultados.
           </Subtitle>
         </Container>
 
