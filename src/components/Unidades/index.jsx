@@ -89,7 +89,7 @@ const Unidades = () => {
       <Title>Unidades ON.LOC perto de você</Title>
       <br />
       <Description>
-        Encontre a unidade Onloc mais próxima e conte com um atendimento
+        Encontre a unidade ON.LOC mais próxima e conte com um atendimento
         especializado, estrutura moderna e serviços de qualidade pensados para
         facilitar o seu dia a dia.
       </Description>
