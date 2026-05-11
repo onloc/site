@@ -76,8 +76,9 @@ export function Solucoes() {
 
             <Typography variant="Montserrat" fontSize="16px">
               Nossa equipe especializada está sempre pronta para substituir e
-              atualização os equipamentos, eliminando assim o período ocioso e
-              improdutivo que o seu colaborador teria durante um reparo.
+              realizar a atualização os equipamentos, eliminando assim o período
+              ocioso e improdutivo que o seu colaborador teria durante um
+              reparo.
               <br />
               Nosso suporte mantém a tecnologia da sua empresa
             </Typography>
@@ -105,10 +106,8 @@ export function Solucoes() {
       <BannerRow>
         <LeftImage>
           <LeftImagemContainer>
-            <Title>
-              Service Desk
-            </Title>
-            <Text >
+            <Title>Service Desk</Title>
+            <Text>
               Conte com uma equipe de suporte técnico especializada para
               resolver rapidamente qualquer problema relacionado aos
               equipamentos alugados, garantindo que sua empresa mantenha a
@@ -119,12 +118,10 @@ export function Solucoes() {
 
         <RightBlock>
           <RightImageContainer>
-            <Title>
-              Tecnologia a favor da sua Empresa{" "}
-            </Title>
+            <Title>Tecnologia a favor da sua Empresa </Title>
             <Text>
               A ON.LOC é uma empresa dedicada ao mercado de soluções práticas em
-              tecnologia de informação. Oferece um portfólio de serviços
+              tecnologia de informação, e oferece um portfólio de serviços
               voltados para empresas que buscam otimizar seus processos.
               <br />
               <br />

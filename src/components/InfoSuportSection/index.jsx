@@ -39,7 +39,7 @@ export function InfoSuportSection() {
               Nossa garantia contempla; Partes, Peças, Trocas e Serviços.
               <br />
               <br /> O atendimento é feito em até 8 horas úteis após as
-              solicitação de segunda à sexta-feira das 08h ás 18h com resolução
+              solicitação de segunda à sexta-feira das 08h às 18h, com resolução
               do problema ou troca do(s) equipamento(s). Para serviços fora do
               padrão contratados, favor consultar nossa equipe. Caso hajam
               defeitos não comprovados de hardware ou software a LOCATÁRIA
