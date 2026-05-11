@@ -48,7 +48,7 @@ const Footer = () => {
         <FooterContent>
           <div style={{ flex: "1 1 250px", minWidth: 0 }}>
             <LogoImage src={logo} alt="On.Loc" />
-            <p style={{letterSpacing: "0.2px"}}>
+            <p style={{ letterSpacing: "0.2px" }}>
               A tecnologia não precisa ser complicada. Nem Distante. Nem sua. A
               gente entrega, conecta e transforma.
             </p>
@@ -59,16 +59,7 @@ const Footer = () => {
             <InstitutionalLinks>
               <div>
                 <FooterLink to="/">Home</FooterLink>
-                <Dropdown>
-                  <FooterLink to="/equipamentos">Equipamentos ▾</FooterLink>
-                  <DropdownMenu>
-                    <DropdownItem>Desktop</DropdownItem>
-                    <DropdownItem>Minidesks</DropdownItem>
-                    <DropdownItem>Notebooks</DropdownItem>
-                    <DropdownItem>Servidores</DropdownItem>
-                    <DropdownItem>Workstation</DropdownItem>
-                  </DropdownMenu>
-                </Dropdown>
+                <FooterLink to="/equipamentos">Equipamentos </FooterLink>
                 <FooterLink to="/Suporte">Suporte</FooterLink>
                 <FooterLink to="/duvidas">Dúvidas</FooterLink>
               </div>
@@ -149,7 +140,7 @@ const Footer = () => {
       </FooterContainer>
 
       <FooterCopyright>
-        <span style={{letterSpacing: "0.4px"}}>
+        <span style={{ letterSpacing: "0.4px" }}>
           2025 - <BrandLink href="#">Onloc.</BrandLink> Todos os direitos
           reservados.
         </span>
