@@ -58,7 +58,7 @@ export default function Banner({
         )}
 
         <BannerCornerText $textColor={textColor}>
-          Técnologia que <b>transforma</b>
+          Tecnologia que <b>transforma</b>
         </BannerCornerText>
         <BannerIconsContainer>
           {banner == 0 ? (
