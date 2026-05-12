@@ -16,9 +16,9 @@ import desktop2 from "../../assets/Equipamentos-Site-2026/Desktop/imgi_5_desktop
 import desktop3 from "../../assets/Equipamentos-Site-2026/Desktop/imgi_6_desktop-optiplex-7020-sff-plus-black-gallery-4.png";
 import desktop4 from "../../assets/Equipamentos-Site-2026/Desktop/imgi_23_desktop-pro-qcs1250-slim-odd-black-gallery-2.png";
 
-import minidesk from "../../assets/Equipamentos-Site-2026/Minidesk/imgi_9_glqtvt97991qr6pvpld5xlndawix36601264.png";
-import minidesk2 from "../../assets/Equipamentos-Site-2026/Minidesk/imgi_21_yq7rqz1e8o9ozgrcn4t71w1qzpxzfo327531.png";
-import minidesk3 from "../../assets/Equipamentos-Site-2026/Minidesk/imgi_48_rryzzn42un53vrmchjj5ptjshpk2dw648337.png";
+import minidesk from "../../assets/Equipamentos-Site-2026/Minidesk/imgi_21_yq7rqz1e8o9ozgrcn4t71w1qzpxzfo327531.png";
+import minidesk2 from "../../assets/Equipamentos-Site-2026/Minidesk/imgi_48_rryzzn42un53vrmchjj5ptjshpk2dw648337.png";
+import minidesk3 from "../../assets/Equipamentos-Site-2026/Minidesk/imgi_50_nkiu8qptsnag773m6vmf126tnf47vm644706.png";
 import minidesk4 from "../../assets/Equipamentos-Site-2026/Minidesk/imgi_51_c27r2nx4655ly9qezpts1fbx63ze4a442645.png";
 
 import notebook from "../../assets/Equipamentos-Site-2026/Note/imgi_7_Notebook-Hp-Elitebook-640-G11-Pot-ncia-Ia-Seguran-a-Corporativa-E-Mobilidade-Profissional-Tela-14-16-10-Desempenho-Intel-Para-Trabalho-H-brido_1776256735.png";
